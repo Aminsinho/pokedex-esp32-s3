@@ -26,6 +26,19 @@ El pinout y la configuración de pantalla están en [`docs/HARDWARE_PINOUT.md`](
 
 ## Puesta en marcha rápida
 
+### Instalación automática recomendada
+
+1. Descarga el repositorio y descomprímelo.
+2. Inserta la microSD en la Pokédex y conecta la placa ESP32-S3 por USB.
+3. Haz doble clic en **`INSTALAR POKEDEX.bat`**.
+4. Elige instalación completa o Kanto y escribe los datos de tu Wi-Fi.
+
+El asistente descarga una copia aislada de Arduino CLI, instala el core ESP32 y las versiones compatibles de las bibliotecas, configura la pantalla, prepara Python, compila y carga el firmware, genera y copia los datos a la microSD, instala Ollama y su modelo visual, y crea el acceso directo **Iniciar Pokédex** en el escritorio. El controlador táctil FT6336U se incluye con su licencia MIT en `third_party/`. No necesitas modificar código ni elegir el puerto si solo hay una placa conectada.
+
+La instalación completa puede descargar varios gigabytes y tardar bastante, sobre todo al generar las mecánicas de 1025 Pokémon. Si algo se interrumpe, vuelve a ejecutar el instalador: los pasos descargados se reutilizan. El registro queda en `.installer/instalacion.log`.
+
+Los pasos manuales siguientes se conservan para diagnóstico o instalaciones personalizadas.
+
 ### 1. Descargar el proyecto
 
 ```powershell

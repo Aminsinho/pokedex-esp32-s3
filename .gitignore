@@ -47,5 +47,9 @@ Thumbs.db
 # Cache (regenerable via tools/generate_mechanics.py)
 tools/gen_cache/
 
+# Reproducible local toolchain downloaded by the installer
+.tools/
+.installer/
+
 # Local network credentials (create from wifi_config.example.h)
 src/pokedex/wifi_config.h
