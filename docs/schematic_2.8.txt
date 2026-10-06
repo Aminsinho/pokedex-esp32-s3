@@ -1,0 +1,229 @@
+                 1                                                                        2                                                                   3                                  4                                                    5                                                                                                                                                                                             6
+
+                                                                                                                                                                                            GND
+
+                                                                                                                     GND                                                      GND                LESD8LH5.0CT5G                                                              VCC3V3
+
+              SD_CARD1 9                                                                                                                  P1                                               D5                    USB2
+                           NC 1 SD_D2 R17 10K
+                                                                                                                                       6    GND                                                        A1B12    GND    SHELL 4
+                      DATA2 2 SD_D3 R34 10K                                                                         CTP_RST 5               RST                                                                 VBUS   SHELL 3
+                   CD/DAT3 3 SD_CMD R35 10K                                                                         CTP_INT 4               INT                                                  VBUSA4B9       SBU2
+                                                                                                                    CTP_SDA 3               SDA                                                                 CC1    SHELL 2
+                         CMD 4                                         VCC3V3                                       CTP_SCL 2               SCL                  LESD8LH5.0CT5G                         B8      D-     SHELL 1                                                    R9                                                                                                                                                                        VCC3V3
+                         VDD 5 SD_CLK R36 10K                                                                                               VDD                                                                 D+     TYPE-C                                                     10K
+                         CLK 6                                       C51                                                               1                                                                        D-
+                          VSS 7 SD_D0 R37 10K                        104 GND                                                                                                                                    D+                                                                     RESET
+                      DATA0 8 SD_D1 R18 10K                                                                                VCC3V3                                                                               SBU1
+                      DATA1                                                                                                                                                                                     CC2                                                               C2
+              Micro_sd card                                                                                                                                                                                     VBUS                                                              105
+                 I Q3 SL2305                                                                                                                                     LESD8LH5.0CT5G    D6 R7        5.1K    A5      GND
+
+                                                                                                                                                                 USB+ R5 0R D7                          B7
+
+                                                                                                                                                                                                        A6                                                                                                                                                                                                                                                       R10
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                 10K
+                                                                                                                                                                 USB- R6 0R                             A7
+
+                                                                                                                                                                                                        B6
+
+                                                                                                                                                                                                        A8                                                                                                                                                                                                                            GND                          IO0
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        KEY2
+                                                                                                                                          4.7K CTP_SDA                       D8         R8      5.1K    B5                                                     KEY1
+
+A                                                                                                            VCC3V3 R29                         CTP_SCL          +5                             VBUS B4A9                                                                                                                                                                                                                                                               A
+                                                                                                                            R30           4.7K
+                                                                                                                                                                                                       B1A12
+
+                                                                                                                                                                     B5819W SL
+
+                                                                                                             IIC Slave device address: 0x38                                                                                           GND                                 GND
+
+   MicroSD card slot interface circuit                                                               Capacitive Touch Screen                                             Type-C Interface circuit                                                     Key reset circuit                                                                                                                                                       Download key circuit
+                                                                                                           control circuit
+                                                                                                                                                                                                                                                      Low level reset
+
+IK B          VBUS       R13              GND GND
+                                                                                                                                                AU_GND100K
+                                                                                                                                 BAT+
+                 1
+   +5 2                                                                                                                                                                                                                                                                                                                                                                                                               13 BAT+R14+5U3VCC3V3+5U4          AU_VCC3V3
+                                                                                                                                          200K                      C7 C8             1 VIN VOUT 5                                                                          C11 C12        1 VIN VOUT 5
+                                                             R12                                                                                                    104 106                                            C9 C10                                               104 106                                                                                                                                                                     C13 C14
+                                                             3.3K                            GND                                                                                                                       105 104                                                                                                                                                                                                                          106 104
+                                                                                             BAT+                                                                        GND                                                                                                     GND
+   GND 10K R11 U2                                                                                                                         BAT_ADC                                     2 VSS                                GND                                                             2 VSS                                                                                                                                                             GND
+
+                         1 CHRG PROG 5                                                                                                    R15
+                         2 GND                                         VBUS                                                                                                           3 CE             NC 4                                                                                3 CE                                                                                                                               NC 4
+   GND                   3 BAT            VCC 4                                    2                                                      200K
+   BAT+                                                            C5 C6           1                                                                     C16
+                                                                   10uF 100nF
+                                                                               JP1                                                                       104                               ME6217C33M5G                                                                                       ME6217C33M5G
+
+         C3 C4           TP4054_C668215
+
+         10uF 100nF
+
+         GND                                            GND                                                                      GND
+
+              Battery charge and discharge                                                                             Battery level                             5V to 3.3V voltage regulator circuit                                                 Audio 5V to 3.3V voltage regulator circuit
+                  management circuit                                                                                detection circuit
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        B
+
+                                                                                                                                                                                           GND
+
+                                                                               U5                                                                                                                                                                                                 LCD_BL R31
+                                                                                                                                                                                                                                                                                                 0R
+                                                                                                     EP  21                                                                                            QD1                                                                                                                                                                                                                             R32
+                                                                                                     CE                                                                                                                                                                           GND 2
+                               AU_SCL 1                                                          CDATA   20                                                                                         1    GND                                                                                       Q4                                                                                                                                  10K
+                         C17 I2S_MCK2 CCLK                                          MIC1P/DMIC_SDA                                                                                                       RESET                                                                                                                                                                                                                3 R33                         GND
+                                                                                                 MIC1N   19 AU_SDA                                                                         RESET 2       SCL                                                                                                                                                                                                                                       LEDK
+          AU_GND                          3 MCLK                   W C33 C32                      VMID                                                                                                   RS                                                                                                                                                                                                                            5R6
+         AU_VCC3V3             22pF       4 PVDD                                              ADCVREF    18 C31 1uF              R20      MIC_P                                         LCD_SCK 3        CS                                                                                                                                                                                                                 BSS138
+                                                                                              DACVREF                                     MIC_N                                                          SDA
+          AU_GND         C18 C19                                                                  OUTN   17 C30 1uF              0R                                                     LCD_RS 4         SDO
+                         104 104 5 DVDD                                                           OUTP                                    AU_GND                                                         GND
+          AU_GND                     I2S_6SCK DGND                                                AVDD   16 C29 1uF R19 0R                   OUTN                                       LCD_CS 5         VDD
+                                                                                                                                             OUTP                                                        LEDA
+                                          7 SCLK/DMIC_SCL                                                15 C28 1uF                                                                     LCD_MOSI 6       LEDK1
+                                                                                                                                                                                                         LEDK2
+                         I2S_DO                                                                          14 C27 1uF                                                                     LCD_MISO 7       LEDK3
+                         I2S_LRC 8 ASDOUT                                                                                                                                                                LEDK4
+                                          9 LRCK                                                         13         C26 1uF                                               GND                       8    XL
+                                                                                                                                                                     VCC3V3                              YU
+                         I2S_DI           10 DSDIN                                                       12         C25 1uF                                                                         9    XR
+                                                                                                                                                                                                         YD
+                                               AGND                                                      11         AU_VCC3V3                                                                    10                                                                      LCD screen backlight control circuit
+                                                                                                                                                                                                       QD2833
+                                                                                                                                                                                                 11                                                                      High level lighting backlight
+
+                               C20        C21                        ES8311                                  C22 C23 C24                                                           C50           12
+
+                                                                                                                                                                                   104           13
+
+                               22pF 22pF                               R16                                     1uF  22pF 22pF                                                         LEDK       14
+                                  AU_GND       GND                                                       AU_GND
+                                                                                             AU_GND                                                                                              15
+                                                                       0R
+                                                                                                                                                                                                 16
+
+                                                                                                                                                                                 GND             17                                                                                                    LED2
+
+                                                        IIC Slave device address: 0x18                                                                                                           18                                                                                    +5 1 VDD DIN 4 RGB_LED
+
+                                                                                                                                                                                                                                                                                              2 DOU GND 3                                                                                                                                      GND
+
+                                     Audio codec control circuit                                                                                                                                                                                                                              XL-5050RGBC-WS2812B
+
+                                                                   D R26                                                                                         18P LCD panel wire welding interface                                                                    RGB three-color light control circuit
+
+                                                                   AU_GND
+
+                                                                                                                                 MIC1
+
+                                                                           100nF                             MIC_OUT 1 OUT
+
+                                          AU_VCC3V3 10uF                   MIC_VDD               AU_GND                   2 GND                                                                                                                       VDD_SPI
+
+                                               C37           L3            MIC_OUT                           MIC_VDD 3                                                                                                                W1
+C                   MIC_N            MIC_P                                                                                4 VDD                                                                                        FSPI_CS 1 /CS VCC 8 C
+                                                             0R
+                    C34 C35 C36 C38 106 C39 C40 AU_GND GND
+                                                                                                                                                                                                                       FSPI_Q 2 DO         /HOLD 7 FSPI_HD                                                                                                                                                                                  GND
+
+                    10P 30P 10P 30P                     33P        33P                                                   LMA2718B381-OA7                                                                               FSPI_WP 3 /WP       CLK 6 FSPI_CLK                VCC3V3 GND
+
+         AU_GND                                                                                                                                                                                                             4 GND             DI 5 FSPI_D                         C65
+
+                                                                                                                                                                                      GND
+
+                                                                                                                                                                                                                                  25VQ128                                         C64                                                                                                                                                              C63
+
+                                                        MIC control circuit                                                                                          J1                                                GND                                                   1UF                                                                                                                                                                   22P
+
+                    C P2                                                                                                                                                        2               R43 0R                      1     LNA_IN            U7                   56 10nF                    GND
+                                                                                                                                                                                1                                                 VDD3P3                                                                             X1
+                                                                                                                                                                      SMD_ANT                                                     VDD3P3                           VDDA
+                                                                                                                                                                                                 C52     C53                2     CHIP_PU                          VDDA  55           L2                                                                                                                                 2                  1
+                                                                                                                                                                 VCC3V3                                                           GPIO0                         XTAL_P
+                                                                                                                                                                                                                            3     GPIO1                         XTAL_N   54       24nH
+                                                                                                                                                                                                                                  GPIO2                         GPIO46
+                                                        VCC3V3 R27                                                                                                                    GND        NC      NC            RESET 4    GPIO3                         GPIO45   53                                                                                                                                              3                  4
+                                                                                                                                                                                                                         IO0 5    GPIO4                           U0RXD
+                                                                        GND                              AP_GND                                                                                         L1                        GPIO5                           U0TXD  52 LCD_RS
+                                                                                                                                                                                                                       AUDIO_E6N  GPIO6                            MTMS
+                                                                                      0R                                                                                                                2nH              IO2 7    GPIO7                            MTDI  51 LCD_BL                                                                                                                                       C62 40MHz
+                                                                                                                                                                                                                                  GPIO8                   VDD3P3_CPU
+                                                                                                                                                                                                                                  GPIO9                            MTDO  50 RXD0                                                                                                                                         22P
+                                                                                                                                                                                                                                  GPIO10                           MTCK  49 R44 499R TXD0
+                                                             10K                    U6                                                                                             C54 C55 C56                  C57 IO3 8         GPIO11                        GPIO38
+                                                                                                                                                                                                                                  GPIO12                        GPIO37
+                                           AUDIO_EN               1     SHUTDOWN             VO2 8 SP+                                                                             106 105 104                  104I2S_MCK9       GPIO13                        GPIO36   48 RGB_LED                                                                                                                                                   GND
+                                           C41                    2     BYPASS               GND 7                                                                                                                                GPIO14                        GPIO35
+         AP_GND C42                  C43 1uF R23                  3     +IN                                         AP_GND SP+                                                                                         I2S_SCK10  VDD3P3_RTC                    GPIO34   47 SD_D1                   GND
+         OUTP R21 0R 103                                     0R 4       -IN                           6                       +5 2 SP-                                                                                            XTAL_32K_P                    GPIO33
+                                     100pFC44 R24                                            VDD 5 SP-                                  1                                                                              I2S_DO 11  XTAL_32K_N                 SPICLK_P    46                                                                                                                                                   VCC3V3
+                                                                                             VO1                                                                                                                                  GPIO17                     SPICLK_N    45 SD_CMD
+                                                                                                                        C49                                                                                            I2S_LRC12  GPIO18                           SPID
+                                                                                                                                                                                                                                  GPIO19                           SPIQ
+                                                                                                                                                                                                GND                    I2S_DI 13  GPIO20                        SPICLK   44 SD_D0                                                                                                                                        C61
+                                                                                                                                                                                                                                  GPIO21                        SPICS0
+         OUTN R22 0R                      0.39uF             20K               R28 SC8002B                   C481uF 10uF JP3                                                                            BAT_ADC             14    SPICS1                          SPIWP  43 SD_CLK                                                                                                                                       104
+                                                                                                                                                                                                                                                                  SPIHD
+                                          C45 R25                                                                                                                                                      GNDC15 LCD_CS 15                                        VDD_SPI   42
+                         LExpanded IO and peripheral interface circuits
+                                             0.39uF 20K 20K                                                                                                                                                     LCD_MOSI 16                                              41
+                           C46 C47
+                                                                                                                                                                                                         104 LCD_SCK 17                                                  40                         GND
+
+                           103 100pF                                                                         AP_GND                                                                                             LCD_MISO 18                                              39
+
+              AP_GND                                                                                                                                                                                    C58            IO14 19                                           38
+
+                                                                                                                                                                                            VCC3V3      104                 20                                           37 SD_D3
+
+                                          Audio power amplifier circuit                                                                                                                          AU_SCL IIC_SCL CTP_SC2L1                                                36 SD_D2
+
+                                                                                                                                                                                                 AU_SDA IIC_SDA CTP_SD2A2                                                35 FSPI_D
+
+                                                                                                                                                                                                                CTP_INT 23                                               34 FSPI_Q
+
+                                                                                                                                                                                                                CTP_RST 24                                               33 FSPI_CLK
+
+                                                                                                                                                                                                                       USB- 25                                           32 FSPI_CS
+
+                         UART                                              Expanded IO                               IIC                                                                                               USB+ 26                                           31 FSPI_WP
+
+                                                                                                                                                                                                                       IO21 27                57 GND                     30 FSPI_HD
+
+              5                                                                     5                                    5                                                                                                  28                                           29                VDD_SPI
+
+                                                                                             P3                                  P4
+
+D                     4              R38       100R RXD0                                     4 IO21                                       4 IIC_SDA                                                                                                   ESP32-S3R8                  C59 C60                                                                                                                                                                               D
+
+                      3              R39       100R TXD0                                     3 IO14                                       3 IIC_SCL                                                                                                                               104 105
+
+                      2 GND                                                                  2 IO3                                        2 GND                                                                                               GND
+                      1                                                                      1 IO2                                        1 VCC3V3
+
+              6                                  Q5                                 6                                    6                                                                                                                                                   GND
+                                      3 2 +5
+
+                               SL2305 R401                                                                                                                                                      ESP32-S3 Main control circuit
+                                                   10K
+         GND                                                       GND         GND                                  GND                                                                                                                                      Title 2.8-inch ESP32-S3 display module Schematic
+
+                                                                                                                                                                                                                                                               Size          Number                                                                                                                                                                     Revision
+
+                                                                                                                                                                                                                                                               A3
+
+                                                                                                                                                                                                                                                               Date:         2025/6/11                                                                                                                                                      Sheet       of
+                                                                                                                                                                                                                                                               File:
+                                                                                                                                                                                                                                                                             H:\project\..\2.8inch_ESP32-32_Display_SDchraewmnatBicy.S: chDoc
+
+                 1                                                                        2                                                                   3                                  4                                                    5                                                                                                                                                                                             6
+

@@ -1,0 +1,51 @@
+# Build artifacts
+build/
+build-sinnoh/
+*.bin
+*.elf
+*.map
+*.hex
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+backend/.venv/
+backend/storage/
+
+# Firmware vendor (679MB)
+official/
+
+# Backups (binaries)
+backup/
+
+# Dataset (regenerated from tools)
+sd_dataset/
+
+# UI captures (evidence, not source)
+ui-captures/
+
+# Build analysis (copy of build artifacts)
+tools/build_analysis/
+
+# Vision debug logs
+backend/vision-*.jsonl
+
+# Logs
+*.log
+sync_log.txt
+
+# OS
+nul
+.DS_Store
+Thumbs.db
+
+# Pi agent config
+.pi/
+
+# Cache (regenerable via tools/generate_mechanics.py)
+tools/gen_cache/
+
+# Local network credentials (create from wifi_config.example.h)
+src/pokedex/wifi_config.h

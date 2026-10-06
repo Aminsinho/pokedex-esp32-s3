@@ -1,0 +1,6158 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-09-04T06:09:39.283504+00:00",
+  "pokemon_count": 1025,
+  "asset_format": "png",
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "small_sprite": "small/0001.png",
+      "large_sprite": "large/0001.png"
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "small_sprite": "small/0002.png",
+      "large_sprite": "large/0002.png"
+    },
+    {
+      "id": 3,
+      "name": "Venusaur",
+      "small_sprite": "small/0003.png",
+      "large_sprite": "large/0003.png"
+    },
+    {
+      "id": 4,
+      "name": "Charmander",
+      "small_sprite": "small/0004.png",
+      "large_sprite": "large/0004.png"
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "small_sprite": "small/0005.png",
+      "large_sprite": "large/0005.png"
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "small_sprite": "small/0006.png",
+      "large_sprite": "large/0006.png"
+    },
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "small_sprite": "small/0007.png",
+      "large_sprite": "large/0007.png"
+    },
+    {
+      "id": 8,
+      "name": "Wartortle",
+      "small_sprite": "small/0008.png",
+      "large_sprite": "large/0008.png"
+    },
+    {
+      "id": 9,
+      "name": "Blastoise",
+      "small_sprite": "small/0009.png",
+      "large_sprite": "large/0009.png"
+    },
+    {
+      "id": 10,
+      "name": "Caterpie",
+      "small_sprite": "small/0010.png",
+      "large_sprite": "large/0010.png"
+    },
+    {
+      "id": 11,
+      "name": "Metapod",
+      "small_sprite": "small/0011.png",
+      "large_sprite": "large/0011.png"
+    },
+    {
+      "id": 12,
+      "name": "Butterfree",
+      "small_sprite": "small/0012.png",
+      "large_sprite": "large/0012.png"
+    },
+    {
+      "id": 13,
+      "name": "Weedle",
+      "small_sprite": "small/0013.png",
+      "large_sprite": "large/0013.png"
+    },
+    {
+      "id": 14,
+      "name": "Kakuna",
+      "small_sprite": "small/0014.png",
+      "large_sprite": "large/0014.png"
+    },
+    {
+      "id": 15,
+      "name": "Beedrill",
+      "small_sprite": "small/0015.png",
+      "large_sprite": "large/0015.png"
+    },
+    {
+      "id": 16,
+      "name": "Pidgey",
+      "small_sprite": "small/0016.png",
+      "large_sprite": "large/0016.png"
+    },
+    {
+      "id": 17,
+      "name": "Pidgeotto",
+      "small_sprite": "small/0017.png",
+      "large_sprite": "large/0017.png"
+    },
+    {
+      "id": 18,
+      "name": "Pidgeot",
+      "small_sprite": "small/0018.png",
+      "large_sprite": "large/0018.png"
+    },
+    {
+      "id": 19,
+      "name": "Rattata",
+      "small_sprite": "small/0019.png",
+      "large_sprite": "large/0019.png"
+    },
+    {
+      "id": 20,
+      "name": "Raticate",
+      "small_sprite": "small/0020.png",
+      "large_sprite": "large/0020.png"
+    },
+    {
+      "id": 21,
+      "name": "Spearow",
+      "small_sprite": "small/0021.png",
+      "large_sprite": "large/0021.png"
+    },
+    {
+      "id": 22,
+      "name": "Fearow",
+      "small_sprite": "small/0022.png",
+      "large_sprite": "large/0022.png"
+    },
+    {
+      "id": 23,
+      "name": "Ekans",
+      "small_sprite": "small/0023.png",
+      "large_sprite": "large/0023.png"
+    },
+    {
+      "id": 24,
+      "name": "Arbok",
+      "small_sprite": "small/0024.png",
+      "large_sprite": "large/0024.png"
+    },
+    {
+      "id": 25,
+      "name": "Pikachu",
+      "small_sprite": "small/0025.png",
+      "large_sprite": "large/0025.png"
+    },
+    {
+      "id": 26,
+      "name": "Raichu",
+      "small_sprite": "small/0026.png",
+      "large_sprite": "large/0026.png"
+    },
+    {
+      "id": 27,
+      "name": "Sandshrew",
+      "small_sprite": "small/0027.png",
+      "large_sprite": "large/0027.png"
+    },
+    {
+      "id": 28,
+      "name": "Sandslash",
+      "small_sprite": "small/0028.png",
+      "large_sprite": "large/0028.png"
+    },
+    {
+      "id": 29,
+      "name": "Nidoran-f",
+      "small_sprite": "small/0029.png",
+      "large_sprite": "large/0029.png"
+    },
+    {
+      "id": 30,
+      "name": "Nidorina",
+      "small_sprite": "small/0030.png",
+      "large_sprite": "large/0030.png"
+    },
+    {
+      "id": 31,
+      "name": "Nidoqueen",
+      "small_sprite": "small/0031.png",
+      "large_sprite": "large/0031.png"
+    },
+    {
+      "id": 32,
+      "name": "Nidoran-m",
+      "small_sprite": "small/0032.png",
+      "large_sprite": "large/0032.png"
+    },
+    {
+      "id": 33,
+      "name": "Nidorino",
+      "small_sprite": "small/0033.png",
+      "large_sprite": "large/0033.png"
+    },
+    {
+      "id": 34,
+      "name": "Nidoking",
+      "small_sprite": "small/0034.png",
+      "large_sprite": "large/0034.png"
+    },
+    {
+      "id": 35,
+      "name": "Clefairy",
+      "small_sprite": "small/0035.png",
+      "large_sprite": "large/0035.png"
+    },
+    {
+      "id": 36,
+      "name": "Clefable",
+      "small_sprite": "small/0036.png",
+      "large_sprite": "large/0036.png"
+    },
+    {
+      "id": 37,
+      "name": "Vulpix",
+      "small_sprite": "small/0037.png",
+      "large_sprite": "large/0037.png"
+    },
+    {
+      "id": 38,
+      "name": "Ninetales",
+      "small_sprite": "small/0038.png",
+      "large_sprite": "large/0038.png"
+    },
+    {
+      "id": 39,
+      "name": "Jigglypuff",
+      "small_sprite": "small/0039.png",
+      "large_sprite": "large/0039.png"
+    },
+    {
+      "id": 40,
+      "name": "Wigglytuff",
+      "small_sprite": "small/0040.png",
+      "large_sprite": "large/0040.png"
+    },
+    {
+      "id": 41,
+      "name": "Zubat",
+      "small_sprite": "small/0041.png",
+      "large_sprite": "large/0041.png"
+    },
+    {
+      "id": 42,
+      "name": "Golbat",
+      "small_sprite": "small/0042.png",
+      "large_sprite": "large/0042.png"
+    },
+    {
+      "id": 43,
+      "name": "Oddish",
+      "small_sprite": "small/0043.png",
+      "large_sprite": "large/0043.png"
+    },
+    {
+      "id": 44,
+      "name": "Gloom",
+      "small_sprite": "small/0044.png",
+      "large_sprite": "large/0044.png"
+    },
+    {
+      "id": 45,
+      "name": "Vileplume",
+      "small_sprite": "small/0045.png",
+      "large_sprite": "large/0045.png"
+    },
+    {
+      "id": 46,
+      "name": "Paras",
+      "small_sprite": "small/0046.png",
+      "large_sprite": "large/0046.png"
+    },
+    {
+      "id": 47,
+      "name": "Parasect",
+      "small_sprite": "small/0047.png",
+      "large_sprite": "large/0047.png"
+    },
+    {
+      "id": 48,
+      "name": "Venonat",
+      "small_sprite": "small/0048.png",
+      "large_sprite": "large/0048.png"
+    },
+    {
+      "id": 49,
+      "name": "Venomoth",
+      "small_sprite": "small/0049.png",
+      "large_sprite": "large/0049.png"
+    },
+    {
+      "id": 50,
+      "name": "Diglett",
+      "small_sprite": "small/0050.png",
+      "large_sprite": "large/0050.png"
+    },
+    {
+      "id": 51,
+      "name": "Dugtrio",
+      "small_sprite": "small/0051.png",
+      "large_sprite": "large/0051.png"
+    },
+    {
+      "id": 52,
+      "name": "Meowth",
+      "small_sprite": "small/0052.png",
+      "large_sprite": "large/0052.png"
+    },
+    {
+      "id": 53,
+      "name": "Persian",
+      "small_sprite": "small/0053.png",
+      "large_sprite": "large/0053.png"
+    },
+    {
+      "id": 54,
+      "name": "Psyduck",
+      "small_sprite": "small/0054.png",
+      "large_sprite": "large/0054.png"
+    },
+    {
+      "id": 55,
+      "name": "Golduck",
+      "small_sprite": "small/0055.png",
+      "large_sprite": "large/0055.png"
+    },
+    {
+      "id": 56,
+      "name": "Mankey",
+      "small_sprite": "small/0056.png",
+      "large_sprite": "large/0056.png"
+    },
+    {
+      "id": 57,
+      "name": "Primeape",
+      "small_sprite": "small/0057.png",
+      "large_sprite": "large/0057.png"
+    },
+    {
+      "id": 58,
+      "name": "Growlithe",
+      "small_sprite": "small/0058.png",
+      "large_sprite": "large/0058.png"
+    },
+    {
+      "id": 59,
+      "name": "Arcanine",
+      "small_sprite": "small/0059.png",
+      "large_sprite": "large/0059.png"
+    },
+    {
+      "id": 60,
+      "name": "Poliwag",
+      "small_sprite": "small/0060.png",
+      "large_sprite": "large/0060.png"
+    },
+    {
+      "id": 61,
+      "name": "Poliwhirl",
+      "small_sprite": "small/0061.png",
+      "large_sprite": "large/0061.png"
+    },
+    {
+      "id": 62,
+      "name": "Poliwrath",
+      "small_sprite": "small/0062.png",
+      "large_sprite": "large/0062.png"
+    },
+    {
+      "id": 63,
+      "name": "Abra",
+      "small_sprite": "small/0063.png",
+      "large_sprite": "large/0063.png"
+    },
+    {
+      "id": 64,
+      "name": "Kadabra",
+      "small_sprite": "small/0064.png",
+      "large_sprite": "large/0064.png"
+    },
+    {
+      "id": 65,
+      "name": "Alakazam",
+      "small_sprite": "small/0065.png",
+      "large_sprite": "large/0065.png"
+    },
+    {
+      "id": 66,
+      "name": "Machop",
+      "small_sprite": "small/0066.png",
+      "large_sprite": "large/0066.png"
+    },
+    {
+      "id": 67,
+      "name": "Machoke",
+      "small_sprite": "small/0067.png",
+      "large_sprite": "large/0067.png"
+    },
+    {
+      "id": 68,
+      "name": "Machamp",
+      "small_sprite": "small/0068.png",
+      "large_sprite": "large/0068.png"
+    },
+    {
+      "id": 69,
+      "name": "Bellsprout",
+      "small_sprite": "small/0069.png",
+      "large_sprite": "large/0069.png"
+    },
+    {
+      "id": 70,
+      "name": "Weepinbell",
+      "small_sprite": "small/0070.png",
+      "large_sprite": "large/0070.png"
+    },
+    {
+      "id": 71,
+      "name": "Victreebel",
+      "small_sprite": "small/0071.png",
+      "large_sprite": "large/0071.png"
+    },
+    {
+      "id": 72,
+      "name": "Tentacool",
+      "small_sprite": "small/0072.png",
+      "large_sprite": "large/0072.png"
+    },
+    {
+      "id": 73,
+      "name": "Tentacruel",
+      "small_sprite": "small/0073.png",
+      "large_sprite": "large/0073.png"
+    },
+    {
+      "id": 74,
+      "name": "Geodude",
+      "small_sprite": "small/0074.png",
+      "large_sprite": "large/0074.png"
+    },
+    {
+      "id": 75,
+      "name": "Graveler",
+      "small_sprite": "small/0075.png",
+      "large_sprite": "large/0075.png"
+    },
+    {
+      "id": 76,
+      "name": "Golem",
+      "small_sprite": "small/0076.png",
+      "large_sprite": "large/0076.png"
+    },
+    {
+      "id": 77,
+      "name": "Ponyta",
+      "small_sprite": "small/0077.png",
+      "large_sprite": "large/0077.png"
+    },
+    {
+      "id": 78,
+      "name": "Rapidash",
+      "small_sprite": "small/0078.png",
+      "large_sprite": "large/0078.png"
+    },
+    {
+      "id": 79,
+      "name": "Slowpoke",
+      "small_sprite": "small/0079.png",
+      "large_sprite": "large/0079.png"
+    },
+    {
+      "id": 80,
+      "name": "Slowbro",
+      "small_sprite": "small/0080.png",
+      "large_sprite": "large/0080.png"
+    },
+    {
+      "id": 81,
+      "name": "Magnemite",
+      "small_sprite": "small/0081.png",
+      "large_sprite": "large/0081.png"
+    },
+    {
+      "id": 82,
+      "name": "Magneton",
+      "small_sprite": "small/0082.png",
+      "large_sprite": "large/0082.png"
+    },
+    {
+      "id": 83,
+      "name": "Farfetchd",
+      "small_sprite": "small/0083.png",
+      "large_sprite": "large/0083.png"
+    },
+    {
+      "id": 84,
+      "name": "Doduo",
+      "small_sprite": "small/0084.png",
+      "large_sprite": "large/0084.png"
+    },
+    {
+      "id": 85,
+      "name": "Dodrio",
+      "small_sprite": "small/0085.png",
+      "large_sprite": "large/0085.png"
+    },
+    {
+      "id": 86,
+      "name": "Seel",
+      "small_sprite": "small/0086.png",
+      "large_sprite": "large/0086.png"
+    },
+    {
+      "id": 87,
+      "name": "Dewgong",
+      "small_sprite": "small/0087.png",
+      "large_sprite": "large/0087.png"
+    },
+    {
+      "id": 88,
+      "name": "Grimer",
+      "small_sprite": "small/0088.png",
+      "large_sprite": "large/0088.png"
+    },
+    {
+      "id": 89,
+      "name": "Muk",
+      "small_sprite": "small/0089.png",
+      "large_sprite": "large/0089.png"
+    },
+    {
+      "id": 90,
+      "name": "Shellder",
+      "small_sprite": "small/0090.png",
+      "large_sprite": "large/0090.png"
+    },
+    {
+      "id": 91,
+      "name": "Cloyster",
+      "small_sprite": "small/0091.png",
+      "large_sprite": "large/0091.png"
+    },
+    {
+      "id": 92,
+      "name": "Gastly",
+      "small_sprite": "small/0092.png",
+      "large_sprite": "large/0092.png"
+    },
+    {
+      "id": 93,
+      "name": "Haunter",
+      "small_sprite": "small/0093.png",
+      "large_sprite": "large/0093.png"
+    },
+    {
+      "id": 94,
+      "name": "Gengar",
+      "small_sprite": "small/0094.png",
+      "large_sprite": "large/0094.png"
+    },
+    {
+      "id": 95,
+      "name": "Onix",
+      "small_sprite": "small/0095.png",
+      "large_sprite": "large/0095.png"
+    },
+    {
+      "id": 96,
+      "name": "Drowzee",
+      "small_sprite": "small/0096.png",
+      "large_sprite": "large/0096.png"
+    },
+    {
+      "id": 97,
+      "name": "Hypno",
+      "small_sprite": "small/0097.png",
+      "large_sprite": "large/0097.png"
+    },
+    {
+      "id": 98,
+      "name": "Krabby",
+      "small_sprite": "small/0098.png",
+      "large_sprite": "large/0098.png"
+    },
+    {
+      "id": 99,
+      "name": "Kingler",
+      "small_sprite": "small/0099.png",
+      "large_sprite": "large/0099.png"
+    },
+    {
+      "id": 100,
+      "name": "Voltorb",
+      "small_sprite": "small/0100.png",
+      "large_sprite": "large/0100.png"
+    },
+    {
+      "id": 101,
+      "name": "Electrode",
+      "small_sprite": "small/0101.png",
+      "large_sprite": "large/0101.png"
+    },
+    {
+      "id": 102,
+      "name": "Exeggcute",
+      "small_sprite": "small/0102.png",
+      "large_sprite": "large/0102.png"
+    },
+    {
+      "id": 103,
+      "name": "Exeggutor",
+      "small_sprite": "small/0103.png",
+      "large_sprite": "large/0103.png"
+    },
+    {
+      "id": 104,
+      "name": "Cubone",
+      "small_sprite": "small/0104.png",
+      "large_sprite": "large/0104.png"
+    },
+    {
+      "id": 105,
+      "name": "Marowak",
+      "small_sprite": "small/0105.png",
+      "large_sprite": "large/0105.png"
+    },
+    {
+      "id": 106,
+      "name": "Hitmonlee",
+      "small_sprite": "small/0106.png",
+      "large_sprite": "large/0106.png"
+    },
+    {
+      "id": 107,
+      "name": "Hitmonchan",
+      "small_sprite": "small/0107.png",
+      "large_sprite": "large/0107.png"
+    },
+    {
+      "id": 108,
+      "name": "Lickitung",
+      "small_sprite": "small/0108.png",
+      "large_sprite": "large/0108.png"
+    },
+    {
+      "id": 109,
+      "name": "Koffing",
+      "small_sprite": "small/0109.png",
+      "large_sprite": "large/0109.png"
+    },
+    {
+      "id": 110,
+      "name": "Weezing",
+      "small_sprite": "small/0110.png",
+      "large_sprite": "large/0110.png"
+    },
+    {
+      "id": 111,
+      "name": "Rhyhorn",
+      "small_sprite": "small/0111.png",
+      "large_sprite": "large/0111.png"
+    },
+    {
+      "id": 112,
+      "name": "Rhydon",
+      "small_sprite": "small/0112.png",
+      "large_sprite": "large/0112.png"
+    },
+    {
+      "id": 113,
+      "name": "Chansey",
+      "small_sprite": "small/0113.png",
+      "large_sprite": "large/0113.png"
+    },
+    {
+      "id": 114,
+      "name": "Tangela",
+      "small_sprite": "small/0114.png",
+      "large_sprite": "large/0114.png"
+    },
+    {
+      "id": 115,
+      "name": "Kangaskhan",
+      "small_sprite": "small/0115.png",
+      "large_sprite": "large/0115.png"
+    },
+    {
+      "id": 116,
+      "name": "Horsea",
+      "small_sprite": "small/0116.png",
+      "large_sprite": "large/0116.png"
+    },
+    {
+      "id": 117,
+      "name": "Seadra",
+      "small_sprite": "small/0117.png",
+      "large_sprite": "large/0117.png"
+    },
+    {
+      "id": 118,
+      "name": "Goldeen",
+      "small_sprite": "small/0118.png",
+      "large_sprite": "large/0118.png"
+    },
+    {
+      "id": 119,
+      "name": "Seaking",
+      "small_sprite": "small/0119.png",
+      "large_sprite": "large/0119.png"
+    },
+    {
+      "id": 120,
+      "name": "Staryu",
+      "small_sprite": "small/0120.png",
+      "large_sprite": "large/0120.png"
+    },
+    {
+      "id": 121,
+      "name": "Starmie",
+      "small_sprite": "small/0121.png",
+      "large_sprite": "large/0121.png"
+    },
+    {
+      "id": 122,
+      "name": "Mr-mime",
+      "small_sprite": "small/0122.png",
+      "large_sprite": "large/0122.png"
+    },
+    {
+      "id": 123,
+      "name": "Scyther",
+      "small_sprite": "small/0123.png",
+      "large_sprite": "large/0123.png"
+    },
+    {
+      "id": 124,
+      "name": "Jynx",
+      "small_sprite": "small/0124.png",
+      "large_sprite": "large/0124.png"
+    },
+    {
+      "id": 125,
+      "name": "Electabuzz",
+      "small_sprite": "small/0125.png",
+      "large_sprite": "large/0125.png"
+    },
+    {
+      "id": 126,
+      "name": "Magmar",
+      "small_sprite": "small/0126.png",
+      "large_sprite": "large/0126.png"
+    },
+    {
+      "id": 127,
+      "name": "Pinsir",
+      "small_sprite": "small/0127.png",
+      "large_sprite": "large/0127.png"
+    },
+    {
+      "id": 128,
+      "name": "Tauros",
+      "small_sprite": "small/0128.png",
+      "large_sprite": "large/0128.png"
+    },
+    {
+      "id": 129,
+      "name": "Magikarp",
+      "small_sprite": "small/0129.png",
+      "large_sprite": "large/0129.png"
+    },
+    {
+      "id": 130,
+      "name": "Gyarados",
+      "small_sprite": "small/0130.png",
+      "large_sprite": "large/0130.png"
+    },
+    {
+      "id": 131,
+      "name": "Lapras",
+      "small_sprite": "small/0131.png",
+      "large_sprite": "large/0131.png"
+    },
+    {
+      "id": 132,
+      "name": "Ditto",
+      "small_sprite": "small/0132.png",
+      "large_sprite": "large/0132.png"
+    },
+    {
+      "id": 133,
+      "name": "Eevee",
+      "small_sprite": "small/0133.png",
+      "large_sprite": "large/0133.png"
+    },
+    {
+      "id": 134,
+      "name": "Vaporeon",
+      "small_sprite": "small/0134.png",
+      "large_sprite": "large/0134.png"
+    },
+    {
+      "id": 135,
+      "name": "Jolteon",
+      "small_sprite": "small/0135.png",
+      "large_sprite": "large/0135.png"
+    },
+    {
+      "id": 136,
+      "name": "Flareon",
+      "small_sprite": "small/0136.png",
+      "large_sprite": "large/0136.png"
+    },
+    {
+      "id": 137,
+      "name": "Porygon",
+      "small_sprite": "small/0137.png",
+      "large_sprite": "large/0137.png"
+    },
+    {
+      "id": 138,
+      "name": "Omanyte",
+      "small_sprite": "small/0138.png",
+      "large_sprite": "large/0138.png"
+    },
+    {
+      "id": 139,
+      "name": "Omastar",
+      "small_sprite": "small/0139.png",
+      "large_sprite": "large/0139.png"
+    },
+    {
+      "id": 140,
+      "name": "Kabuto",
+      "small_sprite": "small/0140.png",
+      "large_sprite": "large/0140.png"
+    },
+    {
+      "id": 141,
+      "name": "Kabutops",
+      "small_sprite": "small/0141.png",
+      "large_sprite": "large/0141.png"
+    },
+    {
+      "id": 142,
+      "name": "Aerodactyl",
+      "small_sprite": "small/0142.png",
+      "large_sprite": "large/0142.png"
+    },
+    {
+      "id": 143,
+      "name": "Snorlax",
+      "small_sprite": "small/0143.png",
+      "large_sprite": "large/0143.png"
+    },
+    {
+      "id": 144,
+      "name": "Articuno",
+      "small_sprite": "small/0144.png",
+      "large_sprite": "large/0144.png"
+    },
+    {
+      "id": 145,
+      "name": "Zapdos",
+      "small_sprite": "small/0145.png",
+      "large_sprite": "large/0145.png"
+    },
+    {
+      "id": 146,
+      "name": "Moltres",
+      "small_sprite": "small/0146.png",
+      "large_sprite": "large/0146.png"
+    },
+    {
+      "id": 147,
+      "name": "Dratini",
+      "small_sprite": "small/0147.png",
+      "large_sprite": "large/0147.png"
+    },
+    {
+      "id": 148,
+      "name": "Dragonair",
+      "small_sprite": "small/0148.png",
+      "large_sprite": "large/0148.png"
+    },
+    {
+      "id": 149,
+      "name": "Dragonite",
+      "small_sprite": "small/0149.png",
+      "large_sprite": "large/0149.png"
+    },
+    {
+      "id": 150,
+      "name": "Mewtwo",
+      "small_sprite": "small/0150.png",
+      "large_sprite": "large/0150.png"
+    },
+    {
+      "id": 151,
+      "name": "Mew",
+      "small_sprite": "small/0151.png",
+      "large_sprite": "large/0151.png"
+    },
+    {
+      "id": 152,
+      "name": "Chikorita",
+      "small_sprite": "small/0152.png",
+      "large_sprite": "large/0152.png"
+    },
+    {
+      "id": 153,
+      "name": "Bayleef",
+      "small_sprite": "small/0153.png",
+      "large_sprite": "large/0153.png"
+    },
+    {
+      "id": 154,
+      "name": "Meganium",
+      "small_sprite": "small/0154.png",
+      "large_sprite": "large/0154.png"
+    },
+    {
+      "id": 155,
+      "name": "Cyndaquil",
+      "small_sprite": "small/0155.png",
+      "large_sprite": "large/0155.png"
+    },
+    {
+      "id": 156,
+      "name": "Quilava",
+      "small_sprite": "small/0156.png",
+      "large_sprite": "large/0156.png"
+    },
+    {
+      "id": 157,
+      "name": "Typhlosion",
+      "small_sprite": "small/0157.png",
+      "large_sprite": "large/0157.png"
+    },
+    {
+      "id": 158,
+      "name": "Totodile",
+      "small_sprite": "small/0158.png",
+      "large_sprite": "large/0158.png"
+    },
+    {
+      "id": 159,
+      "name": "Croconaw",
+      "small_sprite": "small/0159.png",
+      "large_sprite": "large/0159.png"
+    },
+    {
+      "id": 160,
+      "name": "Feraligatr",
+      "small_sprite": "small/0160.png",
+      "large_sprite": "large/0160.png"
+    },
+    {
+      "id": 161,
+      "name": "Sentret",
+      "small_sprite": "small/0161.png",
+      "large_sprite": "large/0161.png"
+    },
+    {
+      "id": 162,
+      "name": "Furret",
+      "small_sprite": "small/0162.png",
+      "large_sprite": "large/0162.png"
+    },
+    {
+      "id": 163,
+      "name": "Hoothoot",
+      "small_sprite": "small/0163.png",
+      "large_sprite": "large/0163.png"
+    },
+    {
+      "id": 164,
+      "name": "Noctowl",
+      "small_sprite": "small/0164.png",
+      "large_sprite": "large/0164.png"
+    },
+    {
+      "id": 165,
+      "name": "Ledyba",
+      "small_sprite": "small/0165.png",
+      "large_sprite": "large/0165.png"
+    },
+    {
+      "id": 166,
+      "name": "Ledian",
+      "small_sprite": "small/0166.png",
+      "large_sprite": "large/0166.png"
+    },
+    {
+      "id": 167,
+      "name": "Spinarak",
+      "small_sprite": "small/0167.png",
+      "large_sprite": "large/0167.png"
+    },
+    {
+      "id": 168,
+      "name": "Ariados",
+      "small_sprite": "small/0168.png",
+      "large_sprite": "large/0168.png"
+    },
+    {
+      "id": 169,
+      "name": "Crobat",
+      "small_sprite": "small/0169.png",
+      "large_sprite": "large/0169.png"
+    },
+    {
+      "id": 170,
+      "name": "Chinchou",
+      "small_sprite": "small/0170.png",
+      "large_sprite": "large/0170.png"
+    },
+    {
+      "id": 171,
+      "name": "Lanturn",
+      "small_sprite": "small/0171.png",
+      "large_sprite": "large/0171.png"
+    },
+    {
+      "id": 172,
+      "name": "Pichu",
+      "small_sprite": "small/0172.png",
+      "large_sprite": "large/0172.png"
+    },
+    {
+      "id": 173,
+      "name": "Cleffa",
+      "small_sprite": "small/0173.png",
+      "large_sprite": "large/0173.png"
+    },
+    {
+      "id": 174,
+      "name": "Igglybuff",
+      "small_sprite": "small/0174.png",
+      "large_sprite": "large/0174.png"
+    },
+    {
+      "id": 175,
+      "name": "Togepi",
+      "small_sprite": "small/0175.png",
+      "large_sprite": "large/0175.png"
+    },
+    {
+      "id": 176,
+      "name": "Togetic",
+      "small_sprite": "small/0176.png",
+      "large_sprite": "large/0176.png"
+    },
+    {
+      "id": 177,
+      "name": "Natu",
+      "small_sprite": "small/0177.png",
+      "large_sprite": "large/0177.png"
+    },
+    {
+      "id": 178,
+      "name": "Xatu",
+      "small_sprite": "small/0178.png",
+      "large_sprite": "large/0178.png"
+    },
+    {
+      "id": 179,
+      "name": "Mareep",
+      "small_sprite": "small/0179.png",
+      "large_sprite": "large/0179.png"
+    },
+    {
+      "id": 180,
+      "name": "Flaaffy",
+      "small_sprite": "small/0180.png",
+      "large_sprite": "large/0180.png"
+    },
+    {
+      "id": 181,
+      "name": "Ampharos",
+      "small_sprite": "small/0181.png",
+      "large_sprite": "large/0181.png"
+    },
+    {
+      "id": 182,
+      "name": "Bellossom",
+      "small_sprite": "small/0182.png",
+      "large_sprite": "large/0182.png"
+    },
+    {
+      "id": 183,
+      "name": "Marill",
+      "small_sprite": "small/0183.png",
+      "large_sprite": "large/0183.png"
+    },
+    {
+      "id": 184,
+      "name": "Azumarill",
+      "small_sprite": "small/0184.png",
+      "large_sprite": "large/0184.png"
+    },
+    {
+      "id": 185,
+      "name": "Sudowoodo",
+      "small_sprite": "small/0185.png",
+      "large_sprite": "large/0185.png"
+    },
+    {
+      "id": 186,
+      "name": "Politoed",
+      "small_sprite": "small/0186.png",
+      "large_sprite": "large/0186.png"
+    },
+    {
+      "id": 187,
+      "name": "Hoppip",
+      "small_sprite": "small/0187.png",
+      "large_sprite": "large/0187.png"
+    },
+    {
+      "id": 188,
+      "name": "Skiploom",
+      "small_sprite": "small/0188.png",
+      "large_sprite": "large/0188.png"
+    },
+    {
+      "id": 189,
+      "name": "Jumpluff",
+      "small_sprite": "small/0189.png",
+      "large_sprite": "large/0189.png"
+    },
+    {
+      "id": 190,
+      "name": "Aipom",
+      "small_sprite": "small/0190.png",
+      "large_sprite": "large/0190.png"
+    },
+    {
+      "id": 191,
+      "name": "Sunkern",
+      "small_sprite": "small/0191.png",
+      "large_sprite": "large/0191.png"
+    },
+    {
+      "id": 192,
+      "name": "Sunflora",
+      "small_sprite": "small/0192.png",
+      "large_sprite": "large/0192.png"
+    },
+    {
+      "id": 193,
+      "name": "Yanma",
+      "small_sprite": "small/0193.png",
+      "large_sprite": "large/0193.png"
+    },
+    {
+      "id": 194,
+      "name": "Wooper",
+      "small_sprite": "small/0194.png",
+      "large_sprite": "large/0194.png"
+    },
+    {
+      "id": 195,
+      "name": "Quagsire",
+      "small_sprite": "small/0195.png",
+      "large_sprite": "large/0195.png"
+    },
+    {
+      "id": 196,
+      "name": "Espeon",
+      "small_sprite": "small/0196.png",
+      "large_sprite": "large/0196.png"
+    },
+    {
+      "id": 197,
+      "name": "Umbreon",
+      "small_sprite": "small/0197.png",
+      "large_sprite": "large/0197.png"
+    },
+    {
+      "id": 198,
+      "name": "Murkrow",
+      "small_sprite": "small/0198.png",
+      "large_sprite": "large/0198.png"
+    },
+    {
+      "id": 199,
+      "name": "Slowking",
+      "small_sprite": "small/0199.png",
+      "large_sprite": "large/0199.png"
+    },
+    {
+      "id": 200,
+      "name": "Misdreavus",
+      "small_sprite": "small/0200.png",
+      "large_sprite": "large/0200.png"
+    },
+    {
+      "id": 201,
+      "name": "Unown",
+      "small_sprite": "small/0201.png",
+      "large_sprite": "large/0201.png"
+    },
+    {
+      "id": 202,
+      "name": "Wobbuffet",
+      "small_sprite": "small/0202.png",
+      "large_sprite": "large/0202.png"
+    },
+    {
+      "id": 203,
+      "name": "Girafarig",
+      "small_sprite": "small/0203.png",
+      "large_sprite": "large/0203.png"
+    },
+    {
+      "id": 204,
+      "name": "Pineco",
+      "small_sprite": "small/0204.png",
+      "large_sprite": "large/0204.png"
+    },
+    {
+      "id": 205,
+      "name": "Forretress",
+      "small_sprite": "small/0205.png",
+      "large_sprite": "large/0205.png"
+    },
+    {
+      "id": 206,
+      "name": "Dunsparce",
+      "small_sprite": "small/0206.png",
+      "large_sprite": "large/0206.png"
+    },
+    {
+      "id": 207,
+      "name": "Gligar",
+      "small_sprite": "small/0207.png",
+      "large_sprite": "large/0207.png"
+    },
+    {
+      "id": 208,
+      "name": "Steelix",
+      "small_sprite": "small/0208.png",
+      "large_sprite": "large/0208.png"
+    },
+    {
+      "id": 209,
+      "name": "Snubbull",
+      "small_sprite": "small/0209.png",
+      "large_sprite": "large/0209.png"
+    },
+    {
+      "id": 210,
+      "name": "Granbull",
+      "small_sprite": "small/0210.png",
+      "large_sprite": "large/0210.png"
+    },
+    {
+      "id": 211,
+      "name": "Qwilfish",
+      "small_sprite": "small/0211.png",
+      "large_sprite": "large/0211.png"
+    },
+    {
+      "id": 212,
+      "name": "Scizor",
+      "small_sprite": "small/0212.png",
+      "large_sprite": "large/0212.png"
+    },
+    {
+      "id": 213,
+      "name": "Shuckle",
+      "small_sprite": "small/0213.png",
+      "large_sprite": "large/0213.png"
+    },
+    {
+      "id": 214,
+      "name": "Heracross",
+      "small_sprite": "small/0214.png",
+      "large_sprite": "large/0214.png"
+    },
+    {
+      "id": 215,
+      "name": "Sneasel",
+      "small_sprite": "small/0215.png",
+      "large_sprite": "large/0215.png"
+    },
+    {
+      "id": 216,
+      "name": "Teddiursa",
+      "small_sprite": "small/0216.png",
+      "large_sprite": "large/0216.png"
+    },
+    {
+      "id": 217,
+      "name": "Ursaring",
+      "small_sprite": "small/0217.png",
+      "large_sprite": "large/0217.png"
+    },
+    {
+      "id": 218,
+      "name": "Slugma",
+      "small_sprite": "small/0218.png",
+      "large_sprite": "large/0218.png"
+    },
+    {
+      "id": 219,
+      "name": "Magcargo",
+      "small_sprite": "small/0219.png",
+      "large_sprite": "large/0219.png"
+    },
+    {
+      "id": 220,
+      "name": "Swinub",
+      "small_sprite": "small/0220.png",
+      "large_sprite": "large/0220.png"
+    },
+    {
+      "id": 221,
+      "name": "Piloswine",
+      "small_sprite": "small/0221.png",
+      "large_sprite": "large/0221.png"
+    },
+    {
+      "id": 222,
+      "name": "Corsola",
+      "small_sprite": "small/0222.png",
+      "large_sprite": "large/0222.png"
+    },
+    {
+      "id": 223,
+      "name": "Remoraid",
+      "small_sprite": "small/0223.png",
+      "large_sprite": "large/0223.png"
+    },
+    {
+      "id": 224,
+      "name": "Octillery",
+      "small_sprite": "small/0224.png",
+      "large_sprite": "large/0224.png"
+    },
+    {
+      "id": 225,
+      "name": "Delibird",
+      "small_sprite": "small/0225.png",
+      "large_sprite": "large/0225.png"
+    },
+    {
+      "id": 226,
+      "name": "Mantine",
+      "small_sprite": "small/0226.png",
+      "large_sprite": "large/0226.png"
+    },
+    {
+      "id": 227,
+      "name": "Skarmory",
+      "small_sprite": "small/0227.png",
+      "large_sprite": "large/0227.png"
+    },
+    {
+      "id": 228,
+      "name": "Houndour",
+      "small_sprite": "small/0228.png",
+      "large_sprite": "large/0228.png"
+    },
+    {
+      "id": 229,
+      "name": "Houndoom",
+      "small_sprite": "small/0229.png",
+      "large_sprite": "large/0229.png"
+    },
+    {
+      "id": 230,
+      "name": "Kingdra",
+      "small_sprite": "small/0230.png",
+      "large_sprite": "large/0230.png"
+    },
+    {
+      "id": 231,
+      "name": "Phanpy",
+      "small_sprite": "small/0231.png",
+      "large_sprite": "large/0231.png"
+    },
+    {
+      "id": 232,
+      "name": "Donphan",
+      "small_sprite": "small/0232.png",
+      "large_sprite": "large/0232.png"
+    },
+    {
+      "id": 233,
+      "name": "Porygon2",
+      "small_sprite": "small/0233.png",
+      "large_sprite": "large/0233.png"
+    },
+    {
+      "id": 234,
+      "name": "Stantler",
+      "small_sprite": "small/0234.png",
+      "large_sprite": "large/0234.png"
+    },
+    {
+      "id": 235,
+      "name": "Smeargle",
+      "small_sprite": "small/0235.png",
+      "large_sprite": "large/0235.png"
+    },
+    {
+      "id": 236,
+      "name": "Tyrogue",
+      "small_sprite": "small/0236.png",
+      "large_sprite": "large/0236.png"
+    },
+    {
+      "id": 237,
+      "name": "Hitmontop",
+      "small_sprite": "small/0237.png",
+      "large_sprite": "large/0237.png"
+    },
+    {
+      "id": 238,
+      "name": "Smoochum",
+      "small_sprite": "small/0238.png",
+      "large_sprite": "large/0238.png"
+    },
+    {
+      "id": 239,
+      "name": "Elekid",
+      "small_sprite": "small/0239.png",
+      "large_sprite": "large/0239.png"
+    },
+    {
+      "id": 240,
+      "name": "Magby",
+      "small_sprite": "small/0240.png",
+      "large_sprite": "large/0240.png"
+    },
+    {
+      "id": 241,
+      "name": "Miltank",
+      "small_sprite": "small/0241.png",
+      "large_sprite": "large/0241.png"
+    },
+    {
+      "id": 242,
+      "name": "Blissey",
+      "small_sprite": "small/0242.png",
+      "large_sprite": "large/0242.png"
+    },
+    {
+      "id": 243,
+      "name": "Raikou",
+      "small_sprite": "small/0243.png",
+      "large_sprite": "large/0243.png"
+    },
+    {
+      "id": 244,
+      "name": "Entei",
+      "small_sprite": "small/0244.png",
+      "large_sprite": "large/0244.png"
+    },
+    {
+      "id": 245,
+      "name": "Suicune",
+      "small_sprite": "small/0245.png",
+      "large_sprite": "large/0245.png"
+    },
+    {
+      "id": 246,
+      "name": "Larvitar",
+      "small_sprite": "small/0246.png",
+      "large_sprite": "large/0246.png"
+    },
+    {
+      "id": 247,
+      "name": "Pupitar",
+      "small_sprite": "small/0247.png",
+      "large_sprite": "large/0247.png"
+    },
+    {
+      "id": 248,
+      "name": "Tyranitar",
+      "small_sprite": "small/0248.png",
+      "large_sprite": "large/0248.png"
+    },
+    {
+      "id": 249,
+      "name": "Lugia",
+      "small_sprite": "small/0249.png",
+      "large_sprite": "large/0249.png"
+    },
+    {
+      "id": 250,
+      "name": "Ho-oh",
+      "small_sprite": "small/0250.png",
+      "large_sprite": "large/0250.png"
+    },
+    {
+      "id": 251,
+      "name": "Celebi",
+      "small_sprite": "small/0251.png",
+      "large_sprite": "large/0251.png"
+    },
+    {
+      "id": 252,
+      "name": "Treecko",
+      "small_sprite": "small/0252.png",
+      "large_sprite": "large/0252.png"
+    },
+    {
+      "id": 253,
+      "name": "Grovyle",
+      "small_sprite": "small/0253.png",
+      "large_sprite": "large/0253.png"
+    },
+    {
+      "id": 254,
+      "name": "Sceptile",
+      "small_sprite": "small/0254.png",
+      "large_sprite": "large/0254.png"
+    },
+    {
+      "id": 255,
+      "name": "Torchic",
+      "small_sprite": "small/0255.png",
+      "large_sprite": "large/0255.png"
+    },
+    {
+      "id": 256,
+      "name": "Combusken",
+      "small_sprite": "small/0256.png",
+      "large_sprite": "large/0256.png"
+    },
+    {
+      "id": 257,
+      "name": "Blaziken",
+      "small_sprite": "small/0257.png",
+      "large_sprite": "large/0257.png"
+    },
+    {
+      "id": 258,
+      "name": "Mudkip",
+      "small_sprite": "small/0258.png",
+      "large_sprite": "large/0258.png"
+    },
+    {
+      "id": 259,
+      "name": "Marshtomp",
+      "small_sprite": "small/0259.png",
+      "large_sprite": "large/0259.png"
+    },
+    {
+      "id": 260,
+      "name": "Swampert",
+      "small_sprite": "small/0260.png",
+      "large_sprite": "large/0260.png"
+    },
+    {
+      "id": 261,
+      "name": "Poochyena",
+      "small_sprite": "small/0261.png",
+      "large_sprite": "large/0261.png"
+    },
+    {
+      "id": 262,
+      "name": "Mightyena",
+      "small_sprite": "small/0262.png",
+      "large_sprite": "large/0262.png"
+    },
+    {
+      "id": 263,
+      "name": "Zigzagoon",
+      "small_sprite": "small/0263.png",
+      "large_sprite": "large/0263.png"
+    },
+    {
+      "id": 264,
+      "name": "Linoone",
+      "small_sprite": "small/0264.png",
+      "large_sprite": "large/0264.png"
+    },
+    {
+      "id": 265,
+      "name": "Wurmple",
+      "small_sprite": "small/0265.png",
+      "large_sprite": "large/0265.png"
+    },
+    {
+      "id": 266,
+      "name": "Silcoon",
+      "small_sprite": "small/0266.png",
+      "large_sprite": "large/0266.png"
+    },
+    {
+      "id": 267,
+      "name": "Beautifly",
+      "small_sprite": "small/0267.png",
+      "large_sprite": "large/0267.png"
+    },
+    {
+      "id": 268,
+      "name": "Cascoon",
+      "small_sprite": "small/0268.png",
+      "large_sprite": "large/0268.png"
+    },
+    {
+      "id": 269,
+      "name": "Dustox",
+      "small_sprite": "small/0269.png",
+      "large_sprite": "large/0269.png"
+    },
+    {
+      "id": 270,
+      "name": "Lotad",
+      "small_sprite": "small/0270.png",
+      "large_sprite": "large/0270.png"
+    },
+    {
+      "id": 271,
+      "name": "Lombre",
+      "small_sprite": "small/0271.png",
+      "large_sprite": "large/0271.png"
+    },
+    {
+      "id": 272,
+      "name": "Ludicolo",
+      "small_sprite": "small/0272.png",
+      "large_sprite": "large/0272.png"
+    },
+    {
+      "id": 273,
+      "name": "Seedot",
+      "small_sprite": "small/0273.png",
+      "large_sprite": "large/0273.png"
+    },
+    {
+      "id": 274,
+      "name": "Nuzleaf",
+      "small_sprite": "small/0274.png",
+      "large_sprite": "large/0274.png"
+    },
+    {
+      "id": 275,
+      "name": "Shiftry",
+      "small_sprite": "small/0275.png",
+      "large_sprite": "large/0275.png"
+    },
+    {
+      "id": 276,
+      "name": "Taillow",
+      "small_sprite": "small/0276.png",
+      "large_sprite": "large/0276.png"
+    },
+    {
+      "id": 277,
+      "name": "Swellow",
+      "small_sprite": "small/0277.png",
+      "large_sprite": "large/0277.png"
+    },
+    {
+      "id": 278,
+      "name": "Wingull",
+      "small_sprite": "small/0278.png",
+      "large_sprite": "large/0278.png"
+    },
+    {
+      "id": 279,
+      "name": "Pelipper",
+      "small_sprite": "small/0279.png",
+      "large_sprite": "large/0279.png"
+    },
+    {
+      "id": 280,
+      "name": "Ralts",
+      "small_sprite": "small/0280.png",
+      "large_sprite": "large/0280.png"
+    },
+    {
+      "id": 281,
+      "name": "Kirlia",
+      "small_sprite": "small/0281.png",
+      "large_sprite": "large/0281.png"
+    },
+    {
+      "id": 282,
+      "name": "Gardevoir",
+      "small_sprite": "small/0282.png",
+      "large_sprite": "large/0282.png"
+    },
+    {
+      "id": 283,
+      "name": "Surskit",
+      "small_sprite": "small/0283.png",
+      "large_sprite": "large/0283.png"
+    },
+    {
+      "id": 284,
+      "name": "Masquerain",
+      "small_sprite": "small/0284.png",
+      "large_sprite": "large/0284.png"
+    },
+    {
+      "id": 285,
+      "name": "Shroomish",
+      "small_sprite": "small/0285.png",
+      "large_sprite": "large/0285.png"
+    },
+    {
+      "id": 286,
+      "name": "Breloom",
+      "small_sprite": "small/0286.png",
+      "large_sprite": "large/0286.png"
+    },
+    {
+      "id": 287,
+      "name": "Slakoth",
+      "small_sprite": "small/0287.png",
+      "large_sprite": "large/0287.png"
+    },
+    {
+      "id": 288,
+      "name": "Vigoroth",
+      "small_sprite": "small/0288.png",
+      "large_sprite": "large/0288.png"
+    },
+    {
+      "id": 289,
+      "name": "Slaking",
+      "small_sprite": "small/0289.png",
+      "large_sprite": "large/0289.png"
+    },
+    {
+      "id": 290,
+      "name": "Nincada",
+      "small_sprite": "small/0290.png",
+      "large_sprite": "large/0290.png"
+    },
+    {
+      "id": 291,
+      "name": "Ninjask",
+      "small_sprite": "small/0291.png",
+      "large_sprite": "large/0291.png"
+    },
+    {
+      "id": 292,
+      "name": "Shedinja",
+      "small_sprite": "small/0292.png",
+      "large_sprite": "large/0292.png"
+    },
+    {
+      "id": 293,
+      "name": "Whismur",
+      "small_sprite": "small/0293.png",
+      "large_sprite": "large/0293.png"
+    },
+    {
+      "id": 294,
+      "name": "Loudred",
+      "small_sprite": "small/0294.png",
+      "large_sprite": "large/0294.png"
+    },
+    {
+      "id": 295,
+      "name": "Exploud",
+      "small_sprite": "small/0295.png",
+      "large_sprite": "large/0295.png"
+    },
+    {
+      "id": 296,
+      "name": "Makuhita",
+      "small_sprite": "small/0296.png",
+      "large_sprite": "large/0296.png"
+    },
+    {
+      "id": 297,
+      "name": "Hariyama",
+      "small_sprite": "small/0297.png",
+      "large_sprite": "large/0297.png"
+    },
+    {
+      "id": 298,
+      "name": "Azurill",
+      "small_sprite": "small/0298.png",
+      "large_sprite": "large/0298.png"
+    },
+    {
+      "id": 299,
+      "name": "Nosepass",
+      "small_sprite": "small/0299.png",
+      "large_sprite": "large/0299.png"
+    },
+    {
+      "id": 300,
+      "name": "Skitty",
+      "small_sprite": "small/0300.png",
+      "large_sprite": "large/0300.png"
+    },
+    {
+      "id": 301,
+      "name": "Delcatty",
+      "small_sprite": "small/0301.png",
+      "large_sprite": "large/0301.png"
+    },
+    {
+      "id": 302,
+      "name": "Sableye",
+      "small_sprite": "small/0302.png",
+      "large_sprite": "large/0302.png"
+    },
+    {
+      "id": 303,
+      "name": "Mawile",
+      "small_sprite": "small/0303.png",
+      "large_sprite": "large/0303.png"
+    },
+    {
+      "id": 304,
+      "name": "Aron",
+      "small_sprite": "small/0304.png",
+      "large_sprite": "large/0304.png"
+    },
+    {
+      "id": 305,
+      "name": "Lairon",
+      "small_sprite": "small/0305.png",
+      "large_sprite": "large/0305.png"
+    },
+    {
+      "id": 306,
+      "name": "Aggron",
+      "small_sprite": "small/0306.png",
+      "large_sprite": "large/0306.png"
+    },
+    {
+      "id": 307,
+      "name": "Meditite",
+      "small_sprite": "small/0307.png",
+      "large_sprite": "large/0307.png"
+    },
+    {
+      "id": 308,
+      "name": "Medicham",
+      "small_sprite": "small/0308.png",
+      "large_sprite": "large/0308.png"
+    },
+    {
+      "id": 309,
+      "name": "Electrike",
+      "small_sprite": "small/0309.png",
+      "large_sprite": "large/0309.png"
+    },
+    {
+      "id": 310,
+      "name": "Manectric",
+      "small_sprite": "small/0310.png",
+      "large_sprite": "large/0310.png"
+    },
+    {
+      "id": 311,
+      "name": "Plusle",
+      "small_sprite": "small/0311.png",
+      "large_sprite": "large/0311.png"
+    },
+    {
+      "id": 312,
+      "name": "Minun",
+      "small_sprite": "small/0312.png",
+      "large_sprite": "large/0312.png"
+    },
+    {
+      "id": 313,
+      "name": "Volbeat",
+      "small_sprite": "small/0313.png",
+      "large_sprite": "large/0313.png"
+    },
+    {
+      "id": 314,
+      "name": "Illumise",
+      "small_sprite": "small/0314.png",
+      "large_sprite": "large/0314.png"
+    },
+    {
+      "id": 315,
+      "name": "Roselia",
+      "small_sprite": "small/0315.png",
+      "large_sprite": "large/0315.png"
+    },
+    {
+      "id": 316,
+      "name": "Gulpin",
+      "small_sprite": "small/0316.png",
+      "large_sprite": "large/0316.png"
+    },
+    {
+      "id": 317,
+      "name": "Swalot",
+      "small_sprite": "small/0317.png",
+      "large_sprite": "large/0317.png"
+    },
+    {
+      "id": 318,
+      "name": "Carvanha",
+      "small_sprite": "small/0318.png",
+      "large_sprite": "large/0318.png"
+    },
+    {
+      "id": 319,
+      "name": "Sharpedo",
+      "small_sprite": "small/0319.png",
+      "large_sprite": "large/0319.png"
+    },
+    {
+      "id": 320,
+      "name": "Wailmer",
+      "small_sprite": "small/0320.png",
+      "large_sprite": "large/0320.png"
+    },
+    {
+      "id": 321,
+      "name": "Wailord",
+      "small_sprite": "small/0321.png",
+      "large_sprite": "large/0321.png"
+    },
+    {
+      "id": 322,
+      "name": "Numel",
+      "small_sprite": "small/0322.png",
+      "large_sprite": "large/0322.png"
+    },
+    {
+      "id": 323,
+      "name": "Camerupt",
+      "small_sprite": "small/0323.png",
+      "large_sprite": "large/0323.png"
+    },
+    {
+      "id": 324,
+      "name": "Torkoal",
+      "small_sprite": "small/0324.png",
+      "large_sprite": "large/0324.png"
+    },
+    {
+      "id": 325,
+      "name": "Spoink",
+      "small_sprite": "small/0325.png",
+      "large_sprite": "large/0325.png"
+    },
+    {
+      "id": 326,
+      "name": "Grumpig",
+      "small_sprite": "small/0326.png",
+      "large_sprite": "large/0326.png"
+    },
+    {
+      "id": 327,
+      "name": "Spinda",
+      "small_sprite": "small/0327.png",
+      "large_sprite": "large/0327.png"
+    },
+    {
+      "id": 328,
+      "name": "Trapinch",
+      "small_sprite": "small/0328.png",
+      "large_sprite": "large/0328.png"
+    },
+    {
+      "id": 329,
+      "name": "Vibrava",
+      "small_sprite": "small/0329.png",
+      "large_sprite": "large/0329.png"
+    },
+    {
+      "id": 330,
+      "name": "Flygon",
+      "small_sprite": "small/0330.png",
+      "large_sprite": "large/0330.png"
+    },
+    {
+      "id": 331,
+      "name": "Cacnea",
+      "small_sprite": "small/0331.png",
+      "large_sprite": "large/0331.png"
+    },
+    {
+      "id": 332,
+      "name": "Cacturne",
+      "small_sprite": "small/0332.png",
+      "large_sprite": "large/0332.png"
+    },
+    {
+      "id": 333,
+      "name": "Swablu",
+      "small_sprite": "small/0333.png",
+      "large_sprite": "large/0333.png"
+    },
+    {
+      "id": 334,
+      "name": "Altaria",
+      "small_sprite": "small/0334.png",
+      "large_sprite": "large/0334.png"
+    },
+    {
+      "id": 335,
+      "name": "Zangoose",
+      "small_sprite": "small/0335.png",
+      "large_sprite": "large/0335.png"
+    },
+    {
+      "id": 336,
+      "name": "Seviper",
+      "small_sprite": "small/0336.png",
+      "large_sprite": "large/0336.png"
+    },
+    {
+      "id": 337,
+      "name": "Lunatone",
+      "small_sprite": "small/0337.png",
+      "large_sprite": "large/0337.png"
+    },
+    {
+      "id": 338,
+      "name": "Solrock",
+      "small_sprite": "small/0338.png",
+      "large_sprite": "large/0338.png"
+    },
+    {
+      "id": 339,
+      "name": "Barboach",
+      "small_sprite": "small/0339.png",
+      "large_sprite": "large/0339.png"
+    },
+    {
+      "id": 340,
+      "name": "Whiscash",
+      "small_sprite": "small/0340.png",
+      "large_sprite": "large/0340.png"
+    },
+    {
+      "id": 341,
+      "name": "Corphish",
+      "small_sprite": "small/0341.png",
+      "large_sprite": "large/0341.png"
+    },
+    {
+      "id": 342,
+      "name": "Crawdaunt",
+      "small_sprite": "small/0342.png",
+      "large_sprite": "large/0342.png"
+    },
+    {
+      "id": 343,
+      "name": "Baltoy",
+      "small_sprite": "small/0343.png",
+      "large_sprite": "large/0343.png"
+    },
+    {
+      "id": 344,
+      "name": "Claydol",
+      "small_sprite": "small/0344.png",
+      "large_sprite": "large/0344.png"
+    },
+    {
+      "id": 345,
+      "name": "Lileep",
+      "small_sprite": "small/0345.png",
+      "large_sprite": "large/0345.png"
+    },
+    {
+      "id": 346,
+      "name": "Cradily",
+      "small_sprite": "small/0346.png",
+      "large_sprite": "large/0346.png"
+    },
+    {
+      "id": 347,
+      "name": "Anorith",
+      "small_sprite": "small/0347.png",
+      "large_sprite": "large/0347.png"
+    },
+    {
+      "id": 348,
+      "name": "Armaldo",
+      "small_sprite": "small/0348.png",
+      "large_sprite": "large/0348.png"
+    },
+    {
+      "id": 349,
+      "name": "Feebas",
+      "small_sprite": "small/0349.png",
+      "large_sprite": "large/0349.png"
+    },
+    {
+      "id": 350,
+      "name": "Milotic",
+      "small_sprite": "small/0350.png",
+      "large_sprite": "large/0350.png"
+    },
+    {
+      "id": 351,
+      "name": "Castform",
+      "small_sprite": "small/0351.png",
+      "large_sprite": "large/0351.png"
+    },
+    {
+      "id": 352,
+      "name": "Kecleon",
+      "small_sprite": "small/0352.png",
+      "large_sprite": "large/0352.png"
+    },
+    {
+      "id": 353,
+      "name": "Shuppet",
+      "small_sprite": "small/0353.png",
+      "large_sprite": "large/0353.png"
+    },
+    {
+      "id": 354,
+      "name": "Banette",
+      "small_sprite": "small/0354.png",
+      "large_sprite": "large/0354.png"
+    },
+    {
+      "id": 355,
+      "name": "Duskull",
+      "small_sprite": "small/0355.png",
+      "large_sprite": "large/0355.png"
+    },
+    {
+      "id": 356,
+      "name": "Dusclops",
+      "small_sprite": "small/0356.png",
+      "large_sprite": "large/0356.png"
+    },
+    {
+      "id": 357,
+      "name": "Tropius",
+      "small_sprite": "small/0357.png",
+      "large_sprite": "large/0357.png"
+    },
+    {
+      "id": 358,
+      "name": "Chimecho",
+      "small_sprite": "small/0358.png",
+      "large_sprite": "large/0358.png"
+    },
+    {
+      "id": 359,
+      "name": "Absol",
+      "small_sprite": "small/0359.png",
+      "large_sprite": "large/0359.png"
+    },
+    {
+      "id": 360,
+      "name": "Wynaut",
+      "small_sprite": "small/0360.png",
+      "large_sprite": "large/0360.png"
+    },
+    {
+      "id": 361,
+      "name": "Snorunt",
+      "small_sprite": "small/0361.png",
+      "large_sprite": "large/0361.png"
+    },
+    {
+      "id": 362,
+      "name": "Glalie",
+      "small_sprite": "small/0362.png",
+      "large_sprite": "large/0362.png"
+    },
+    {
+      "id": 363,
+      "name": "Spheal",
+      "small_sprite": "small/0363.png",
+      "large_sprite": "large/0363.png"
+    },
+    {
+      "id": 364,
+      "name": "Sealeo",
+      "small_sprite": "small/0364.png",
+      "large_sprite": "large/0364.png"
+    },
+    {
+      "id": 365,
+      "name": "Walrein",
+      "small_sprite": "small/0365.png",
+      "large_sprite": "large/0365.png"
+    },
+    {
+      "id": 366,
+      "name": "Clamperl",
+      "small_sprite": "small/0366.png",
+      "large_sprite": "large/0366.png"
+    },
+    {
+      "id": 367,
+      "name": "Huntail",
+      "small_sprite": "small/0367.png",
+      "large_sprite": "large/0367.png"
+    },
+    {
+      "id": 368,
+      "name": "Gorebyss",
+      "small_sprite": "small/0368.png",
+      "large_sprite": "large/0368.png"
+    },
+    {
+      "id": 369,
+      "name": "Relicanth",
+      "small_sprite": "small/0369.png",
+      "large_sprite": "large/0369.png"
+    },
+    {
+      "id": 370,
+      "name": "Luvdisc",
+      "small_sprite": "small/0370.png",
+      "large_sprite": "large/0370.png"
+    },
+    {
+      "id": 371,
+      "name": "Bagon",
+      "small_sprite": "small/0371.png",
+      "large_sprite": "large/0371.png"
+    },
+    {
+      "id": 372,
+      "name": "Shelgon",
+      "small_sprite": "small/0372.png",
+      "large_sprite": "large/0372.png"
+    },
+    {
+      "id": 373,
+      "name": "Salamence",
+      "small_sprite": "small/0373.png",
+      "large_sprite": "large/0373.png"
+    },
+    {
+      "id": 374,
+      "name": "Beldum",
+      "small_sprite": "small/0374.png",
+      "large_sprite": "large/0374.png"
+    },
+    {
+      "id": 375,
+      "name": "Metang",
+      "small_sprite": "small/0375.png",
+      "large_sprite": "large/0375.png"
+    },
+    {
+      "id": 376,
+      "name": "Metagross",
+      "small_sprite": "small/0376.png",
+      "large_sprite": "large/0376.png"
+    },
+    {
+      "id": 377,
+      "name": "Regirock",
+      "small_sprite": "small/0377.png",
+      "large_sprite": "large/0377.png"
+    },
+    {
+      "id": 378,
+      "name": "Regice",
+      "small_sprite": "small/0378.png",
+      "large_sprite": "large/0378.png"
+    },
+    {
+      "id": 379,
+      "name": "Registeel",
+      "small_sprite": "small/0379.png",
+      "large_sprite": "large/0379.png"
+    },
+    {
+      "id": 380,
+      "name": "Latias",
+      "small_sprite": "small/0380.png",
+      "large_sprite": "large/0380.png"
+    },
+    {
+      "id": 381,
+      "name": "Latios",
+      "small_sprite": "small/0381.png",
+      "large_sprite": "large/0381.png"
+    },
+    {
+      "id": 382,
+      "name": "Kyogre",
+      "small_sprite": "small/0382.png",
+      "large_sprite": "large/0382.png"
+    },
+    {
+      "id": 383,
+      "name": "Groudon",
+      "small_sprite": "small/0383.png",
+      "large_sprite": "large/0383.png"
+    },
+    {
+      "id": 384,
+      "name": "Rayquaza",
+      "small_sprite": "small/0384.png",
+      "large_sprite": "large/0384.png"
+    },
+    {
+      "id": 385,
+      "name": "Jirachi",
+      "small_sprite": "small/0385.png",
+      "large_sprite": "large/0385.png"
+    },
+    {
+      "id": 386,
+      "name": "Deoxys-normal",
+      "small_sprite": "small/0386.png",
+      "large_sprite": "large/0386.png"
+    },
+    {
+      "id": 387,
+      "name": "Turtwig",
+      "small_sprite": "small/0387.png",
+      "large_sprite": "large/0387.png"
+    },
+    {
+      "id": 388,
+      "name": "Grotle",
+      "small_sprite": "small/0388.png",
+      "large_sprite": "large/0388.png"
+    },
+    {
+      "id": 389,
+      "name": "Torterra",
+      "small_sprite": "small/0389.png",
+      "large_sprite": "large/0389.png"
+    },
+    {
+      "id": 390,
+      "name": "Chimchar",
+      "small_sprite": "small/0390.png",
+      "large_sprite": "large/0390.png"
+    },
+    {
+      "id": 391,
+      "name": "Monferno",
+      "small_sprite": "small/0391.png",
+      "large_sprite": "large/0391.png"
+    },
+    {
+      "id": 392,
+      "name": "Infernape",
+      "small_sprite": "small/0392.png",
+      "large_sprite": "large/0392.png"
+    },
+    {
+      "id": 393,
+      "name": "Piplup",
+      "small_sprite": "small/0393.png",
+      "large_sprite": "large/0393.png"
+    },
+    {
+      "id": 394,
+      "name": "Prinplup",
+      "small_sprite": "small/0394.png",
+      "large_sprite": "large/0394.png"
+    },
+    {
+      "id": 395,
+      "name": "Empoleon",
+      "small_sprite": "small/0395.png",
+      "large_sprite": "large/0395.png"
+    },
+    {
+      "id": 396,
+      "name": "Starly",
+      "small_sprite": "small/0396.png",
+      "large_sprite": "large/0396.png"
+    },
+    {
+      "id": 397,
+      "name": "Staravia",
+      "small_sprite": "small/0397.png",
+      "large_sprite": "large/0397.png"
+    },
+    {
+      "id": 398,
+      "name": "Staraptor",
+      "small_sprite": "small/0398.png",
+      "large_sprite": "large/0398.png"
+    },
+    {
+      "id": 399,
+      "name": "Bidoof",
+      "small_sprite": "small/0399.png",
+      "large_sprite": "large/0399.png"
+    },
+    {
+      "id": 400,
+      "name": "Bibarel",
+      "small_sprite": "small/0400.png",
+      "large_sprite": "large/0400.png"
+    },
+    {
+      "id": 401,
+      "name": "Kricketot",
+      "small_sprite": "small/0401.png",
+      "large_sprite": "large/0401.png"
+    },
+    {
+      "id": 402,
+      "name": "Kricketune",
+      "small_sprite": "small/0402.png",
+      "large_sprite": "large/0402.png"
+    },
+    {
+      "id": 403,
+      "name": "Shinx",
+      "small_sprite": "small/0403.png",
+      "large_sprite": "large/0403.png"
+    },
+    {
+      "id": 404,
+      "name": "Luxio",
+      "small_sprite": "small/0404.png",
+      "large_sprite": "large/0404.png"
+    },
+    {
+      "id": 405,
+      "name": "Luxray",
+      "small_sprite": "small/0405.png",
+      "large_sprite": "large/0405.png"
+    },
+    {
+      "id": 406,
+      "name": "Budew",
+      "small_sprite": "small/0406.png",
+      "large_sprite": "large/0406.png"
+    },
+    {
+      "id": 407,
+      "name": "Roserade",
+      "small_sprite": "small/0407.png",
+      "large_sprite": "large/0407.png"
+    },
+    {
+      "id": 408,
+      "name": "Cranidos",
+      "small_sprite": "small/0408.png",
+      "large_sprite": "large/0408.png"
+    },
+    {
+      "id": 409,
+      "name": "Rampardos",
+      "small_sprite": "small/0409.png",
+      "large_sprite": "large/0409.png"
+    },
+    {
+      "id": 410,
+      "name": "Shieldon",
+      "small_sprite": "small/0410.png",
+      "large_sprite": "large/0410.png"
+    },
+    {
+      "id": 411,
+      "name": "Bastiodon",
+      "small_sprite": "small/0411.png",
+      "large_sprite": "large/0411.png"
+    },
+    {
+      "id": 412,
+      "name": "Burmy",
+      "small_sprite": "small/0412.png",
+      "large_sprite": "large/0412.png"
+    },
+    {
+      "id": 413,
+      "name": "Wormadam-plant",
+      "small_sprite": "small/0413.png",
+      "large_sprite": "large/0413.png"
+    },
+    {
+      "id": 414,
+      "name": "Mothim",
+      "small_sprite": "small/0414.png",
+      "large_sprite": "large/0414.png"
+    },
+    {
+      "id": 415,
+      "name": "Combee",
+      "small_sprite": "small/0415.png",
+      "large_sprite": "large/0415.png"
+    },
+    {
+      "id": 416,
+      "name": "Vespiquen",
+      "small_sprite": "small/0416.png",
+      "large_sprite": "large/0416.png"
+    },
+    {
+      "id": 417,
+      "name": "Pachirisu",
+      "small_sprite": "small/0417.png",
+      "large_sprite": "large/0417.png"
+    },
+    {
+      "id": 418,
+      "name": "Buizel",
+      "small_sprite": "small/0418.png",
+      "large_sprite": "large/0418.png"
+    },
+    {
+      "id": 419,
+      "name": "Floatzel",
+      "small_sprite": "small/0419.png",
+      "large_sprite": "large/0419.png"
+    },
+    {
+      "id": 420,
+      "name": "Cherubi",
+      "small_sprite": "small/0420.png",
+      "large_sprite": "large/0420.png"
+    },
+    {
+      "id": 421,
+      "name": "Cherrim",
+      "small_sprite": "small/0421.png",
+      "large_sprite": "large/0421.png"
+    },
+    {
+      "id": 422,
+      "name": "Shellos",
+      "small_sprite": "small/0422.png",
+      "large_sprite": "large/0422.png"
+    },
+    {
+      "id": 423,
+      "name": "Gastrodon",
+      "small_sprite": "small/0423.png",
+      "large_sprite": "large/0423.png"
+    },
+    {
+      "id": 424,
+      "name": "Ambipom",
+      "small_sprite": "small/0424.png",
+      "large_sprite": "large/0424.png"
+    },
+    {
+      "id": 425,
+      "name": "Drifloon",
+      "small_sprite": "small/0425.png",
+      "large_sprite": "large/0425.png"
+    },
+    {
+      "id": 426,
+      "name": "Drifblim",
+      "small_sprite": "small/0426.png",
+      "large_sprite": "large/0426.png"
+    },
+    {
+      "id": 427,
+      "name": "Buneary",
+      "small_sprite": "small/0427.png",
+      "large_sprite": "large/0427.png"
+    },
+    {
+      "id": 428,
+      "name": "Lopunny",
+      "small_sprite": "small/0428.png",
+      "large_sprite": "large/0428.png"
+    },
+    {
+      "id": 429,
+      "name": "Mismagius",
+      "small_sprite": "small/0429.png",
+      "large_sprite": "large/0429.png"
+    },
+    {
+      "id": 430,
+      "name": "Honchkrow",
+      "small_sprite": "small/0430.png",
+      "large_sprite": "large/0430.png"
+    },
+    {
+      "id": 431,
+      "name": "Glameow",
+      "small_sprite": "small/0431.png",
+      "large_sprite": "large/0431.png"
+    },
+    {
+      "id": 432,
+      "name": "Purugly",
+      "small_sprite": "small/0432.png",
+      "large_sprite": "large/0432.png"
+    },
+    {
+      "id": 433,
+      "name": "Chingling",
+      "small_sprite": "small/0433.png",
+      "large_sprite": "large/0433.png"
+    },
+    {
+      "id": 434,
+      "name": "Stunky",
+      "small_sprite": "small/0434.png",
+      "large_sprite": "large/0434.png"
+    },
+    {
+      "id": 435,
+      "name": "Skuntank",
+      "small_sprite": "small/0435.png",
+      "large_sprite": "large/0435.png"
+    },
+    {
+      "id": 436,
+      "name": "Bronzor",
+      "small_sprite": "small/0436.png",
+      "large_sprite": "large/0436.png"
+    },
+    {
+      "id": 437,
+      "name": "Bronzong",
+      "small_sprite": "small/0437.png",
+      "large_sprite": "large/0437.png"
+    },
+    {
+      "id": 438,
+      "name": "Bonsly",
+      "small_sprite": "small/0438.png",
+      "large_sprite": "large/0438.png"
+    },
+    {
+      "id": 439,
+      "name": "Mime-jr",
+      "small_sprite": "small/0439.png",
+      "large_sprite": "large/0439.png"
+    },
+    {
+      "id": 440,
+      "name": "Happiny",
+      "small_sprite": "small/0440.png",
+      "large_sprite": "large/0440.png"
+    },
+    {
+      "id": 441,
+      "name": "Chatot",
+      "small_sprite": "small/0441.png",
+      "large_sprite": "large/0441.png"
+    },
+    {
+      "id": 442,
+      "name": "Spiritomb",
+      "small_sprite": "small/0442.png",
+      "large_sprite": "large/0442.png"
+    },
+    {
+      "id": 443,
+      "name": "Gible",
+      "small_sprite": "small/0443.png",
+      "large_sprite": "large/0443.png"
+    },
+    {
+      "id": 444,
+      "name": "Gabite",
+      "small_sprite": "small/0444.png",
+      "large_sprite": "large/0444.png"
+    },
+    {
+      "id": 445,
+      "name": "Garchomp",
+      "small_sprite": "small/0445.png",
+      "large_sprite": "large/0445.png"
+    },
+    {
+      "id": 446,
+      "name": "Munchlax",
+      "small_sprite": "small/0446.png",
+      "large_sprite": "large/0446.png"
+    },
+    {
+      "id": 447,
+      "name": "Riolu",
+      "small_sprite": "small/0447.png",
+      "large_sprite": "large/0447.png"
+    },
+    {
+      "id": 448,
+      "name": "Lucario",
+      "small_sprite": "small/0448.png",
+      "large_sprite": "large/0448.png"
+    },
+    {
+      "id": 449,
+      "name": "Hippopotas",
+      "small_sprite": "small/0449.png",
+      "large_sprite": "large/0449.png"
+    },
+    {
+      "id": 450,
+      "name": "Hippowdon",
+      "small_sprite": "small/0450.png",
+      "large_sprite": "large/0450.png"
+    },
+    {
+      "id": 451,
+      "name": "Skorupi",
+      "small_sprite": "small/0451.png",
+      "large_sprite": "large/0451.png"
+    },
+    {
+      "id": 452,
+      "name": "Drapion",
+      "small_sprite": "small/0452.png",
+      "large_sprite": "large/0452.png"
+    },
+    {
+      "id": 453,
+      "name": "Croagunk",
+      "small_sprite": "small/0453.png",
+      "large_sprite": "large/0453.png"
+    },
+    {
+      "id": 454,
+      "name": "Toxicroak",
+      "small_sprite": "small/0454.png",
+      "large_sprite": "large/0454.png"
+    },
+    {
+      "id": 455,
+      "name": "Carnivine",
+      "small_sprite": "small/0455.png",
+      "large_sprite": "large/0455.png"
+    },
+    {
+      "id": 456,
+      "name": "Finneon",
+      "small_sprite": "small/0456.png",
+      "large_sprite": "large/0456.png"
+    },
+    {
+      "id": 457,
+      "name": "Lumineon",
+      "small_sprite": "small/0457.png",
+      "large_sprite": "large/0457.png"
+    },
+    {
+      "id": 458,
+      "name": "Mantyke",
+      "small_sprite": "small/0458.png",
+      "large_sprite": "large/0458.png"
+    },
+    {
+      "id": 459,
+      "name": "Snover",
+      "small_sprite": "small/0459.png",
+      "large_sprite": "large/0459.png"
+    },
+    {
+      "id": 460,
+      "name": "Abomasnow",
+      "small_sprite": "small/0460.png",
+      "large_sprite": "large/0460.png"
+    },
+    {
+      "id": 461,
+      "name": "Weavile",
+      "small_sprite": "small/0461.png",
+      "large_sprite": "large/0461.png"
+    },
+    {
+      "id": 462,
+      "name": "Magnezone",
+      "small_sprite": "small/0462.png",
+      "large_sprite": "large/0462.png"
+    },
+    {
+      "id": 463,
+      "name": "Lickilicky",
+      "small_sprite": "small/0463.png",
+      "large_sprite": "large/0463.png"
+    },
+    {
+      "id": 464,
+      "name": "Rhyperior",
+      "small_sprite": "small/0464.png",
+      "large_sprite": "large/0464.png"
+    },
+    {
+      "id": 465,
+      "name": "Tangrowth",
+      "small_sprite": "small/0465.png",
+      "large_sprite": "large/0465.png"
+    },
+    {
+      "id": 466,
+      "name": "Electivire",
+      "small_sprite": "small/0466.png",
+      "large_sprite": "large/0466.png"
+    },
+    {
+      "id": 467,
+      "name": "Magmortar",
+      "small_sprite": "small/0467.png",
+      "large_sprite": "large/0467.png"
+    },
+    {
+      "id": 468,
+      "name": "Togekiss",
+      "small_sprite": "small/0468.png",
+      "large_sprite": "large/0468.png"
+    },
+    {
+      "id": 469,
+      "name": "Yanmega",
+      "small_sprite": "small/0469.png",
+      "large_sprite": "large/0469.png"
+    },
+    {
+      "id": 470,
+      "name": "Leafeon",
+      "small_sprite": "small/0470.png",
+      "large_sprite": "large/0470.png"
+    },
+    {
+      "id": 471,
+      "name": "Glaceon",
+      "small_sprite": "small/0471.png",
+      "large_sprite": "large/0471.png"
+    },
+    {
+      "id": 472,
+      "name": "Gliscor",
+      "small_sprite": "small/0472.png",
+      "large_sprite": "large/0472.png"
+    },
+    {
+      "id": 473,
+      "name": "Mamoswine",
+      "small_sprite": "small/0473.png",
+      "large_sprite": "large/0473.png"
+    },
+    {
+      "id": 474,
+      "name": "Porygon-z",
+      "small_sprite": "small/0474.png",
+      "large_sprite": "large/0474.png"
+    },
+    {
+      "id": 475,
+      "name": "Gallade",
+      "small_sprite": "small/0475.png",
+      "large_sprite": "large/0475.png"
+    },
+    {
+      "id": 476,
+      "name": "Probopass",
+      "small_sprite": "small/0476.png",
+      "large_sprite": "large/0476.png"
+    },
+    {
+      "id": 477,
+      "name": "Dusknoir",
+      "small_sprite": "small/0477.png",
+      "large_sprite": "large/0477.png"
+    },
+    {
+      "id": 478,
+      "name": "Froslass",
+      "small_sprite": "small/0478.png",
+      "large_sprite": "large/0478.png"
+    },
+    {
+      "id": 479,
+      "name": "Rotom",
+      "small_sprite": "small/0479.png",
+      "large_sprite": "large/0479.png"
+    },
+    {
+      "id": 480,
+      "name": "Uxie",
+      "small_sprite": "small/0480.png",
+      "large_sprite": "large/0480.png"
+    },
+    {
+      "id": 481,
+      "name": "Mesprit",
+      "small_sprite": "small/0481.png",
+      "large_sprite": "large/0481.png"
+    },
+    {
+      "id": 482,
+      "name": "Azelf",
+      "small_sprite": "small/0482.png",
+      "large_sprite": "large/0482.png"
+    },
+    {
+      "id": 483,
+      "name": "Dialga",
+      "small_sprite": "small/0483.png",
+      "large_sprite": "large/0483.png"
+    },
+    {
+      "id": 484,
+      "name": "Palkia",
+      "small_sprite": "small/0484.png",
+      "large_sprite": "large/0484.png"
+    },
+    {
+      "id": 485,
+      "name": "Heatran",
+      "small_sprite": "small/0485.png",
+      "large_sprite": "large/0485.png"
+    },
+    {
+      "id": 486,
+      "name": "Regigigas",
+      "small_sprite": "small/0486.png",
+      "large_sprite": "large/0486.png"
+    },
+    {
+      "id": 487,
+      "name": "Giratina-altered",
+      "small_sprite": "small/0487.png",
+      "large_sprite": "large/0487.png"
+    },
+    {
+      "id": 488,
+      "name": "Cresselia",
+      "small_sprite": "small/0488.png",
+      "large_sprite": "large/0488.png"
+    },
+    {
+      "id": 489,
+      "name": "Phione",
+      "small_sprite": "small/0489.png",
+      "large_sprite": "large/0489.png"
+    },
+    {
+      "id": 490,
+      "name": "Manaphy",
+      "small_sprite": "small/0490.png",
+      "large_sprite": "large/0490.png"
+    },
+    {
+      "id": 491,
+      "name": "Darkrai",
+      "small_sprite": "small/0491.png",
+      "large_sprite": "large/0491.png"
+    },
+    {
+      "id": 492,
+      "name": "Shaymin-land",
+      "small_sprite": "small/0492.png",
+      "large_sprite": "large/0492.png"
+    },
+    {
+      "id": 493,
+      "name": "Arceus",
+      "small_sprite": "small/0493.png",
+      "large_sprite": "large/0493.png"
+    },
+    {
+      "id": 494,
+      "name": "Victini",
+      "small_sprite": "small/0494.png",
+      "large_sprite": "large/0494.png"
+    },
+    {
+      "id": 495,
+      "name": "Snivy",
+      "small_sprite": "small/0495.png",
+      "large_sprite": "large/0495.png"
+    },
+    {
+      "id": 496,
+      "name": "Servine",
+      "small_sprite": "small/0496.png",
+      "large_sprite": "large/0496.png"
+    },
+    {
+      "id": 497,
+      "name": "Serperior",
+      "small_sprite": "small/0497.png",
+      "large_sprite": "large/0497.png"
+    },
+    {
+      "id": 498,
+      "name": "Tepig",
+      "small_sprite": "small/0498.png",
+      "large_sprite": "large/0498.png"
+    },
+    {
+      "id": 499,
+      "name": "Pignite",
+      "small_sprite": "small/0499.png",
+      "large_sprite": "large/0499.png"
+    },
+    {
+      "id": 500,
+      "name": "Emboar",
+      "small_sprite": "small/0500.png",
+      "large_sprite": "large/0500.png"
+    },
+    {
+      "id": 501,
+      "name": "Oshawott",
+      "small_sprite": "small/0501.png",
+      "large_sprite": "large/0501.png"
+    },
+    {
+      "id": 502,
+      "name": "Dewott",
+      "small_sprite": "small/0502.png",
+      "large_sprite": "large/0502.png"
+    },
+    {
+      "id": 503,
+      "name": "Samurott",
+      "small_sprite": "small/0503.png",
+      "large_sprite": "large/0503.png"
+    },
+    {
+      "id": 504,
+      "name": "Patrat",
+      "small_sprite": "small/0504.png",
+      "large_sprite": "large/0504.png"
+    },
+    {
+      "id": 505,
+      "name": "Watchog",
+      "small_sprite": "small/0505.png",
+      "large_sprite": "large/0505.png"
+    },
+    {
+      "id": 506,
+      "name": "Lillipup",
+      "small_sprite": "small/0506.png",
+      "large_sprite": "large/0506.png"
+    },
+    {
+      "id": 507,
+      "name": "Herdier",
+      "small_sprite": "small/0507.png",
+      "large_sprite": "large/0507.png"
+    },
+    {
+      "id": 508,
+      "name": "Stoutland",
+      "small_sprite": "small/0508.png",
+      "large_sprite": "large/0508.png"
+    },
+    {
+      "id": 509,
+      "name": "Purrloin",
+      "small_sprite": "small/0509.png",
+      "large_sprite": "large/0509.png"
+    },
+    {
+      "id": 510,
+      "name": "Liepard",
+      "small_sprite": "small/0510.png",
+      "large_sprite": "large/0510.png"
+    },
+    {
+      "id": 511,
+      "name": "Pansage",
+      "small_sprite": "small/0511.png",
+      "large_sprite": "large/0511.png"
+    },
+    {
+      "id": 512,
+      "name": "Simisage",
+      "small_sprite": "small/0512.png",
+      "large_sprite": "large/0512.png"
+    },
+    {
+      "id": 513,
+      "name": "Pansear",
+      "small_sprite": "small/0513.png",
+      "large_sprite": "large/0513.png"
+    },
+    {
+      "id": 514,
+      "name": "Simisear",
+      "small_sprite": "small/0514.png",
+      "large_sprite": "large/0514.png"
+    },
+    {
+      "id": 515,
+      "name": "Panpour",
+      "small_sprite": "small/0515.png",
+      "large_sprite": "large/0515.png"
+    },
+    {
+      "id": 516,
+      "name": "Simipour",
+      "small_sprite": "small/0516.png",
+      "large_sprite": "large/0516.png"
+    },
+    {
+      "id": 517,
+      "name": "Munna",
+      "small_sprite": "small/0517.png",
+      "large_sprite": "large/0517.png"
+    },
+    {
+      "id": 518,
+      "name": "Musharna",
+      "small_sprite": "small/0518.png",
+      "large_sprite": "large/0518.png"
+    },
+    {
+      "id": 519,
+      "name": "Pidove",
+      "small_sprite": "small/0519.png",
+      "large_sprite": "large/0519.png"
+    },
+    {
+      "id": 520,
+      "name": "Tranquill",
+      "small_sprite": "small/0520.png",
+      "large_sprite": "large/0520.png"
+    },
+    {
+      "id": 521,
+      "name": "Unfezant",
+      "small_sprite": "small/0521.png",
+      "large_sprite": "large/0521.png"
+    },
+    {
+      "id": 522,
+      "name": "Blitzle",
+      "small_sprite": "small/0522.png",
+      "large_sprite": "large/0522.png"
+    },
+    {
+      "id": 523,
+      "name": "Zebstrika",
+      "small_sprite": "small/0523.png",
+      "large_sprite": "large/0523.png"
+    },
+    {
+      "id": 524,
+      "name": "Roggenrola",
+      "small_sprite": "small/0524.png",
+      "large_sprite": "large/0524.png"
+    },
+    {
+      "id": 525,
+      "name": "Boldore",
+      "small_sprite": "small/0525.png",
+      "large_sprite": "large/0525.png"
+    },
+    {
+      "id": 526,
+      "name": "Gigalith",
+      "small_sprite": "small/0526.png",
+      "large_sprite": "large/0526.png"
+    },
+    {
+      "id": 527,
+      "name": "Woobat",
+      "small_sprite": "small/0527.png",
+      "large_sprite": "large/0527.png"
+    },
+    {
+      "id": 528,
+      "name": "Swoobat",
+      "small_sprite": "small/0528.png",
+      "large_sprite": "large/0528.png"
+    },
+    {
+      "id": 529,
+      "name": "Drilbur",
+      "small_sprite": "small/0529.png",
+      "large_sprite": "large/0529.png"
+    },
+    {
+      "id": 530,
+      "name": "Excadrill",
+      "small_sprite": "small/0530.png",
+      "large_sprite": "large/0530.png"
+    },
+    {
+      "id": 531,
+      "name": "Audino",
+      "small_sprite": "small/0531.png",
+      "large_sprite": "large/0531.png"
+    },
+    {
+      "id": 532,
+      "name": "Timburr",
+      "small_sprite": "small/0532.png",
+      "large_sprite": "large/0532.png"
+    },
+    {
+      "id": 533,
+      "name": "Gurdurr",
+      "small_sprite": "small/0533.png",
+      "large_sprite": "large/0533.png"
+    },
+    {
+      "id": 534,
+      "name": "Conkeldurr",
+      "small_sprite": "small/0534.png",
+      "large_sprite": "large/0534.png"
+    },
+    {
+      "id": 535,
+      "name": "Tympole",
+      "small_sprite": "small/0535.png",
+      "large_sprite": "large/0535.png"
+    },
+    {
+      "id": 536,
+      "name": "Palpitoad",
+      "small_sprite": "small/0536.png",
+      "large_sprite": "large/0536.png"
+    },
+    {
+      "id": 537,
+      "name": "Seismitoad",
+      "small_sprite": "small/0537.png",
+      "large_sprite": "large/0537.png"
+    },
+    {
+      "id": 538,
+      "name": "Throh",
+      "small_sprite": "small/0538.png",
+      "large_sprite": "large/0538.png"
+    },
+    {
+      "id": 539,
+      "name": "Sawk",
+      "small_sprite": "small/0539.png",
+      "large_sprite": "large/0539.png"
+    },
+    {
+      "id": 540,
+      "name": "Sewaddle",
+      "small_sprite": "small/0540.png",
+      "large_sprite": "large/0540.png"
+    },
+    {
+      "id": 541,
+      "name": "Swadloon",
+      "small_sprite": "small/0541.png",
+      "large_sprite": "large/0541.png"
+    },
+    {
+      "id": 542,
+      "name": "Leavanny",
+      "small_sprite": "small/0542.png",
+      "large_sprite": "large/0542.png"
+    },
+    {
+      "id": 543,
+      "name": "Venipede",
+      "small_sprite": "small/0543.png",
+      "large_sprite": "large/0543.png"
+    },
+    {
+      "id": 544,
+      "name": "Whirlipede",
+      "small_sprite": "small/0544.png",
+      "large_sprite": "large/0544.png"
+    },
+    {
+      "id": 545,
+      "name": "Scolipede",
+      "small_sprite": "small/0545.png",
+      "large_sprite": "large/0545.png"
+    },
+    {
+      "id": 546,
+      "name": "Cottonee",
+      "small_sprite": "small/0546.png",
+      "large_sprite": "large/0546.png"
+    },
+    {
+      "id": 547,
+      "name": "Whimsicott",
+      "small_sprite": "small/0547.png",
+      "large_sprite": "large/0547.png"
+    },
+    {
+      "id": 548,
+      "name": "Petilil",
+      "small_sprite": "small/0548.png",
+      "large_sprite": "large/0548.png"
+    },
+    {
+      "id": 549,
+      "name": "Lilligant",
+      "small_sprite": "small/0549.png",
+      "large_sprite": "large/0549.png"
+    },
+    {
+      "id": 550,
+      "name": "Basculin-red-striped",
+      "small_sprite": "small/0550.png",
+      "large_sprite": "large/0550.png"
+    },
+    {
+      "id": 551,
+      "name": "Sandile",
+      "small_sprite": "small/0551.png",
+      "large_sprite": "large/0551.png"
+    },
+    {
+      "id": 552,
+      "name": "Krokorok",
+      "small_sprite": "small/0552.png",
+      "large_sprite": "large/0552.png"
+    },
+    {
+      "id": 553,
+      "name": "Krookodile",
+      "small_sprite": "small/0553.png",
+      "large_sprite": "large/0553.png"
+    },
+    {
+      "id": 554,
+      "name": "Darumaka",
+      "small_sprite": "small/0554.png",
+      "large_sprite": "large/0554.png"
+    },
+    {
+      "id": 555,
+      "name": "Darmanitan-standard",
+      "small_sprite": "small/0555.png",
+      "large_sprite": "large/0555.png"
+    },
+    {
+      "id": 556,
+      "name": "Maractus",
+      "small_sprite": "small/0556.png",
+      "large_sprite": "large/0556.png"
+    },
+    {
+      "id": 557,
+      "name": "Dwebble",
+      "small_sprite": "small/0557.png",
+      "large_sprite": "large/0557.png"
+    },
+    {
+      "id": 558,
+      "name": "Crustle",
+      "small_sprite": "small/0558.png",
+      "large_sprite": "large/0558.png"
+    },
+    {
+      "id": 559,
+      "name": "Scraggy",
+      "small_sprite": "small/0559.png",
+      "large_sprite": "large/0559.png"
+    },
+    {
+      "id": 560,
+      "name": "Scrafty",
+      "small_sprite": "small/0560.png",
+      "large_sprite": "large/0560.png"
+    },
+    {
+      "id": 561,
+      "name": "Sigilyph",
+      "small_sprite": "small/0561.png",
+      "large_sprite": "large/0561.png"
+    },
+    {
+      "id": 562,
+      "name": "Yamask",
+      "small_sprite": "small/0562.png",
+      "large_sprite": "large/0562.png"
+    },
+    {
+      "id": 563,
+      "name": "Cofagrigus",
+      "small_sprite": "small/0563.png",
+      "large_sprite": "large/0563.png"
+    },
+    {
+      "id": 564,
+      "name": "Tirtouga",
+      "small_sprite": "small/0564.png",
+      "large_sprite": "large/0564.png"
+    },
+    {
+      "id": 565,
+      "name": "Carracosta",
+      "small_sprite": "small/0565.png",
+      "large_sprite": "large/0565.png"
+    },
+    {
+      "id": 566,
+      "name": "Archen",
+      "small_sprite": "small/0566.png",
+      "large_sprite": "large/0566.png"
+    },
+    {
+      "id": 567,
+      "name": "Archeops",
+      "small_sprite": "small/0567.png",
+      "large_sprite": "large/0567.png"
+    },
+    {
+      "id": 568,
+      "name": "Trubbish",
+      "small_sprite": "small/0568.png",
+      "large_sprite": "large/0568.png"
+    },
+    {
+      "id": 569,
+      "name": "Garbodor",
+      "small_sprite": "small/0569.png",
+      "large_sprite": "large/0569.png"
+    },
+    {
+      "id": 570,
+      "name": "Zorua",
+      "small_sprite": "small/0570.png",
+      "large_sprite": "large/0570.png"
+    },
+    {
+      "id": 571,
+      "name": "Zoroark",
+      "small_sprite": "small/0571.png",
+      "large_sprite": "large/0571.png"
+    },
+    {
+      "id": 572,
+      "name": "Minccino",
+      "small_sprite": "small/0572.png",
+      "large_sprite": "large/0572.png"
+    },
+    {
+      "id": 573,
+      "name": "Cinccino",
+      "small_sprite": "small/0573.png",
+      "large_sprite": "large/0573.png"
+    },
+    {
+      "id": 574,
+      "name": "Gothita",
+      "small_sprite": "small/0574.png",
+      "large_sprite": "large/0574.png"
+    },
+    {
+      "id": 575,
+      "name": "Gothorita",
+      "small_sprite": "small/0575.png",
+      "large_sprite": "large/0575.png"
+    },
+    {
+      "id": 576,
+      "name": "Gothitelle",
+      "small_sprite": "small/0576.png",
+      "large_sprite": "large/0576.png"
+    },
+    {
+      "id": 577,
+      "name": "Solosis",
+      "small_sprite": "small/0577.png",
+      "large_sprite": "large/0577.png"
+    },
+    {
+      "id": 578,
+      "name": "Duosion",
+      "small_sprite": "small/0578.png",
+      "large_sprite": "large/0578.png"
+    },
+    {
+      "id": 579,
+      "name": "Reuniclus",
+      "small_sprite": "small/0579.png",
+      "large_sprite": "large/0579.png"
+    },
+    {
+      "id": 580,
+      "name": "Ducklett",
+      "small_sprite": "small/0580.png",
+      "large_sprite": "large/0580.png"
+    },
+    {
+      "id": 581,
+      "name": "Swanna",
+      "small_sprite": "small/0581.png",
+      "large_sprite": "large/0581.png"
+    },
+    {
+      "id": 582,
+      "name": "Vanillite",
+      "small_sprite": "small/0582.png",
+      "large_sprite": "large/0582.png"
+    },
+    {
+      "id": 583,
+      "name": "Vanillish",
+      "small_sprite": "small/0583.png",
+      "large_sprite": "large/0583.png"
+    },
+    {
+      "id": 584,
+      "name": "Vanilluxe",
+      "small_sprite": "small/0584.png",
+      "large_sprite": "large/0584.png"
+    },
+    {
+      "id": 585,
+      "name": "Deerling",
+      "small_sprite": "small/0585.png",
+      "large_sprite": "large/0585.png"
+    },
+    {
+      "id": 586,
+      "name": "Sawsbuck",
+      "small_sprite": "small/0586.png",
+      "large_sprite": "large/0586.png"
+    },
+    {
+      "id": 587,
+      "name": "Emolga",
+      "small_sprite": "small/0587.png",
+      "large_sprite": "large/0587.png"
+    },
+    {
+      "id": 588,
+      "name": "Karrablast",
+      "small_sprite": "small/0588.png",
+      "large_sprite": "large/0588.png"
+    },
+    {
+      "id": 589,
+      "name": "Escavalier",
+      "small_sprite": "small/0589.png",
+      "large_sprite": "large/0589.png"
+    },
+    {
+      "id": 590,
+      "name": "Foongus",
+      "small_sprite": "small/0590.png",
+      "large_sprite": "large/0590.png"
+    },
+    {
+      "id": 591,
+      "name": "Amoonguss",
+      "small_sprite": "small/0591.png",
+      "large_sprite": "large/0591.png"
+    },
+    {
+      "id": 592,
+      "name": "Frillish-male",
+      "small_sprite": "small/0592.png",
+      "large_sprite": "large/0592.png"
+    },
+    {
+      "id": 593,
+      "name": "Jellicent-male",
+      "small_sprite": "small/0593.png",
+      "large_sprite": "large/0593.png"
+    },
+    {
+      "id": 594,
+      "name": "Alomomola",
+      "small_sprite": "small/0594.png",
+      "large_sprite": "large/0594.png"
+    },
+    {
+      "id": 595,
+      "name": "Joltik",
+      "small_sprite": "small/0595.png",
+      "large_sprite": "large/0595.png"
+    },
+    {
+      "id": 596,
+      "name": "Galvantula",
+      "small_sprite": "small/0596.png",
+      "large_sprite": "large/0596.png"
+    },
+    {
+      "id": 597,
+      "name": "Ferroseed",
+      "small_sprite": "small/0597.png",
+      "large_sprite": "large/0597.png"
+    },
+    {
+      "id": 598,
+      "name": "Ferrothorn",
+      "small_sprite": "small/0598.png",
+      "large_sprite": "large/0598.png"
+    },
+    {
+      "id": 599,
+      "name": "Klink",
+      "small_sprite": "small/0599.png",
+      "large_sprite": "large/0599.png"
+    },
+    {
+      "id": 600,
+      "name": "Klang",
+      "small_sprite": "small/0600.png",
+      "large_sprite": "large/0600.png"
+    },
+    {
+      "id": 601,
+      "name": "Klinklang",
+      "small_sprite": "small/0601.png",
+      "large_sprite": "large/0601.png"
+    },
+    {
+      "id": 602,
+      "name": "Tynamo",
+      "small_sprite": "small/0602.png",
+      "large_sprite": "large/0602.png"
+    },
+    {
+      "id": 603,
+      "name": "Eelektrik",
+      "small_sprite": "small/0603.png",
+      "large_sprite": "large/0603.png"
+    },
+    {
+      "id": 604,
+      "name": "Eelektross",
+      "small_sprite": "small/0604.png",
+      "large_sprite": "large/0604.png"
+    },
+    {
+      "id": 605,
+      "name": "Elgyem",
+      "small_sprite": "small/0605.png",
+      "large_sprite": "large/0605.png"
+    },
+    {
+      "id": 606,
+      "name": "Beheeyem",
+      "small_sprite": "small/0606.png",
+      "large_sprite": "large/0606.png"
+    },
+    {
+      "id": 607,
+      "name": "Litwick",
+      "small_sprite": "small/0607.png",
+      "large_sprite": "large/0607.png"
+    },
+    {
+      "id": 608,
+      "name": "Lampent",
+      "small_sprite": "small/0608.png",
+      "large_sprite": "large/0608.png"
+    },
+    {
+      "id": 609,
+      "name": "Chandelure",
+      "small_sprite": "small/0609.png",
+      "large_sprite": "large/0609.png"
+    },
+    {
+      "id": 610,
+      "name": "Axew",
+      "small_sprite": "small/0610.png",
+      "large_sprite": "large/0610.png"
+    },
+    {
+      "id": 611,
+      "name": "Fraxure",
+      "small_sprite": "small/0611.png",
+      "large_sprite": "large/0611.png"
+    },
+    {
+      "id": 612,
+      "name": "Haxorus",
+      "small_sprite": "small/0612.png",
+      "large_sprite": "large/0612.png"
+    },
+    {
+      "id": 613,
+      "name": "Cubchoo",
+      "small_sprite": "small/0613.png",
+      "large_sprite": "large/0613.png"
+    },
+    {
+      "id": 614,
+      "name": "Beartic",
+      "small_sprite": "small/0614.png",
+      "large_sprite": "large/0614.png"
+    },
+    {
+      "id": 615,
+      "name": "Cryogonal",
+      "small_sprite": "small/0615.png",
+      "large_sprite": "large/0615.png"
+    },
+    {
+      "id": 616,
+      "name": "Shelmet",
+      "small_sprite": "small/0616.png",
+      "large_sprite": "large/0616.png"
+    },
+    {
+      "id": 617,
+      "name": "Accelgor",
+      "small_sprite": "small/0617.png",
+      "large_sprite": "large/0617.png"
+    },
+    {
+      "id": 618,
+      "name": "Stunfisk",
+      "small_sprite": "small/0618.png",
+      "large_sprite": "large/0618.png"
+    },
+    {
+      "id": 619,
+      "name": "Mienfoo",
+      "small_sprite": "small/0619.png",
+      "large_sprite": "large/0619.png"
+    },
+    {
+      "id": 620,
+      "name": "Mienshao",
+      "small_sprite": "small/0620.png",
+      "large_sprite": "large/0620.png"
+    },
+    {
+      "id": 621,
+      "name": "Druddigon",
+      "small_sprite": "small/0621.png",
+      "large_sprite": "large/0621.png"
+    },
+    {
+      "id": 622,
+      "name": "Golett",
+      "small_sprite": "small/0622.png",
+      "large_sprite": "large/0622.png"
+    },
+    {
+      "id": 623,
+      "name": "Golurk",
+      "small_sprite": "small/0623.png",
+      "large_sprite": "large/0623.png"
+    },
+    {
+      "id": 624,
+      "name": "Pawniard",
+      "small_sprite": "small/0624.png",
+      "large_sprite": "large/0624.png"
+    },
+    {
+      "id": 625,
+      "name": "Bisharp",
+      "small_sprite": "small/0625.png",
+      "large_sprite": "large/0625.png"
+    },
+    {
+      "id": 626,
+      "name": "Bouffalant",
+      "small_sprite": "small/0626.png",
+      "large_sprite": "large/0626.png"
+    },
+    {
+      "id": 627,
+      "name": "Rufflet",
+      "small_sprite": "small/0627.png",
+      "large_sprite": "large/0627.png"
+    },
+    {
+      "id": 628,
+      "name": "Braviary",
+      "small_sprite": "small/0628.png",
+      "large_sprite": "large/0628.png"
+    },
+    {
+      "id": 629,
+      "name": "Vullaby",
+      "small_sprite": "small/0629.png",
+      "large_sprite": "large/0629.png"
+    },
+    {
+      "id": 630,
+      "name": "Mandibuzz",
+      "small_sprite": "small/0630.png",
+      "large_sprite": "large/0630.png"
+    },
+    {
+      "id": 631,
+      "name": "Heatmor",
+      "small_sprite": "small/0631.png",
+      "large_sprite": "large/0631.png"
+    },
+    {
+      "id": 632,
+      "name": "Durant",
+      "small_sprite": "small/0632.png",
+      "large_sprite": "large/0632.png"
+    },
+    {
+      "id": 633,
+      "name": "Deino",
+      "small_sprite": "small/0633.png",
+      "large_sprite": "large/0633.png"
+    },
+    {
+      "id": 634,
+      "name": "Zweilous",
+      "small_sprite": "small/0634.png",
+      "large_sprite": "large/0634.png"
+    },
+    {
+      "id": 635,
+      "name": "Hydreigon",
+      "small_sprite": "small/0635.png",
+      "large_sprite": "large/0635.png"
+    },
+    {
+      "id": 636,
+      "name": "Larvesta",
+      "small_sprite": "small/0636.png",
+      "large_sprite": "large/0636.png"
+    },
+    {
+      "id": 637,
+      "name": "Volcarona",
+      "small_sprite": "small/0637.png",
+      "large_sprite": "large/0637.png"
+    },
+    {
+      "id": 638,
+      "name": "Cobalion",
+      "small_sprite": "small/0638.png",
+      "large_sprite": "large/0638.png"
+    },
+    {
+      "id": 639,
+      "name": "Terrakion",
+      "small_sprite": "small/0639.png",
+      "large_sprite": "large/0639.png"
+    },
+    {
+      "id": 640,
+      "name": "Virizion",
+      "small_sprite": "small/0640.png",
+      "large_sprite": "large/0640.png"
+    },
+    {
+      "id": 641,
+      "name": "Tornadus-incarnate",
+      "small_sprite": "small/0641.png",
+      "large_sprite": "large/0641.png"
+    },
+    {
+      "id": 642,
+      "name": "Thundurus-incarnate",
+      "small_sprite": "small/0642.png",
+      "large_sprite": "large/0642.png"
+    },
+    {
+      "id": 643,
+      "name": "Reshiram",
+      "small_sprite": "small/0643.png",
+      "large_sprite": "large/0643.png"
+    },
+    {
+      "id": 644,
+      "name": "Zekrom",
+      "small_sprite": "small/0644.png",
+      "large_sprite": "large/0644.png"
+    },
+    {
+      "id": 645,
+      "name": "Landorus-incarnate",
+      "small_sprite": "small/0645.png",
+      "large_sprite": "large/0645.png"
+    },
+    {
+      "id": 646,
+      "name": "Kyurem",
+      "small_sprite": "small/0646.png",
+      "large_sprite": "large/0646.png"
+    },
+    {
+      "id": 647,
+      "name": "Keldeo-ordinary",
+      "small_sprite": "small/0647.png",
+      "large_sprite": "large/0647.png"
+    },
+    {
+      "id": 648,
+      "name": "Meloetta-aria",
+      "small_sprite": "small/0648.png",
+      "large_sprite": "large/0648.png"
+    },
+    {
+      "id": 649,
+      "name": "Genesect",
+      "small_sprite": "small/0649.png",
+      "large_sprite": "large/0649.png"
+    },
+    {
+      "id": 650,
+      "name": "Chespin",
+      "small_sprite": "small/0650.png",
+      "large_sprite": "large/0650.png"
+    },
+    {
+      "id": 651,
+      "name": "Quilladin",
+      "small_sprite": "small/0651.png",
+      "large_sprite": "large/0651.png"
+    },
+    {
+      "id": 652,
+      "name": "Chesnaught",
+      "small_sprite": "small/0652.png",
+      "large_sprite": "large/0652.png"
+    },
+    {
+      "id": 653,
+      "name": "Fennekin",
+      "small_sprite": "small/0653.png",
+      "large_sprite": "large/0653.png"
+    },
+    {
+      "id": 654,
+      "name": "Braixen",
+      "small_sprite": "small/0654.png",
+      "large_sprite": "large/0654.png"
+    },
+    {
+      "id": 655,
+      "name": "Delphox",
+      "small_sprite": "small/0655.png",
+      "large_sprite": "large/0655.png"
+    },
+    {
+      "id": 656,
+      "name": "Froakie",
+      "small_sprite": "small/0656.png",
+      "large_sprite": "large/0656.png"
+    },
+    {
+      "id": 657,
+      "name": "Frogadier",
+      "small_sprite": "small/0657.png",
+      "large_sprite": "large/0657.png"
+    },
+    {
+      "id": 658,
+      "name": "Greninja",
+      "small_sprite": "small/0658.png",
+      "large_sprite": "large/0658.png"
+    },
+    {
+      "id": 659,
+      "name": "Bunnelby",
+      "small_sprite": "small/0659.png",
+      "large_sprite": "large/0659.png"
+    },
+    {
+      "id": 660,
+      "name": "Diggersby",
+      "small_sprite": "small/0660.png",
+      "large_sprite": "large/0660.png"
+    },
+    {
+      "id": 661,
+      "name": "Fletchling",
+      "small_sprite": "small/0661.png",
+      "large_sprite": "large/0661.png"
+    },
+    {
+      "id": 662,
+      "name": "Fletchinder",
+      "small_sprite": "small/0662.png",
+      "large_sprite": "large/0662.png"
+    },
+    {
+      "id": 663,
+      "name": "Talonflame",
+      "small_sprite": "small/0663.png",
+      "large_sprite": "large/0663.png"
+    },
+    {
+      "id": 664,
+      "name": "Scatterbug",
+      "small_sprite": "small/0664.png",
+      "large_sprite": "large/0664.png"
+    },
+    {
+      "id": 665,
+      "name": "Spewpa",
+      "small_sprite": "small/0665.png",
+      "large_sprite": "large/0665.png"
+    },
+    {
+      "id": 666,
+      "name": "Vivillon",
+      "small_sprite": "small/0666.png",
+      "large_sprite": "large/0666.png"
+    },
+    {
+      "id": 667,
+      "name": "Litleo",
+      "small_sprite": "small/0667.png",
+      "large_sprite": "large/0667.png"
+    },
+    {
+      "id": 668,
+      "name": "Pyroar-male",
+      "small_sprite": "small/0668.png",
+      "large_sprite": "large/0668.png"
+    },
+    {
+      "id": 669,
+      "name": "Flabebe",
+      "small_sprite": "small/0669.png",
+      "large_sprite": "large/0669.png"
+    },
+    {
+      "id": 670,
+      "name": "Floette",
+      "small_sprite": "small/0670.png",
+      "large_sprite": "large/0670.png"
+    },
+    {
+      "id": 671,
+      "name": "Florges",
+      "small_sprite": "small/0671.png",
+      "large_sprite": "large/0671.png"
+    },
+    {
+      "id": 672,
+      "name": "Skiddo",
+      "small_sprite": "small/0672.png",
+      "large_sprite": "large/0672.png"
+    },
+    {
+      "id": 673,
+      "name": "Gogoat",
+      "small_sprite": "small/0673.png",
+      "large_sprite": "large/0673.png"
+    },
+    {
+      "id": 674,
+      "name": "Pancham",
+      "small_sprite": "small/0674.png",
+      "large_sprite": "large/0674.png"
+    },
+    {
+      "id": 675,
+      "name": "Pangoro",
+      "small_sprite": "small/0675.png",
+      "large_sprite": "large/0675.png"
+    },
+    {
+      "id": 676,
+      "name": "Furfrou",
+      "small_sprite": "small/0676.png",
+      "large_sprite": "large/0676.png"
+    },
+    {
+      "id": 677,
+      "name": "Espurr",
+      "small_sprite": "small/0677.png",
+      "large_sprite": "large/0677.png"
+    },
+    {
+      "id": 678,
+      "name": "Meowstic-male",
+      "small_sprite": "small/0678.png",
+      "large_sprite": "large/0678.png"
+    },
+    {
+      "id": 679,
+      "name": "Honedge",
+      "small_sprite": "small/0679.png",
+      "large_sprite": "large/0679.png"
+    },
+    {
+      "id": 680,
+      "name": "Doublade",
+      "small_sprite": "small/0680.png",
+      "large_sprite": "large/0680.png"
+    },
+    {
+      "id": 681,
+      "name": "Aegislash-shield",
+      "small_sprite": "small/0681.png",
+      "large_sprite": "large/0681.png"
+    },
+    {
+      "id": 682,
+      "name": "Spritzee",
+      "small_sprite": "small/0682.png",
+      "large_sprite": "large/0682.png"
+    },
+    {
+      "id": 683,
+      "name": "Aromatisse",
+      "small_sprite": "small/0683.png",
+      "large_sprite": "large/0683.png"
+    },
+    {
+      "id": 684,
+      "name": "Swirlix",
+      "small_sprite": "small/0684.png",
+      "large_sprite": "large/0684.png"
+    },
+    {
+      "id": 685,
+      "name": "Slurpuff",
+      "small_sprite": "small/0685.png",
+      "large_sprite": "large/0685.png"
+    },
+    {
+      "id": 686,
+      "name": "Inkay",
+      "small_sprite": "small/0686.png",
+      "large_sprite": "large/0686.png"
+    },
+    {
+      "id": 687,
+      "name": "Malamar",
+      "small_sprite": "small/0687.png",
+      "large_sprite": "large/0687.png"
+    },
+    {
+      "id": 688,
+      "name": "Binacle",
+      "small_sprite": "small/0688.png",
+      "large_sprite": "large/0688.png"
+    },
+    {
+      "id": 689,
+      "name": "Barbaracle",
+      "small_sprite": "small/0689.png",
+      "large_sprite": "large/0689.png"
+    },
+    {
+      "id": 690,
+      "name": "Skrelp",
+      "small_sprite": "small/0690.png",
+      "large_sprite": "large/0690.png"
+    },
+    {
+      "id": 691,
+      "name": "Dragalge",
+      "small_sprite": "small/0691.png",
+      "large_sprite": "large/0691.png"
+    },
+    {
+      "id": 692,
+      "name": "Clauncher",
+      "small_sprite": "small/0692.png",
+      "large_sprite": "large/0692.png"
+    },
+    {
+      "id": 693,
+      "name": "Clawitzer",
+      "small_sprite": "small/0693.png",
+      "large_sprite": "large/0693.png"
+    },
+    {
+      "id": 694,
+      "name": "Helioptile",
+      "small_sprite": "small/0694.png",
+      "large_sprite": "large/0694.png"
+    },
+    {
+      "id": 695,
+      "name": "Heliolisk",
+      "small_sprite": "small/0695.png",
+      "large_sprite": "large/0695.png"
+    },
+    {
+      "id": 696,
+      "name": "Tyrunt",
+      "small_sprite": "small/0696.png",
+      "large_sprite": "large/0696.png"
+    },
+    {
+      "id": 697,
+      "name": "Tyrantrum",
+      "small_sprite": "small/0697.png",
+      "large_sprite": "large/0697.png"
+    },
+    {
+      "id": 698,
+      "name": "Amaura",
+      "small_sprite": "small/0698.png",
+      "large_sprite": "large/0698.png"
+    },
+    {
+      "id": 699,
+      "name": "Aurorus",
+      "small_sprite": "small/0699.png",
+      "large_sprite": "large/0699.png"
+    },
+    {
+      "id": 700,
+      "name": "Sylveon",
+      "small_sprite": "small/0700.png",
+      "large_sprite": "large/0700.png"
+    },
+    {
+      "id": 701,
+      "name": "Hawlucha",
+      "small_sprite": "small/0701.png",
+      "large_sprite": "large/0701.png"
+    },
+    {
+      "id": 702,
+      "name": "Dedenne",
+      "small_sprite": "small/0702.png",
+      "large_sprite": "large/0702.png"
+    },
+    {
+      "id": 703,
+      "name": "Carbink",
+      "small_sprite": "small/0703.png",
+      "large_sprite": "large/0703.png"
+    },
+    {
+      "id": 704,
+      "name": "Goomy",
+      "small_sprite": "small/0704.png",
+      "large_sprite": "large/0704.png"
+    },
+    {
+      "id": 705,
+      "name": "Sliggoo",
+      "small_sprite": "small/0705.png",
+      "large_sprite": "large/0705.png"
+    },
+    {
+      "id": 706,
+      "name": "Goodra",
+      "small_sprite": "small/0706.png",
+      "large_sprite": "large/0706.png"
+    },
+    {
+      "id": 707,
+      "name": "Klefki",
+      "small_sprite": "small/0707.png",
+      "large_sprite": "large/0707.png"
+    },
+    {
+      "id": 708,
+      "name": "Phantump",
+      "small_sprite": "small/0708.png",
+      "large_sprite": "large/0708.png"
+    },
+    {
+      "id": 709,
+      "name": "Trevenant",
+      "small_sprite": "small/0709.png",
+      "large_sprite": "large/0709.png"
+    },
+    {
+      "id": 710,
+      "name": "Pumpkaboo-average",
+      "small_sprite": "small/0710.png",
+      "large_sprite": "large/0710.png"
+    },
+    {
+      "id": 711,
+      "name": "Gourgeist-average",
+      "small_sprite": "small/0711.png",
+      "large_sprite": "large/0711.png"
+    },
+    {
+      "id": 712,
+      "name": "Bergmite",
+      "small_sprite": "small/0712.png",
+      "large_sprite": "large/0712.png"
+    },
+    {
+      "id": 713,
+      "name": "Avalugg",
+      "small_sprite": "small/0713.png",
+      "large_sprite": "large/0713.png"
+    },
+    {
+      "id": 714,
+      "name": "Noibat",
+      "small_sprite": "small/0714.png",
+      "large_sprite": "large/0714.png"
+    },
+    {
+      "id": 715,
+      "name": "Noivern",
+      "small_sprite": "small/0715.png",
+      "large_sprite": "large/0715.png"
+    },
+    {
+      "id": 716,
+      "name": "Xerneas",
+      "small_sprite": "small/0716.png",
+      "large_sprite": "large/0716.png"
+    },
+    {
+      "id": 717,
+      "name": "Yveltal",
+      "small_sprite": "small/0717.png",
+      "large_sprite": "large/0717.png"
+    },
+    {
+      "id": 718,
+      "name": "Zygarde-50",
+      "small_sprite": "small/0718.png",
+      "large_sprite": "large/0718.png"
+    },
+    {
+      "id": 719,
+      "name": "Diancie",
+      "small_sprite": "small/0719.png",
+      "large_sprite": "large/0719.png"
+    },
+    {
+      "id": 720,
+      "name": "Hoopa",
+      "small_sprite": "small/0720.png",
+      "large_sprite": "large/0720.png"
+    },
+    {
+      "id": 721,
+      "name": "Volcanion",
+      "small_sprite": "small/0721.png",
+      "large_sprite": "large/0721.png"
+    },
+    {
+      "id": 722,
+      "name": "Rowlet",
+      "small_sprite": "small/0722.png",
+      "large_sprite": "large/0722.png"
+    },
+    {
+      "id": 723,
+      "name": "Dartrix",
+      "small_sprite": "small/0723.png",
+      "large_sprite": "large/0723.png"
+    },
+    {
+      "id": 724,
+      "name": "Decidueye",
+      "small_sprite": "small/0724.png",
+      "large_sprite": "large/0724.png"
+    },
+    {
+      "id": 725,
+      "name": "Litten",
+      "small_sprite": "small/0725.png",
+      "large_sprite": "large/0725.png"
+    },
+    {
+      "id": 726,
+      "name": "Torracat",
+      "small_sprite": "small/0726.png",
+      "large_sprite": "large/0726.png"
+    },
+    {
+      "id": 727,
+      "name": "Incineroar",
+      "small_sprite": "small/0727.png",
+      "large_sprite": "large/0727.png"
+    },
+    {
+      "id": 728,
+      "name": "Popplio",
+      "small_sprite": "small/0728.png",
+      "large_sprite": "large/0728.png"
+    },
+    {
+      "id": 729,
+      "name": "Brionne",
+      "small_sprite": "small/0729.png",
+      "large_sprite": "large/0729.png"
+    },
+    {
+      "id": 730,
+      "name": "Primarina",
+      "small_sprite": "small/0730.png",
+      "large_sprite": "large/0730.png"
+    },
+    {
+      "id": 731,
+      "name": "Pikipek",
+      "small_sprite": "small/0731.png",
+      "large_sprite": "large/0731.png"
+    },
+    {
+      "id": 732,
+      "name": "Trumbeak",
+      "small_sprite": "small/0732.png",
+      "large_sprite": "large/0732.png"
+    },
+    {
+      "id": 733,
+      "name": "Toucannon",
+      "small_sprite": "small/0733.png",
+      "large_sprite": "large/0733.png"
+    },
+    {
+      "id": 734,
+      "name": "Yungoos",
+      "small_sprite": "small/0734.png",
+      "large_sprite": "large/0734.png"
+    },
+    {
+      "id": 735,
+      "name": "Gumshoos",
+      "small_sprite": "small/0735.png",
+      "large_sprite": "large/0735.png"
+    },
+    {
+      "id": 736,
+      "name": "Grubbin",
+      "small_sprite": "small/0736.png",
+      "large_sprite": "large/0736.png"
+    },
+    {
+      "id": 737,
+      "name": "Charjabug",
+      "small_sprite": "small/0737.png",
+      "large_sprite": "large/0737.png"
+    },
+    {
+      "id": 738,
+      "name": "Vikavolt",
+      "small_sprite": "small/0738.png",
+      "large_sprite": "large/0738.png"
+    },
+    {
+      "id": 739,
+      "name": "Crabrawler",
+      "small_sprite": "small/0739.png",
+      "large_sprite": "large/0739.png"
+    },
+    {
+      "id": 740,
+      "name": "Crabominable",
+      "small_sprite": "small/0740.png",
+      "large_sprite": "large/0740.png"
+    },
+    {
+      "id": 741,
+      "name": "Oricorio-baile",
+      "small_sprite": "small/0741.png",
+      "large_sprite": "large/0741.png"
+    },
+    {
+      "id": 742,
+      "name": "Cutiefly",
+      "small_sprite": "small/0742.png",
+      "large_sprite": "large/0742.png"
+    },
+    {
+      "id": 743,
+      "name": "Ribombee",
+      "small_sprite": "small/0743.png",
+      "large_sprite": "large/0743.png"
+    },
+    {
+      "id": 744,
+      "name": "Rockruff",
+      "small_sprite": "small/0744.png",
+      "large_sprite": "large/0744.png"
+    },
+    {
+      "id": 745,
+      "name": "Lycanroc-midday",
+      "small_sprite": "small/0745.png",
+      "large_sprite": "large/0745.png"
+    },
+    {
+      "id": 746,
+      "name": "Wishiwashi-solo",
+      "small_sprite": "small/0746.png",
+      "large_sprite": "large/0746.png"
+    },
+    {
+      "id": 747,
+      "name": "Mareanie",
+      "small_sprite": "small/0747.png",
+      "large_sprite": "large/0747.png"
+    },
+    {
+      "id": 748,
+      "name": "Toxapex",
+      "small_sprite": "small/0748.png",
+      "large_sprite": "large/0748.png"
+    },
+    {
+      "id": 749,
+      "name": "Mudbray",
+      "small_sprite": "small/0749.png",
+      "large_sprite": "large/0749.png"
+    },
+    {
+      "id": 750,
+      "name": "Mudsdale",
+      "small_sprite": "small/0750.png",
+      "large_sprite": "large/0750.png"
+    },
+    {
+      "id": 751,
+      "name": "Dewpider",
+      "small_sprite": "small/0751.png",
+      "large_sprite": "large/0751.png"
+    },
+    {
+      "id": 752,
+      "name": "Araquanid",
+      "small_sprite": "small/0752.png",
+      "large_sprite": "large/0752.png"
+    },
+    {
+      "id": 753,
+      "name": "Fomantis",
+      "small_sprite": "small/0753.png",
+      "large_sprite": "large/0753.png"
+    },
+    {
+      "id": 754,
+      "name": "Lurantis",
+      "small_sprite": "small/0754.png",
+      "large_sprite": "large/0754.png"
+    },
+    {
+      "id": 755,
+      "name": "Morelull",
+      "small_sprite": "small/0755.png",
+      "large_sprite": "large/0755.png"
+    },
+    {
+      "id": 756,
+      "name": "Shiinotic",
+      "small_sprite": "small/0756.png",
+      "large_sprite": "large/0756.png"
+    },
+    {
+      "id": 757,
+      "name": "Salandit",
+      "small_sprite": "small/0757.png",
+      "large_sprite": "large/0757.png"
+    },
+    {
+      "id": 758,
+      "name": "Salazzle",
+      "small_sprite": "small/0758.png",
+      "large_sprite": "large/0758.png"
+    },
+    {
+      "id": 759,
+      "name": "Stufful",
+      "small_sprite": "small/0759.png",
+      "large_sprite": "large/0759.png"
+    },
+    {
+      "id": 760,
+      "name": "Bewear",
+      "small_sprite": "small/0760.png",
+      "large_sprite": "large/0760.png"
+    },
+    {
+      "id": 761,
+      "name": "Bounsweet",
+      "small_sprite": "small/0761.png",
+      "large_sprite": "large/0761.png"
+    },
+    {
+      "id": 762,
+      "name": "Steenee",
+      "small_sprite": "small/0762.png",
+      "large_sprite": "large/0762.png"
+    },
+    {
+      "id": 763,
+      "name": "Tsareena",
+      "small_sprite": "small/0763.png",
+      "large_sprite": "large/0763.png"
+    },
+    {
+      "id": 764,
+      "name": "Comfey",
+      "small_sprite": "small/0764.png",
+      "large_sprite": "large/0764.png"
+    },
+    {
+      "id": 765,
+      "name": "Oranguru",
+      "small_sprite": "small/0765.png",
+      "large_sprite": "large/0765.png"
+    },
+    {
+      "id": 766,
+      "name": "Passimian",
+      "small_sprite": "small/0766.png",
+      "large_sprite": "large/0766.png"
+    },
+    {
+      "id": 767,
+      "name": "Wimpod",
+      "small_sprite": "small/0767.png",
+      "large_sprite": "large/0767.png"
+    },
+    {
+      "id": 768,
+      "name": "Golisopod",
+      "small_sprite": "small/0768.png",
+      "large_sprite": "large/0768.png"
+    },
+    {
+      "id": 769,
+      "name": "Sandygast",
+      "small_sprite": "small/0769.png",
+      "large_sprite": "large/0769.png"
+    },
+    {
+      "id": 770,
+      "name": "Palossand",
+      "small_sprite": "small/0770.png",
+      "large_sprite": "large/0770.png"
+    },
+    {
+      "id": 771,
+      "name": "Pyukumuku",
+      "small_sprite": "small/0771.png",
+      "large_sprite": "large/0771.png"
+    },
+    {
+      "id": 772,
+      "name": "Type-null",
+      "small_sprite": "small/0772.png",
+      "large_sprite": "large/0772.png"
+    },
+    {
+      "id": 773,
+      "name": "Silvally",
+      "small_sprite": "small/0773.png",
+      "large_sprite": "large/0773.png"
+    },
+    {
+      "id": 774,
+      "name": "Minior-red-meteor",
+      "small_sprite": "small/0774.png",
+      "large_sprite": "large/0774.png"
+    },
+    {
+      "id": 775,
+      "name": "Komala",
+      "small_sprite": "small/0775.png",
+      "large_sprite": "large/0775.png"
+    },
+    {
+      "id": 776,
+      "name": "Turtonator",
+      "small_sprite": "small/0776.png",
+      "large_sprite": "large/0776.png"
+    },
+    {
+      "id": 777,
+      "name": "Togedemaru",
+      "small_sprite": "small/0777.png",
+      "large_sprite": "large/0777.png"
+    },
+    {
+      "id": 778,
+      "name": "Mimikyu-disguised",
+      "small_sprite": "small/0778.png",
+      "large_sprite": "large/0778.png"
+    },
+    {
+      "id": 779,
+      "name": "Bruxish",
+      "small_sprite": "small/0779.png",
+      "large_sprite": "large/0779.png"
+    },
+    {
+      "id": 780,
+      "name": "Drampa",
+      "small_sprite": "small/0780.png",
+      "large_sprite": "large/0780.png"
+    },
+    {
+      "id": 781,
+      "name": "Dhelmise",
+      "small_sprite": "small/0781.png",
+      "large_sprite": "large/0781.png"
+    },
+    {
+      "id": 782,
+      "name": "Jangmo-o",
+      "small_sprite": "small/0782.png",
+      "large_sprite": "large/0782.png"
+    },
+    {
+      "id": 783,
+      "name": "Hakamo-o",
+      "small_sprite": "small/0783.png",
+      "large_sprite": "large/0783.png"
+    },
+    {
+      "id": 784,
+      "name": "Kommo-o",
+      "small_sprite": "small/0784.png",
+      "large_sprite": "large/0784.png"
+    },
+    {
+      "id": 785,
+      "name": "Tapu-koko",
+      "small_sprite": "small/0785.png",
+      "large_sprite": "large/0785.png"
+    },
+    {
+      "id": 786,
+      "name": "Tapu-lele",
+      "small_sprite": "small/0786.png",
+      "large_sprite": "large/0786.png"
+    },
+    {
+      "id": 787,
+      "name": "Tapu-bulu",
+      "small_sprite": "small/0787.png",
+      "large_sprite": "large/0787.png"
+    },
+    {
+      "id": 788,
+      "name": "Tapu-fini",
+      "small_sprite": "small/0788.png",
+      "large_sprite": "large/0788.png"
+    },
+    {
+      "id": 789,
+      "name": "Cosmog",
+      "small_sprite": "small/0789.png",
+      "large_sprite": "large/0789.png"
+    },
+    {
+      "id": 790,
+      "name": "Cosmoem",
+      "small_sprite": "small/0790.png",
+      "large_sprite": "large/0790.png"
+    },
+    {
+      "id": 791,
+      "name": "Solgaleo",
+      "small_sprite": "small/0791.png",
+      "large_sprite": "large/0791.png"
+    },
+    {
+      "id": 792,
+      "name": "Lunala",
+      "small_sprite": "small/0792.png",
+      "large_sprite": "large/0792.png"
+    },
+    {
+      "id": 793,
+      "name": "Nihilego",
+      "small_sprite": "small/0793.png",
+      "large_sprite": "large/0793.png"
+    },
+    {
+      "id": 794,
+      "name": "Buzzwole",
+      "small_sprite": "small/0794.png",
+      "large_sprite": "large/0794.png"
+    },
+    {
+      "id": 795,
+      "name": "Pheromosa",
+      "small_sprite": "small/0795.png",
+      "large_sprite": "large/0795.png"
+    },
+    {
+      "id": 796,
+      "name": "Xurkitree",
+      "small_sprite": "small/0796.png",
+      "large_sprite": "large/0796.png"
+    },
+    {
+      "id": 797,
+      "name": "Celesteela",
+      "small_sprite": "small/0797.png",
+      "large_sprite": "large/0797.png"
+    },
+    {
+      "id": 798,
+      "name": "Kartana",
+      "small_sprite": "small/0798.png",
+      "large_sprite": "large/0798.png"
+    },
+    {
+      "id": 799,
+      "name": "Guzzlord",
+      "small_sprite": "small/0799.png",
+      "large_sprite": "large/0799.png"
+    },
+    {
+      "id": 800,
+      "name": "Necrozma",
+      "small_sprite": "small/0800.png",
+      "large_sprite": "large/0800.png"
+    },
+    {
+      "id": 801,
+      "name": "Magearna",
+      "small_sprite": "small/0801.png",
+      "large_sprite": "large/0801.png"
+    },
+    {
+      "id": 802,
+      "name": "Marshadow",
+      "small_sprite": "small/0802.png",
+      "large_sprite": "large/0802.png"
+    },
+    {
+      "id": 803,
+      "name": "Poipole",
+      "small_sprite": "small/0803.png",
+      "large_sprite": "large/0803.png"
+    },
+    {
+      "id": 804,
+      "name": "Naganadel",
+      "small_sprite": "small/0804.png",
+      "large_sprite": "large/0804.png"
+    },
+    {
+      "id": 805,
+      "name": "Stakataka",
+      "small_sprite": "small/0805.png",
+      "large_sprite": "large/0805.png"
+    },
+    {
+      "id": 806,
+      "name": "Blacephalon",
+      "small_sprite": "small/0806.png",
+      "large_sprite": "large/0806.png"
+    },
+    {
+      "id": 807,
+      "name": "Zeraora",
+      "small_sprite": "small/0807.png",
+      "large_sprite": "large/0807.png"
+    },
+    {
+      "id": 808,
+      "name": "Meltan",
+      "small_sprite": "small/0808.png",
+      "large_sprite": "large/0808.png"
+    },
+    {
+      "id": 809,
+      "name": "Melmetal",
+      "small_sprite": "small/0809.png",
+      "large_sprite": "large/0809.png"
+    },
+    {
+      "id": 810,
+      "name": "Grookey",
+      "small_sprite": "small/0810.png",
+      "large_sprite": "large/0810.png"
+    },
+    {
+      "id": 811,
+      "name": "Thwackey",
+      "small_sprite": "small/0811.png",
+      "large_sprite": "large/0811.png"
+    },
+    {
+      "id": 812,
+      "name": "Rillaboom",
+      "small_sprite": "small/0812.png",
+      "large_sprite": "large/0812.png"
+    },
+    {
+      "id": 813,
+      "name": "Scorbunny",
+      "small_sprite": "small/0813.png",
+      "large_sprite": "large/0813.png"
+    },
+    {
+      "id": 814,
+      "name": "Raboot",
+      "small_sprite": "small/0814.png",
+      "large_sprite": "large/0814.png"
+    },
+    {
+      "id": 815,
+      "name": "Cinderace",
+      "small_sprite": "small/0815.png",
+      "large_sprite": "large/0815.png"
+    },
+    {
+      "id": 816,
+      "name": "Sobble",
+      "small_sprite": "small/0816.png",
+      "large_sprite": "large/0816.png"
+    },
+    {
+      "id": 817,
+      "name": "Drizzile",
+      "small_sprite": "small/0817.png",
+      "large_sprite": "large/0817.png"
+    },
+    {
+      "id": 818,
+      "name": "Inteleon",
+      "small_sprite": "small/0818.png",
+      "large_sprite": "large/0818.png"
+    },
+    {
+      "id": 819,
+      "name": "Skwovet",
+      "small_sprite": "small/0819.png",
+      "large_sprite": "large/0819.png"
+    },
+    {
+      "id": 820,
+      "name": "Greedent",
+      "small_sprite": "small/0820.png",
+      "large_sprite": "large/0820.png"
+    },
+    {
+      "id": 821,
+      "name": "Rookidee",
+      "small_sprite": "small/0821.png",
+      "large_sprite": "large/0821.png"
+    },
+    {
+      "id": 822,
+      "name": "Corvisquire",
+      "small_sprite": "small/0822.png",
+      "large_sprite": "large/0822.png"
+    },
+    {
+      "id": 823,
+      "name": "Corviknight",
+      "small_sprite": "small/0823.png",
+      "large_sprite": "large/0823.png"
+    },
+    {
+      "id": 824,
+      "name": "Blipbug",
+      "small_sprite": "small/0824.png",
+      "large_sprite": "large/0824.png"
+    },
+    {
+      "id": 825,
+      "name": "Dottler",
+      "small_sprite": "small/0825.png",
+      "large_sprite": "large/0825.png"
+    },
+    {
+      "id": 826,
+      "name": "Orbeetle",
+      "small_sprite": "small/0826.png",
+      "large_sprite": "large/0826.png"
+    },
+    {
+      "id": 827,
+      "name": "Nickit",
+      "small_sprite": "small/0827.png",
+      "large_sprite": "large/0827.png"
+    },
+    {
+      "id": 828,
+      "name": "Thievul",
+      "small_sprite": "small/0828.png",
+      "large_sprite": "large/0828.png"
+    },
+    {
+      "id": 829,
+      "name": "Gossifleur",
+      "small_sprite": "small/0829.png",
+      "large_sprite": "large/0829.png"
+    },
+    {
+      "id": 830,
+      "name": "Eldegoss",
+      "small_sprite": "small/0830.png",
+      "large_sprite": "large/0830.png"
+    },
+    {
+      "id": 831,
+      "name": "Wooloo",
+      "small_sprite": "small/0831.png",
+      "large_sprite": "large/0831.png"
+    },
+    {
+      "id": 832,
+      "name": "Dubwool",
+      "small_sprite": "small/0832.png",
+      "large_sprite": "large/0832.png"
+    },
+    {
+      "id": 833,
+      "name": "Chewtle",
+      "small_sprite": "small/0833.png",
+      "large_sprite": "large/0833.png"
+    },
+    {
+      "id": 834,
+      "name": "Drednaw",
+      "small_sprite": "small/0834.png",
+      "large_sprite": "large/0834.png"
+    },
+    {
+      "id": 835,
+      "name": "Yamper",
+      "small_sprite": "small/0835.png",
+      "large_sprite": "large/0835.png"
+    },
+    {
+      "id": 836,
+      "name": "Boltund",
+      "small_sprite": "small/0836.png",
+      "large_sprite": "large/0836.png"
+    },
+    {
+      "id": 837,
+      "name": "Rolycoly",
+      "small_sprite": "small/0837.png",
+      "large_sprite": "large/0837.png"
+    },
+    {
+      "id": 838,
+      "name": "Carkol",
+      "small_sprite": "small/0838.png",
+      "large_sprite": "large/0838.png"
+    },
+    {
+      "id": 839,
+      "name": "Coalossal",
+      "small_sprite": "small/0839.png",
+      "large_sprite": "large/0839.png"
+    },
+    {
+      "id": 840,
+      "name": "Applin",
+      "small_sprite": "small/0840.png",
+      "large_sprite": "large/0840.png"
+    },
+    {
+      "id": 841,
+      "name": "Flapple",
+      "small_sprite": "small/0841.png",
+      "large_sprite": "large/0841.png"
+    },
+    {
+      "id": 842,
+      "name": "Appletun",
+      "small_sprite": "small/0842.png",
+      "large_sprite": "large/0842.png"
+    },
+    {
+      "id": 843,
+      "name": "Silicobra",
+      "small_sprite": "small/0843.png",
+      "large_sprite": "large/0843.png"
+    },
+    {
+      "id": 844,
+      "name": "Sandaconda",
+      "small_sprite": "small/0844.png",
+      "large_sprite": "large/0844.png"
+    },
+    {
+      "id": 845,
+      "name": "Cramorant",
+      "small_sprite": "small/0845.png",
+      "large_sprite": "large/0845.png"
+    },
+    {
+      "id": 846,
+      "name": "Arrokuda",
+      "small_sprite": "small/0846.png",
+      "large_sprite": "large/0846.png"
+    },
+    {
+      "id": 847,
+      "name": "Barraskewda",
+      "small_sprite": "small/0847.png",
+      "large_sprite": "large/0847.png"
+    },
+    {
+      "id": 848,
+      "name": "Toxel",
+      "small_sprite": "small/0848.png",
+      "large_sprite": "large/0848.png"
+    },
+    {
+      "id": 849,
+      "name": "Toxtricity-amped",
+      "small_sprite": "small/0849.png",
+      "large_sprite": "large/0849.png"
+    },
+    {
+      "id": 850,
+      "name": "Sizzlipede",
+      "small_sprite": "small/0850.png",
+      "large_sprite": "large/0850.png"
+    },
+    {
+      "id": 851,
+      "name": "Centiskorch",
+      "small_sprite": "small/0851.png",
+      "large_sprite": "large/0851.png"
+    },
+    {
+      "id": 852,
+      "name": "Clobbopus",
+      "small_sprite": "small/0852.png",
+      "large_sprite": "large/0852.png"
+    },
+    {
+      "id": 853,
+      "name": "Grapploct",
+      "small_sprite": "small/0853.png",
+      "large_sprite": "large/0853.png"
+    },
+    {
+      "id": 854,
+      "name": "Sinistea",
+      "small_sprite": "small/0854.png",
+      "large_sprite": "large/0854.png"
+    },
+    {
+      "id": 855,
+      "name": "Polteageist",
+      "small_sprite": "small/0855.png",
+      "large_sprite": "large/0855.png"
+    },
+    {
+      "id": 856,
+      "name": "Hatenna",
+      "small_sprite": "small/0856.png",
+      "large_sprite": "large/0856.png"
+    },
+    {
+      "id": 857,
+      "name": "Hattrem",
+      "small_sprite": "small/0857.png",
+      "large_sprite": "large/0857.png"
+    },
+    {
+      "id": 858,
+      "name": "Hatterene",
+      "small_sprite": "small/0858.png",
+      "large_sprite": "large/0858.png"
+    },
+    {
+      "id": 859,
+      "name": "Impidimp",
+      "small_sprite": "small/0859.png",
+      "large_sprite": "large/0859.png"
+    },
+    {
+      "id": 860,
+      "name": "Morgrem",
+      "small_sprite": "small/0860.png",
+      "large_sprite": "large/0860.png"
+    },
+    {
+      "id": 861,
+      "name": "Grimmsnarl",
+      "small_sprite": "small/0861.png",
+      "large_sprite": "large/0861.png"
+    },
+    {
+      "id": 862,
+      "name": "Obstagoon",
+      "small_sprite": "small/0862.png",
+      "large_sprite": "large/0862.png"
+    },
+    {
+      "id": 863,
+      "name": "Perrserker",
+      "small_sprite": "small/0863.png",
+      "large_sprite": "large/0863.png"
+    },
+    {
+      "id": 864,
+      "name": "Cursola",
+      "small_sprite": "small/0864.png",
+      "large_sprite": "large/0864.png"
+    },
+    {
+      "id": 865,
+      "name": "Sirfetchd",
+      "small_sprite": "small/0865.png",
+      "large_sprite": "large/0865.png"
+    },
+    {
+      "id": 866,
+      "name": "Mr-rime",
+      "small_sprite": "small/0866.png",
+      "large_sprite": "large/0866.png"
+    },
+    {
+      "id": 867,
+      "name": "Runerigus",
+      "small_sprite": "small/0867.png",
+      "large_sprite": "large/0867.png"
+    },
+    {
+      "id": 868,
+      "name": "Milcery",
+      "small_sprite": "small/0868.png",
+      "large_sprite": "large/0868.png"
+    },
+    {
+      "id": 869,
+      "name": "Alcremie",
+      "small_sprite": "small/0869.png",
+      "large_sprite": "large/0869.png"
+    },
+    {
+      "id": 870,
+      "name": "Falinks",
+      "small_sprite": "small/0870.png",
+      "large_sprite": "large/0870.png"
+    },
+    {
+      "id": 871,
+      "name": "Pincurchin",
+      "small_sprite": "small/0871.png",
+      "large_sprite": "large/0871.png"
+    },
+    {
+      "id": 872,
+      "name": "Snom",
+      "small_sprite": "small/0872.png",
+      "large_sprite": "large/0872.png"
+    },
+    {
+      "id": 873,
+      "name": "Frosmoth",
+      "small_sprite": "small/0873.png",
+      "large_sprite": "large/0873.png"
+    },
+    {
+      "id": 874,
+      "name": "Stonjourner",
+      "small_sprite": "small/0874.png",
+      "large_sprite": "large/0874.png"
+    },
+    {
+      "id": 875,
+      "name": "Eiscue-ice",
+      "small_sprite": "small/0875.png",
+      "large_sprite": "large/0875.png"
+    },
+    {
+      "id": 876,
+      "name": "Indeedee-male",
+      "small_sprite": "small/0876.png",
+      "large_sprite": "large/0876.png"
+    },
+    {
+      "id": 877,
+      "name": "Morpeko-full-belly",
+      "small_sprite": "small/0877.png",
+      "large_sprite": "large/0877.png"
+    },
+    {
+      "id": 878,
+      "name": "Cufant",
+      "small_sprite": "small/0878.png",
+      "large_sprite": "large/0878.png"
+    },
+    {
+      "id": 879,
+      "name": "Copperajah",
+      "small_sprite": "small/0879.png",
+      "large_sprite": "large/0879.png"
+    },
+    {
+      "id": 880,
+      "name": "Dracozolt",
+      "small_sprite": "small/0880.png",
+      "large_sprite": "large/0880.png"
+    },
+    {
+      "id": 881,
+      "name": "Arctozolt",
+      "small_sprite": "small/0881.png",
+      "large_sprite": "large/0881.png"
+    },
+    {
+      "id": 882,
+      "name": "Dracovish",
+      "small_sprite": "small/0882.png",
+      "large_sprite": "large/0882.png"
+    },
+    {
+      "id": 883,
+      "name": "Arctovish",
+      "small_sprite": "small/0883.png",
+      "large_sprite": "large/0883.png"
+    },
+    {
+      "id": 884,
+      "name": "Duraludon",
+      "small_sprite": "small/0884.png",
+      "large_sprite": "large/0884.png"
+    },
+    {
+      "id": 885,
+      "name": "Dreepy",
+      "small_sprite": "small/0885.png",
+      "large_sprite": "large/0885.png"
+    },
+    {
+      "id": 886,
+      "name": "Drakloak",
+      "small_sprite": "small/0886.png",
+      "large_sprite": "large/0886.png"
+    },
+    {
+      "id": 887,
+      "name": "Dragapult",
+      "small_sprite": "small/0887.png",
+      "large_sprite": "large/0887.png"
+    },
+    {
+      "id": 888,
+      "name": "Zacian",
+      "small_sprite": "small/0888.png",
+      "large_sprite": "large/0888.png"
+    },
+    {
+      "id": 889,
+      "name": "Zamazenta",
+      "small_sprite": "small/0889.png",
+      "large_sprite": "large/0889.png"
+    },
+    {
+      "id": 890,
+      "name": "Eternatus",
+      "small_sprite": "small/0890.png",
+      "large_sprite": "large/0890.png"
+    },
+    {
+      "id": 891,
+      "name": "Kubfu",
+      "small_sprite": "small/0891.png",
+      "large_sprite": "large/0891.png"
+    },
+    {
+      "id": 892,
+      "name": "Urshifu-single-strike",
+      "small_sprite": "small/0892.png",
+      "large_sprite": "large/0892.png"
+    },
+    {
+      "id": 893,
+      "name": "Zarude",
+      "small_sprite": "small/0893.png",
+      "large_sprite": "large/0893.png"
+    },
+    {
+      "id": 894,
+      "name": "Regieleki",
+      "small_sprite": "small/0894.png",
+      "large_sprite": "large/0894.png"
+    },
+    {
+      "id": 895,
+      "name": "Regidrago",
+      "small_sprite": "small/0895.png",
+      "large_sprite": "large/0895.png"
+    },
+    {
+      "id": 896,
+      "name": "Glastrier",
+      "small_sprite": "small/0896.png",
+      "large_sprite": "large/0896.png"
+    },
+    {
+      "id": 897,
+      "name": "Spectrier",
+      "small_sprite": "small/0897.png",
+      "large_sprite": "large/0897.png"
+    },
+    {
+      "id": 898,
+      "name": "Calyrex",
+      "small_sprite": "small/0898.png",
+      "large_sprite": "large/0898.png"
+    },
+    {
+      "id": 899,
+      "name": "Wyrdeer",
+      "small_sprite": "small/0899.png",
+      "large_sprite": "large/0899.png"
+    },
+    {
+      "id": 900,
+      "name": "Kleavor",
+      "small_sprite": "small/0900.png",
+      "large_sprite": "large/0900.png"
+    },
+    {
+      "id": 901,
+      "name": "Ursaluna",
+      "small_sprite": "small/0901.png",
+      "large_sprite": "large/0901.png"
+    },
+    {
+      "id": 902,
+      "name": "Basculegion-male",
+      "small_sprite": "small/0902.png",
+      "large_sprite": "large/0902.png"
+    },
+    {
+      "id": 903,
+      "name": "Sneasler",
+      "small_sprite": "small/0903.png",
+      "large_sprite": "large/0903.png"
+    },
+    {
+      "id": 904,
+      "name": "Overqwil",
+      "small_sprite": "small/0904.png",
+      "large_sprite": "large/0904.png"
+    },
+    {
+      "id": 905,
+      "name": "Enamorus-incarnate",
+      "small_sprite": "small/0905.png",
+      "large_sprite": "large/0905.png"
+    },
+    {
+      "id": 906,
+      "name": "Sprigatito",
+      "small_sprite": "small/0906.png",
+      "large_sprite": "large/0906.png"
+    },
+    {
+      "id": 907,
+      "name": "Floragato",
+      "small_sprite": "small/0907.png",
+      "large_sprite": "large/0907.png"
+    },
+    {
+      "id": 908,
+      "name": "Meowscarada",
+      "small_sprite": "small/0908.png",
+      "large_sprite": "large/0908.png"
+    },
+    {
+      "id": 909,
+      "name": "Fuecoco",
+      "small_sprite": "small/0909.png",
+      "large_sprite": "large/0909.png"
+    },
+    {
+      "id": 910,
+      "name": "Crocalor",
+      "small_sprite": "small/0910.png",
+      "large_sprite": "large/0910.png"
+    },
+    {
+      "id": 911,
+      "name": "Skeledirge",
+      "small_sprite": "small/0911.png",
+      "large_sprite": "large/0911.png"
+    },
+    {
+      "id": 912,
+      "name": "Quaxly",
+      "small_sprite": "small/0912.png",
+      "large_sprite": "large/0912.png"
+    },
+    {
+      "id": 913,
+      "name": "Quaxwell",
+      "small_sprite": "small/0913.png",
+      "large_sprite": "large/0913.png"
+    },
+    {
+      "id": 914,
+      "name": "Quaquaval",
+      "small_sprite": "small/0914.png",
+      "large_sprite": "large/0914.png"
+    },
+    {
+      "id": 915,
+      "name": "Lechonk",
+      "small_sprite": "small/0915.png",
+      "large_sprite": "large/0915.png"
+    },
+    {
+      "id": 916,
+      "name": "Oinkologne-male",
+      "small_sprite": "small/0916.png",
+      "large_sprite": "large/0916.png"
+    },
+    {
+      "id": 917,
+      "name": "Tarountula",
+      "small_sprite": "small/0917.png",
+      "large_sprite": "large/0917.png"
+    },
+    {
+      "id": 918,
+      "name": "Spidops",
+      "small_sprite": "small/0918.png",
+      "large_sprite": "large/0918.png"
+    },
+    {
+      "id": 919,
+      "name": "Nymble",
+      "small_sprite": "small/0919.png",
+      "large_sprite": "large/0919.png"
+    },
+    {
+      "id": 920,
+      "name": "Lokix",
+      "small_sprite": "small/0920.png",
+      "large_sprite": "large/0920.png"
+    },
+    {
+      "id": 921,
+      "name": "Pawmi",
+      "small_sprite": "small/0921.png",
+      "large_sprite": "large/0921.png"
+    },
+    {
+      "id": 922,
+      "name": "Pawmo",
+      "small_sprite": "small/0922.png",
+      "large_sprite": "large/0922.png"
+    },
+    {
+      "id": 923,
+      "name": "Pawmot",
+      "small_sprite": "small/0923.png",
+      "large_sprite": "large/0923.png"
+    },
+    {
+      "id": 924,
+      "name": "Tandemaus",
+      "small_sprite": "small/0924.png",
+      "large_sprite": "large/0924.png"
+    },
+    {
+      "id": 925,
+      "name": "Maushold-family-of-four",
+      "small_sprite": "small/0925.png",
+      "large_sprite": "large/0925.png"
+    },
+    {
+      "id": 926,
+      "name": "Fidough",
+      "small_sprite": "small/0926.png",
+      "large_sprite": "large/0926.png"
+    },
+    {
+      "id": 927,
+      "name": "Dachsbun",
+      "small_sprite": "small/0927.png",
+      "large_sprite": "large/0927.png"
+    },
+    {
+      "id": 928,
+      "name": "Smoliv",
+      "small_sprite": "small/0928.png",
+      "large_sprite": "large/0928.png"
+    },
+    {
+      "id": 929,
+      "name": "Dolliv",
+      "small_sprite": "small/0929.png",
+      "large_sprite": "large/0929.png"
+    },
+    {
+      "id": 930,
+      "name": "Arboliva",
+      "small_sprite": "small/0930.png",
+      "large_sprite": "large/0930.png"
+    },
+    {
+      "id": 931,
+      "name": "Squawkabilly-green-plumage",
+      "small_sprite": "small/0931.png",
+      "large_sprite": "large/0931.png"
+    },
+    {
+      "id": 932,
+      "name": "Nacli",
+      "small_sprite": "small/0932.png",
+      "large_sprite": "large/0932.png"
+    },
+    {
+      "id": 933,
+      "name": "Naclstack",
+      "small_sprite": "small/0933.png",
+      "large_sprite": "large/0933.png"
+    },
+    {
+      "id": 934,
+      "name": "Garganacl",
+      "small_sprite": "small/0934.png",
+      "large_sprite": "large/0934.png"
+    },
+    {
+      "id": 935,
+      "name": "Charcadet",
+      "small_sprite": "small/0935.png",
+      "large_sprite": "large/0935.png"
+    },
+    {
+      "id": 936,
+      "name": "Armarouge",
+      "small_sprite": "small/0936.png",
+      "large_sprite": "large/0936.png"
+    },
+    {
+      "id": 937,
+      "name": "Ceruledge",
+      "small_sprite": "small/0937.png",
+      "large_sprite": "large/0937.png"
+    },
+    {
+      "id": 938,
+      "name": "Tadbulb",
+      "small_sprite": "small/0938.png",
+      "large_sprite": "large/0938.png"
+    },
+    {
+      "id": 939,
+      "name": "Bellibolt",
+      "small_sprite": "small/0939.png",
+      "large_sprite": "large/0939.png"
+    },
+    {
+      "id": 940,
+      "name": "Wattrel",
+      "small_sprite": "small/0940.png",
+      "large_sprite": "large/0940.png"
+    },
+    {
+      "id": 941,
+      "name": "Kilowattrel",
+      "small_sprite": "small/0941.png",
+      "large_sprite": "large/0941.png"
+    },
+    {
+      "id": 942,
+      "name": "Maschiff",
+      "small_sprite": "small/0942.png",
+      "large_sprite": "large/0942.png"
+    },
+    {
+      "id": 943,
+      "name": "Mabosstiff",
+      "small_sprite": "small/0943.png",
+      "large_sprite": "large/0943.png"
+    },
+    {
+      "id": 944,
+      "name": "Shroodle",
+      "small_sprite": "small/0944.png",
+      "large_sprite": "large/0944.png"
+    },
+    {
+      "id": 945,
+      "name": "Grafaiai",
+      "small_sprite": "small/0945.png",
+      "large_sprite": "large/0945.png"
+    },
+    {
+      "id": 946,
+      "name": "Bramblin",
+      "small_sprite": "small/0946.png",
+      "large_sprite": "large/0946.png"
+    },
+    {
+      "id": 947,
+      "name": "Brambleghast",
+      "small_sprite": "small/0947.png",
+      "large_sprite": "large/0947.png"
+    },
+    {
+      "id": 948,
+      "name": "Toedscool",
+      "small_sprite": "small/0948.png",
+      "large_sprite": "large/0948.png"
+    },
+    {
+      "id": 949,
+      "name": "Toedscruel",
+      "small_sprite": "small/0949.png",
+      "large_sprite": "large/0949.png"
+    },
+    {
+      "id": 950,
+      "name": "Klawf",
+      "small_sprite": "small/0950.png",
+      "large_sprite": "large/0950.png"
+    },
+    {
+      "id": 951,
+      "name": "Capsakid",
+      "small_sprite": "small/0951.png",
+      "large_sprite": "large/0951.png"
+    },
+    {
+      "id": 952,
+      "name": "Scovillain",
+      "small_sprite": "small/0952.png",
+      "large_sprite": "large/0952.png"
+    },
+    {
+      "id": 953,
+      "name": "Rellor",
+      "small_sprite": "small/0953.png",
+      "large_sprite": "large/0953.png"
+    },
+    {
+      "id": 954,
+      "name": "Rabsca",
+      "small_sprite": "small/0954.png",
+      "large_sprite": "large/0954.png"
+    },
+    {
+      "id": 955,
+      "name": "Flittle",
+      "small_sprite": "small/0955.png",
+      "large_sprite": "large/0955.png"
+    },
+    {
+      "id": 956,
+      "name": "Espathra",
+      "small_sprite": "small/0956.png",
+      "large_sprite": "large/0956.png"
+    },
+    {
+      "id": 957,
+      "name": "Tinkatink",
+      "small_sprite": "small/0957.png",
+      "large_sprite": "large/0957.png"
+    },
+    {
+      "id": 958,
+      "name": "Tinkatuff",
+      "small_sprite": "small/0958.png",
+      "large_sprite": "large/0958.png"
+    },
+    {
+      "id": 959,
+      "name": "Tinkaton",
+      "small_sprite": "small/0959.png",
+      "large_sprite": "large/0959.png"
+    },
+    {
+      "id": 960,
+      "name": "Wiglett",
+      "small_sprite": "small/0960.png",
+      "large_sprite": "large/0960.png"
+    },
+    {
+      "id": 961,
+      "name": "Wugtrio",
+      "small_sprite": "small/0961.png",
+      "large_sprite": "large/0961.png"
+    },
+    {
+      "id": 962,
+      "name": "Bombirdier",
+      "small_sprite": "small/0962.png",
+      "large_sprite": "large/0962.png"
+    },
+    {
+      "id": 963,
+      "name": "Finizen",
+      "small_sprite": "small/0963.png",
+      "large_sprite": "large/0963.png"
+    },
+    {
+      "id": 964,
+      "name": "Palafin-zero",
+      "small_sprite": "small/0964.png",
+      "large_sprite": "large/0964.png"
+    },
+    {
+      "id": 965,
+      "name": "Varoom",
+      "small_sprite": "small/0965.png",
+      "large_sprite": "large/0965.png"
+    },
+    {
+      "id": 966,
+      "name": "Revavroom",
+      "small_sprite": "small/0966.png",
+      "large_sprite": "large/0966.png"
+    },
+    {
+      "id": 967,
+      "name": "Cyclizar",
+      "small_sprite": "small/0967.png",
+      "large_sprite": "large/0967.png"
+    },
+    {
+      "id": 968,
+      "name": "Orthworm",
+      "small_sprite": "small/0968.png",
+      "large_sprite": "large/0968.png"
+    },
+    {
+      "id": 969,
+      "name": "Glimmet",
+      "small_sprite": "small/0969.png",
+      "large_sprite": "large/0969.png"
+    },
+    {
+      "id": 970,
+      "name": "Glimmora",
+      "small_sprite": "small/0970.png",
+      "large_sprite": "large/0970.png"
+    },
+    {
+      "id": 971,
+      "name": "Greavard",
+      "small_sprite": "small/0971.png",
+      "large_sprite": "large/0971.png"
+    },
+    {
+      "id": 972,
+      "name": "Houndstone",
+      "small_sprite": "small/0972.png",
+      "large_sprite": "large/0972.png"
+    },
+    {
+      "id": 973,
+      "name": "Flamigo",
+      "small_sprite": "small/0973.png",
+      "large_sprite": "large/0973.png"
+    },
+    {
+      "id": 974,
+      "name": "Cetoddle",
+      "small_sprite": "small/0974.png",
+      "large_sprite": "large/0974.png"
+    },
+    {
+      "id": 975,
+      "name": "Cetitan",
+      "small_sprite": "small/0975.png",
+      "large_sprite": "large/0975.png"
+    },
+    {
+      "id": 976,
+      "name": "Veluza",
+      "small_sprite": "small/0976.png",
+      "large_sprite": "large/0976.png"
+    },
+    {
+      "id": 977,
+      "name": "Dondozo",
+      "small_sprite": "small/0977.png",
+      "large_sprite": "large/0977.png"
+    },
+    {
+      "id": 978,
+      "name": "Tatsugiri-curly",
+      "small_sprite": "small/0978.png",
+      "large_sprite": "large/0978.png"
+    },
+    {
+      "id": 979,
+      "name": "Annihilape",
+      "small_sprite": "small/0979.png",
+      "large_sprite": "large/0979.png"
+    },
+    {
+      "id": 980,
+      "name": "Clodsire",
+      "small_sprite": "small/0980.png",
+      "large_sprite": "large/0980.png"
+    },
+    {
+      "id": 981,
+      "name": "Farigiraf",
+      "small_sprite": "small/0981.png",
+      "large_sprite": "large/0981.png"
+    },
+    {
+      "id": 982,
+      "name": "Dudunsparce-two-segment",
+      "small_sprite": "small/0982.png",
+      "large_sprite": "large/0982.png"
+    },
+    {
+      "id": 983,
+      "name": "Kingambit",
+      "small_sprite": "small/0983.png",
+      "large_sprite": "large/0983.png"
+    },
+    {
+      "id": 984,
+      "name": "Great-tusk",
+      "small_sprite": "small/0984.png",
+      "large_sprite": "large/0984.png"
+    },
+    {
+      "id": 985,
+      "name": "Scream-tail",
+      "small_sprite": "small/0985.png",
+      "large_sprite": "large/0985.png"
+    },
+    {
+      "id": 986,
+      "name": "Brute-bonnet",
+      "small_sprite": "small/0986.png",
+      "large_sprite": "large/0986.png"
+    },
+    {
+      "id": 987,
+      "name": "Flutter-mane",
+      "small_sprite": "small/0987.png",
+      "large_sprite": "large/0987.png"
+    },
+    {
+      "id": 988,
+      "name": "Slither-wing",
+      "small_sprite": "small/0988.png",
+      "large_sprite": "large/0988.png"
+    },
+    {
+      "id": 989,
+      "name": "Sandy-shocks",
+      "small_sprite": "small/0989.png",
+      "large_sprite": "large/0989.png"
+    },
+    {
+      "id": 990,
+      "name": "Iron-treads",
+      "small_sprite": "small/0990.png",
+      "large_sprite": "large/0990.png"
+    },
+    {
+      "id": 991,
+      "name": "Iron-bundle",
+      "small_sprite": "small/0991.png",
+      "large_sprite": "large/0991.png"
+    },
+    {
+      "id": 992,
+      "name": "Iron-hands",
+      "small_sprite": "small/0992.png",
+      "large_sprite": "large/0992.png"
+    },
+    {
+      "id": 993,
+      "name": "Iron-jugulis",
+      "small_sprite": "small/0993.png",
+      "large_sprite": "large/0993.png"
+    },
+    {
+      "id": 994,
+      "name": "Iron-moth",
+      "small_sprite": "small/0994.png",
+      "large_sprite": "large/0994.png"
+    },
+    {
+      "id": 995,
+      "name": "Iron-thorns",
+      "small_sprite": "small/0995.png",
+      "large_sprite": "large/0995.png"
+    },
+    {
+      "id": 996,
+      "name": "Frigibax",
+      "small_sprite": "small/0996.png",
+      "large_sprite": "large/0996.png"
+    },
+    {
+      "id": 997,
+      "name": "Arctibax",
+      "small_sprite": "small/0997.png",
+      "large_sprite": "large/0997.png"
+    },
+    {
+      "id": 998,
+      "name": "Baxcalibur",
+      "small_sprite": "small/0998.png",
+      "large_sprite": "large/0998.png"
+    },
+    {
+      "id": 999,
+      "name": "Gimmighoul",
+      "small_sprite": "small/0999.png",
+      "large_sprite": "large/0999.png"
+    },
+    {
+      "id": 1000,
+      "name": "Gholdengo",
+      "small_sprite": "small/1000.png",
+      "large_sprite": "large/1000.png"
+    },
+    {
+      "id": 1001,
+      "name": "Wo-chien",
+      "small_sprite": "small/1001.png",
+      "large_sprite": "large/1001.png"
+    },
+    {
+      "id": 1002,
+      "name": "Chien-pao",
+      "small_sprite": "small/1002.png",
+      "large_sprite": "large/1002.png"
+    },
+    {
+      "id": 1003,
+      "name": "Ting-lu",
+      "small_sprite": "small/1003.png",
+      "large_sprite": "large/1003.png"
+    },
+    {
+      "id": 1004,
+      "name": "Chi-yu",
+      "small_sprite": "small/1004.png",
+      "large_sprite": "large/1004.png"
+    },
+    {
+      "id": 1005,
+      "name": "Roaring-moon",
+      "small_sprite": "small/1005.png",
+      "large_sprite": "large/1005.png"
+    },
+    {
+      "id": 1006,
+      "name": "Iron-valiant",
+      "small_sprite": "small/1006.png",
+      "large_sprite": "large/1006.png"
+    },
+    {
+      "id": 1007,
+      "name": "Koraidon",
+      "small_sprite": "small/1007.png",
+      "large_sprite": "large/1007.png"
+    },
+    {
+      "id": 1008,
+      "name": "Miraidon",
+      "small_sprite": "small/1008.png",
+      "large_sprite": "large/1008.png"
+    },
+    {
+      "id": 1009,
+      "name": "Walking-wake",
+      "small_sprite": "small/1009.png",
+      "large_sprite": "large/1009.png"
+    },
+    {
+      "id": 1010,
+      "name": "Iron-leaves",
+      "small_sprite": "small/1010.png",
+      "large_sprite": "large/1010.png"
+    },
+    {
+      "id": 1011,
+      "name": "Dipplin",
+      "small_sprite": "small/1011.png",
+      "large_sprite": "large/1011.png"
+    },
+    {
+      "id": 1012,
+      "name": "Poltchageist",
+      "small_sprite": "small/1012.png",
+      "large_sprite": "large/1012.png"
+    },
+    {
+      "id": 1013,
+      "name": "Sinistcha",
+      "small_sprite": "small/1013.png",
+      "large_sprite": "large/1013.png"
+    },
+    {
+      "id": 1014,
+      "name": "Okidogi",
+      "small_sprite": "small/1014.png",
+      "large_sprite": "large/1014.png"
+    },
+    {
+      "id": 1015,
+      "name": "Munkidori",
+      "small_sprite": "small/1015.png",
+      "large_sprite": "large/1015.png"
+    },
+    {
+      "id": 1016,
+      "name": "Fezandipiti",
+      "small_sprite": "small/1016.png",
+      "large_sprite": "large/1016.png"
+    },
+    {
+      "id": 1017,
+      "name": "Ogerpon",
+      "small_sprite": "small/1017.png",
+      "large_sprite": "large/1017.png"
+    },
+    {
+      "id": 1018,
+      "name": "Archaludon",
+      "small_sprite": "small/1018.png",
+      "large_sprite": "large/1018.png"
+    },
+    {
+      "id": 1019,
+      "name": "Hydrapple",
+      "small_sprite": "small/1019.png",
+      "large_sprite": "large/1019.png"
+    },
+    {
+      "id": 1020,
+      "name": "Gouging-fire",
+      "small_sprite": "small/1020.png",
+      "large_sprite": "large/1020.png"
+    },
+    {
+      "id": 1021,
+      "name": "Raging-bolt",
+      "small_sprite": "small/1021.png",
+      "large_sprite": "large/1021.png"
+    },
+    {
+      "id": 1022,
+      "name": "Iron-boulder",
+      "small_sprite": "small/1022.png",
+      "large_sprite": "large/1022.png"
+    },
+    {
+      "id": 1023,
+      "name": "Iron-crown",
+      "small_sprite": "small/1023.png",
+      "large_sprite": "large/1023.png"
+    },
+    {
+      "id": 1024,
+      "name": "Terapagos",
+      "small_sprite": "small/1024.png",
+      "large_sprite": "large/1024.png"
+    },
+    {
+      "id": 1025,
+      "name": "Pecharunt",
+      "small_sprite": "small/1025.png",
+      "large_sprite": "large/1025.png"
+    }
+  ]
+}
