@@ -95,7 +95,7 @@ try {
     $arduino = Find-ArduinoCli
     if (-not $DryRun -and -not (Test-Path $arduinoConfig)) { throw "Ejecuta primero INSTALAR POKEDEX.bat para preparar Arduino y vuelve a intentarlo." }
     Configure-Camera
-    $serialPort = Find-Port
+    $serialPort = if ($SkipUpload) { "SIN_PUERTO" } else { Find-Port }
     $build = Join-Path $toolsRoot "esp32cam-build"
     Run $arduino @("compile", $sketch, "--fqbn", $fqbn, "--build-path", $build, "--config-file", $arduinoConfig) "Compilar ESP32-CAM"
     if (-not $SkipUpload) {
