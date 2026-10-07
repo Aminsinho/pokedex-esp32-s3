@@ -98,9 +98,13 @@ function Ensure-ArduinoCli {
 
 function Write-ArduinoConfig {
     $config = Join-Path $toolsRoot "arduino-cli.yaml"
-    $data = (Join-Path $toolsRoot "arduino-data").Replace('\', '/')
-    $downloads = (Join-Path $toolsRoot "arduino-downloads").Replace('\', '/')
-    $user = (Join-Path $toolsRoot "arduino-user").Replace('\', '/')
+    # El toolchain de Espressif contiene rutas internas muy profundas. Mantenerlo
+    # junto a un proyecto descargado en Escritorio/Documentos puede superar los
+    # limites de ruta de Windows y dejar headers incompletos para ESP32-CAM.
+    $arduinoRoot = Join-Path $env:LOCALAPPDATA "PokedexESP32"
+    $data = (Join-Path $arduinoRoot "data").Replace('\', '/')
+    $downloads = (Join-Path $arduinoRoot "downloads").Replace('\', '/')
+    $user = (Join-Path $arduinoRoot "user").Replace('\', '/')
     $yaml = @"
 board_manager:
   additional_urls:
@@ -123,7 +127,7 @@ function Install-ArduinoToolchain([string]$Cli, [string]$Config) {
     }
 
     if ($DryRun) { return }
-    $libraryRoot = Join-Path $toolsRoot "arduino-user\libraries"
+    $libraryRoot = Join-Path $env:LOCALAPPDATA "PokedexESP32\user\libraries"
     $tft = Join-Path $libraryRoot "TFT_eSPI"
     $setups = Join-Path $libraryRoot "TFT_eSPI_Setups"
     $touch = Join-Path $libraryRoot "FT6336U_CTP_Controller"
