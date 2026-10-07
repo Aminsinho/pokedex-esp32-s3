@@ -12,7 +12,6 @@ $projectRoot = Split-Path -Parent $PSScriptRoot
 $toolsRoot = Join-Path $projectRoot ".tools"
 $sketch = Join-Path $projectRoot "experimental\esp32-cam"
 $privateConfig = Join-Path $sketch "camera_config.h"
-$arduino = Join-Path $toolsRoot "arduino-cli\arduino-cli.exe"
 $arduinoConfig = Join-Path $toolsRoot "arduino-cli.yaml"
 $fqbn = "esp32:esp32:esp32cam"
 
@@ -29,6 +28,17 @@ function Run([string]$File, [string[]]$Arguments, [string]$Description) {
     & $File @Arguments
     if ($LASTEXITCODE -ne 0) { throw "$Description fallo con codigo $LASTEXITCODE." }
     Write-Host " OK" -ForegroundColor Green
+}
+
+function Find-ArduinoCli {
+    $command = Get-Command arduino-cli -ErrorAction SilentlyContinue
+    if ($command) { return $command.Source }
+    $bundled = "C:\Program Files\Arduino IDE\resources\app\lib\backend\resources\arduino-cli.exe"
+    if (Test-Path -LiteralPath $bundled) { return $bundled }
+    $local = Join-Path $toolsRoot "arduino-cli\arduino-cli.exe"
+    if (Test-Path -LiteralPath $local) { return $local }
+    if ($DryRun) { return "arduino-cli" }
+    throw "Ejecuta primero INSTALAR POKEDEX.bat para preparar Arduino y vuelve a intentarlo."
 }
 
 function Suggested-IPv4 {
@@ -82,9 +92,8 @@ function Find-Port {
 
 try {
     Write-Host "ESP32-CAM EXPERIMENTAL (GC2145)" -ForegroundColor White -BackgroundColor DarkRed
-    if (-not $DryRun -and (-not (Test-Path $arduino) -or -not (Test-Path $arduinoConfig))) {
-        throw "Ejecuta primero INSTALAR POKEDEX.bat para preparar Arduino y vuelve a intentarlo."
-    }
+    $arduino = Find-ArduinoCli
+    if (-not $DryRun -and -not (Test-Path $arduinoConfig)) { throw "Ejecuta primero INSTALAR POKEDEX.bat para preparar Arduino y vuelve a intentarlo." }
     Configure-Camera
     $serialPort = Find-Port
     $build = Join-Path $toolsRoot "esp32cam-build"
