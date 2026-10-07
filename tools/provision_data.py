@@ -57,9 +57,16 @@ def main():
     parser.add_argument('--stones', action='store_true')
     parser.add_argument('--start', type=int, default=1)
     parser.add_argument('--narration', type=int)
+    parser.add_argument('--narration-first', type=int)
+    parser.add_argument('--narration-last', type=int)
     args = parser.parse_args()
-    if not (args.details or args.mechanics or args.stones) and args.narration is None:
-        parser.error('select --details, --mechanics, --stones, or --narration ID')
+    narration_range = args.narration_first is not None or args.narration_last is not None
+    if not (args.details or args.mechanics or args.stones or narration_range) and args.narration is None:
+        parser.error('select --details, --mechanics, --stones, --narration ID, or a narration range')
+    if narration_range and (args.narration_first is None or args.narration_last is None):
+        parser.error('--narration-first and --narration-last must be used together')
+    if narration_range and not (1 <= args.narration_first <= args.narration_last <= 1025):
+        parser.error('narration range must be between 1 and 1025')
     files = []
     if args.details:
         files += [(f'@DATA {int(p.stem)}', p) for p in sorted((ROOT / 'sd_dataset/data').glob('*.bin')) if int(p.stem) >= args.start]
@@ -70,6 +77,14 @@ def main():
     if args.narration is not None:
         p = ROOT / f'sd_dataset/audio/narration/{args.narration:04}.wav'
         files.append((f'@NARR {args.narration}', p))
+    if narration_range:
+        files += [
+            (f'@NARR {pokemon_id}', ROOT / f'sd_dataset/audio/narration/{pokemon_id:04}.wav')
+            for pokemon_id in range(args.narration_first, args.narration_last + 1)
+        ]
+    missing = [str(path) for _, path in files if not path.is_file()]
+    if missing:
+        raise FileNotFoundError(f'missing {len(missing)} input file(s); first: {missing[0]}')
     port = serial.Serial(port=None, baudrate=115200, timeout=.2, write_timeout=5)
     port.dtr = False; port.rts = False; port.port = args.port
     with port:

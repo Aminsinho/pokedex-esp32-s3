@@ -11,8 +11,9 @@ Esta es la versión estable del proyecto. No incluye los modos experimentales Co
 - Evoluciones, estadísticas y ataques por generación, leídos desde la SD.
 - Reconocimiento local mediante cámara del PC + Ollama; las imágenes no salen del ordenador.
 - Los 2050 sprites procesados necesarios (pequeño y grande para #001–#1025).
-- Sonidos, cries y narraciones desde la SD cuando sus archivos están instalados.
+- Sonidos, cries y narraciones desde la SD. El instalador puede descargar las 1025 narraciones españolas como paquete opcional.
 - Backend FastAPI y herramientas para generar/provisionar los datos.
+- Firmware experimental para la ESP32-CAM GC2145, separado de la versión estable con webcam.
 
 ## Material necesario
 
@@ -20,7 +21,7 @@ Esta es la versión estable del proyecto. No incluye los modos experimentales Co
 - Tarjeta microSD en FAT32 o exFAT.
 - Cable USB de datos.
 - PC con Windows 10/11, Python 3.11 o posterior, Git, Arduino CLI y Ollama.
-- Una webcam compatible con Windows.
+- Una webcam compatible con Windows (recomendado) o, opcionalmente, la ESP32-CAM GC2145 probada en el proyecto.
 
 El pinout y la configuración de pantalla están en [`docs/HARDWARE_PINOUT.md`](docs/HARDWARE_PINOUT.md).
 
@@ -33,7 +34,7 @@ El pinout y la configuración de pantalla están en [`docs/HARDWARE_PINOUT.md`](
 3. Haz doble clic en **`INSTALAR POKEDEX.bat`**.
 4. Elige instalación completa o Kanto y escribe los datos de tu Wi-Fi.
 
-El asistente descarga una copia aislada de Arduino CLI, instala el core ESP32 y las versiones compatibles de las bibliotecas, configura la pantalla, prepara Python, compila y carga el firmware, genera y copia los datos a la microSD, instala Ollama y su modelo visual, y crea el acceso directo **Iniciar Pokédex** en el escritorio. El controlador táctil FT6336U se incluye con su licencia MIT en `third_party/`. No necesitas modificar código ni elegir el puerto si solo hay una placa conectada.
+El asistente descarga una copia aislada de Arduino CLI, instala el core ESP32 y las versiones compatibles de las bibliotecas, configura la pantalla, prepara Python, compila y carga el firmware, genera y copia los datos a la microSD, instala Ollama y su modelo visual, y crea el acceso directo **Iniciar Pokédex** en el escritorio. También ofrece descargar e instalar las narraciones españolas. El controlador táctil FT6336U se incluye con su licencia MIT en `third_party/`. No necesitas modificar código ni elegir el puerto si solo hay una placa conectada.
 
 La instalación completa puede descargar varios gigabytes y tardar bastante, sobre todo al generar las mecánicas de 1025 Pokémon. Si algo se interrumpe, vuelve a ejecutar el instalador: los pasos descargados se reutilizan. El registro queda en `.installer/instalacion.log`.
 
@@ -110,7 +111,13 @@ Con el firmware encendido y el puerto correcto, provisiona los datos por USB:
 
 Para 1–1025, cambia el rango de provisión de sprites y ejecuta el generador de mecánicas con `--first 1 --last 1025`. `tools/sync_pokemon_data.py --all` permite actualizar voluntariamente datos y sprites desde PokéAPI. La documentación del formato y de la carga por rangos está en [`docs/DATOS_MECANICAS_SD.md`](docs/DATOS_MECANICAS_SD.md).
 
-Los cries y las narraciones son opcionales y no se incluyen como archivos binarios:
+Las 1025 narraciones españolas están disponibles como descarga opcional de la release y el instalador comprueba su SHA-256 antes de copiarlas. Para instalarlas manualmente por rangos:
+
+```powershell
+.\.venv-tools\Scripts\python.exe tools\provision_data.py --port COM4 --narration-first 1 --narration-last 151
+```
+
+También se puede generar o instalar una narración individual; los cries siguen siendo opcionales:
 
 ```powershell
 .\.venv-tools\Scripts\python.exe tools\prepare_cry.py 25
@@ -130,6 +137,10 @@ Instala [Ollama para Windows](https://ollama.com/download/windows). Después haz
 La descarga del modelo requiere varios gigabytes y puede tardar. Cuando todo esté iniciado, la API de diagnóstico estará en `http://127.0.0.1:8000/docs`. El puerto 8000 debe permitirse en el firewall **solo para redes privadas**.
 
 Para usar otra webcam, abre `Iniciar Pokedex - PCCam.bat` y cambia `--index 0` por `--index 1`, `2`, etc.
+
+### Cámara ESP32-CAM experimental
+
+Después de la instalación principal, desconecta la Pokédex, conecta la ESP32-CAM y ejecuta **`INSTALAR ESP32-CAM EXPERIMENTAL.bat`**. El asistente pide la red, compila con el perfil `esp32:esp32:esp32cam` y carga el firmware sin guardar las credenciales en Git. Después inicia los servicios con **`Iniciar Pokedex - ESP32Cam.bat`**. La guía y los límites están en [`experimental/esp32-cam/README.md`](experimental/esp32-cam/README.md).
 
 ## Uso
 
@@ -160,13 +171,13 @@ Estas dos comprobaciones se ejecutan después de generar `sd_dataset/`; antes de
 
 ## Privacidad y seguridad
 
-- No subas `src/pokedex/wifi_config.h` ni archivos `.env`.
+- No subas `src/pokedex/wifi_config.h`, `experimental/esp32-cam/camera_config.h` ni archivos `.env`.
 - Ollama escucha en el propio PC y las imágenes no se envían a un servicio cloud.
 - El backend está pensado para una red local de confianza: no abras el puerto 8000 a Internet.
 - `POKEDEX_RETAIN_IMAGES=0` evita conservar las capturas por defecto.
 
 ## Recursos y marcas
 
-Pokémon y sus nombres son marcas de Nintendo, Game Freak y The Pokémon Company. Este proyecto es educativo, no oficial y no está afiliado con dichas compañías. Los sprites y datos obtenidos de fuentes externas conservan las condiciones de sus respectivos autores. No se incluyen imágenes originales de alta resolución, cries, narraciones ni paquetes binarios completos de la SD.
+Pokémon y sus nombres son marcas de Nintendo, Game Freak y The Pokémon Company. Este proyecto es educativo, no oficial y no está afiliado con dichas compañías. Los sprites y datos obtenidos de fuentes externas conservan las condiciones de sus respectivos autores. No se incluyen imágenes originales de alta resolución, cries ni paquetes binarios completos de la SD en Git; las narraciones generadas se distribuyen por separado como recurso de la release.
 
 Los archivos de referencia de Freenove mantienen su licencia original indicada dentro de `docs/`.

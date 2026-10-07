@@ -4,6 +4,7 @@ param(
     [switch]$Full,
     [switch]$SkipData,
     [switch]$SkipOllama,
+    [switch]$SkipNarrations,
     [switch]$SkipUpload,
     [switch]$ReuseWifi,
     [switch]$DryRun
@@ -243,6 +244,35 @@ function Prepare-And-SendData([string]$Python, [string]$SerialPort, [int]$LastId
     Run $Python @((Join-Path $projectRoot "tools\provision_data.py"), "--port", $SerialPort, "--mechanics", "--stones") "Copiar mecanicas e iconos"
 }
 
+function Install-Narrations([string]$Python, [string]$SerialPort, [int]$LastId) {
+    if ($SkipData -or $SkipNarrations) { return }
+    $choice = Read-Host "Instalar tambien las narraciones en espanol? Descarga 413 MB y la copia USB puede tardar [s/N]"
+    if ($choice -notmatch '^[sSyY]') {
+        Write-Host "  Narraciones omitidas. Podras instalarlas mas adelante." -ForegroundColor Yellow
+        return
+    }
+
+    Section "Descargando narraciones en espanol"
+    $archive = Join-Path $installerRoot "Pokedex-Narraciones-ES-001-1025.zip"
+    $url = "https://github.com/Aminsinho/pokedex-esp32-s3/releases/download/v1.2.0/Pokedex-Narraciones-ES-001-1025.zip"
+    $expectedHash = "840085A6CF51E84FED5C6CF0572CE40BDAAE04D375A239731B5892135F256BBB"
+    if (-not $DryRun) {
+        if (-not (Test-Path -LiteralPath $archive) -or (Get-FileHash -Algorithm SHA256 $archive).Hash -ne $expectedHash) {
+            Invoke-WebRequest $url -OutFile $archive
+        }
+        $actualHash = (Get-FileHash -Algorithm SHA256 $archive).Hash
+        if ($actualHash -ne $expectedHash) { throw "El paquete de narraciones no supera la verificacion SHA-256." }
+        Expand-Archive -LiteralPath $archive -DestinationPath (Join-Path $projectRoot "sd_dataset") -Force
+    }
+
+    Section "Copiando narraciones a la microSD"
+    Wait-ForPort $SerialPort
+    Run $Python @(
+        (Join-Path $projectRoot "tools\provision_data.py"), "--port", $SerialPort,
+        "--narration-first", "1", "--narration-last", "$LastId"
+    ) "Copiar y verificar narraciones #001-$LastId"
+}
+
 function Find-Ollama {
     $command = Get-Command ollama -ErrorAction SilentlyContinue
     if ($command) { return $command.Source }
@@ -329,6 +359,7 @@ try {
     Build-And-Upload $arduino $arduinoConfig $serialPort
     if ($SkipUpload -and -not $SkipData) { throw "-SkipUpload requiere tambien -SkipData." }
     Prepare-And-SendData $venvPython $serialPort $lastId
+    Install-Narrations $venvPython $serialPort $lastId
     Install-Ollama
     Create-Shortcut
 

@@ -53,3 +53,4 @@ tools/gen_cache/
 
 # Local network credentials (create from wifi_config.example.h)
 src/pokedex/wifi_config.h
+experimental/esp32-cam/camera_config.h

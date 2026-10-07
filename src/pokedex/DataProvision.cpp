@@ -26,7 +26,7 @@ void provisionDataFile(const char* command) {
     const bool detail = !strcmp(kind, "DATA"), narration = !strcmp(kind, "NARR"), mech = !strcmp(kind, "MECH");
     const bool stone = !strcmp(kind, "STONE");
     if ((!detail && !narration && !mech && !stone) || (detail && (length < 64 || length > 768)) ||
-        (narration && (length < 44 || length > 1048576)) || (mech && (length < 20 || length > 32768))) {
+        (narration && (length < 44 || length > 2 * 1024 * 1024)) || (mech && (length < 20 || length > 32768))) {
         Serial.println("DATA ERROR size"); return;
     }
     auto* data = static_cast<uint8_t*>(heap_caps_malloc(length, MALLOC_CAP_SPIRAM | MALLOC_CAP_8BIT));
