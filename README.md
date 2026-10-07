@@ -31,10 +31,15 @@ El pinout y la configuración de pantalla están en [`docs/HARDWARE_PINOUT.md`](
 
 1. Descarga el repositorio y descomprímelo.
 2. Inserta la microSD en la Pokédex y conecta la placa ESP32-S3 por USB.
-3. Haz doble clic en **`INSTALAR POKEDEX.bat`**.
-4. Elige instalación completa o Kanto y escribe los datos de tu Wi-Fi.
+3. Haz doble clic en **`INSTALAR POKEDEX.exe`**.
+4. Comprueba la placa detectada, elige instalación completa o Kanto y escribe los datos de tu Wi-Fi.
+5. Pulsa **INSTALAR POKÉDEX** y no desconectes la placa hasta que finalice.
 
-El asistente descarga una copia aislada de Arduino CLI, instala el core ESP32 y las versiones compatibles de las bibliotecas, configura la pantalla, prepara Python, compila y carga el firmware, genera y copia los datos a la microSD, instala Ollama y su modelo visual, y crea el acceso directo **Iniciar Pokédex** en el escritorio. También ofrece descargar e instalar las narraciones españolas. El toolchain se guarda en `%LOCALAPPDATA%\PokedexESP32` para evitar los límites de rutas largas de Windows. El controlador táctil FT6336U se incluye con su licencia MIT en `third_party/`. No necesitas modificar código ni elegir el puerto si solo hay una placa conectada.
+El asistente gráfico detecta puertos USB relacionados con ESP32, guía cada elección y muestra el progreso completo. Descarga una copia aislada de Arduino CLI, instala el core ESP32 y las versiones compatibles de las bibliotecas, configura la pantalla, prepara Python, compila y carga el firmware, genera y copia los datos a la microSD, instala Ollama y su modelo visual, y crea el acceso directo **Iniciar Pokédex** en el escritorio. También ofrece descargar e instalar las narraciones españolas.
+
+La casilla **Liberar archivos temporales al finalizar** elimina descargas, caché y compilaciones regenerables, pero conserva todo lo necesario para usar SCAN: backend, entorno Python, Ollama, modelo visual, firmware y datos. El toolchain se guarda en `%LOCALAPPDATA%\PokedexESP32` para evitar los límites de rutas largas de Windows. El controlador táctil FT6336U se incluye con su licencia MIT en `third_party/`.
+
+El ejecutable no está firmado con un certificado comercial, por lo que Windows SmartScreen puede mostrar **Más información → Ejecutar de todas formas** en la primera apertura. El código fuente del asistente está en `installer/PokedexInstaller.cs` y puede reconstruirse con `installer/build_installer_exe.ps1`. Si el ejecutable no abre, **`INSTALAR POKEDEX.bat`** conserva el mismo proceso en modo texto.
 
 La instalación completa puede descargar varios gigabytes y tardar bastante, sobre todo al generar las mecánicas de 1025 Pokémon. Si algo se interrumpe, vuelve a ejecutar el instalador: los pasos descargados se reutilizan. El registro queda en `.installer/instalacion.log`.
 

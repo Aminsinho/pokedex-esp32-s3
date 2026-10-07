@@ -5,6 +5,8 @@ param(
     [switch]$SkipData,
     [switch]$SkipOllama,
     [switch]$SkipNarrations,
+    [switch]$InstallNarrations,
+    [switch]$Cleanup,
     [switch]$SkipUpload,
     [switch]$ReuseWifi,
     [switch]$DryRun
@@ -250,15 +252,17 @@ function Prepare-And-SendData([string]$Python, [string]$SerialPort, [int]$LastId
 
 function Install-Narrations([string]$Python, [string]$SerialPort, [int]$LastId) {
     if ($SkipData -or $SkipNarrations) { return }
-    $choice = Read-Host "Instalar tambien las narraciones en espanol? Descarga 413 MB y la copia USB puede tardar [s/N]"
-    if ($choice -notmatch '^[sSyY]') {
-        Write-Host "  Narraciones omitidas. Podras instalarlas mas adelante." -ForegroundColor Yellow
-        return
+    if (-not $InstallNarrations) {
+        $choice = Read-Host "Instalar tambien las narraciones en espanol? Descarga 413 MB y la copia USB puede tardar [s/N]"
+        if ($choice -notmatch '^[sSyY]') {
+            Write-Host "  Narraciones omitidas. Podras instalarlas mas adelante." -ForegroundColor Yellow
+            return
+        }
     }
 
     Section "Descargando narraciones en espanol"
     $archive = Join-Path $installerRoot "Pokedex-Narraciones-ES-001-1025.zip"
-    $url = "https://github.com/Aminsinho/pokedex-esp32-s3/releases/download/v1.2.0/Pokedex-Narraciones-ES-001-1025.zip"
+    $url = "https://github.com/Aminsinho/pokedex-esp32-s3/releases/download/v1.3.0/Pokedex-Narraciones-ES-001-1025.zip"
     $expectedHash = "840085A6CF51E84FED5C6CF0572CE40BDAAE04D375A239731B5892135F256BBB"
     if (-not $DryRun) {
         if (-not (Test-Path -LiteralPath $archive) -or (Get-FileHash -Algorithm SHA256 $archive).Hash -ne $expectedHash) {
@@ -275,6 +279,24 @@ function Install-Narrations([string]$Python, [string]$SerialPort, [int]$LastId) 
         (Join-Path $projectRoot "tools\provision_data.py"), "--port", $SerialPort,
         "--narration-first", "1", "--narration-last", "$LastId"
     ) "Copiar y verificar narraciones #001-$LastId"
+}
+
+function Remove-InstallerCache {
+    if (-not $Cleanup -or $DryRun) { return }
+    Section "Liberando espacio"
+    $targets = @(
+        (Join-Path $env:LOCALAPPDATA "PokedexESP32\downloads"),
+        (Join-Path $toolsRoot "firmware-build"),
+        (Join-Path $toolsRoot "esp32cam-build"),
+        (Join-Path $installerRoot "Pokedex-Narraciones-ES-001-1025.zip")
+    )
+    foreach ($target in $targets) {
+        if (Test-Path -LiteralPath $target) {
+            Remove-Item -LiteralPath $target -Recurse -Force
+            Write-Host "  Eliminado: $target"
+        }
+    }
+    Write-Host "  Se conservan firmware, datos, backend, Ollama y herramientas de reparacion." -ForegroundColor Green
 }
 
 function Find-Ollama {
@@ -366,6 +388,7 @@ try {
     Install-Narrations $venvPython $serialPort $lastId
     Install-Ollama
     Create-Shortcut
+    Remove-InstallerCache
 
     Section "Instalacion completada"
     if ($SkipUpload) { Write-Host "Firmware compilado; carga omitida." -ForegroundColor Yellow }
