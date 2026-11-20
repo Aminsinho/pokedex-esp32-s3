@@ -59,7 +59,18 @@ function Find-Python {
     if ($python) { $candidates += $python.Source }
     $candidates += Get-ChildItem "$env:LOCALAPPDATA\Programs\Python\Python3*\python.exe" -ErrorAction SilentlyContinue |
         Sort-Object FullName -Descending | Select-Object -ExpandProperty FullName
-    return $candidates | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+    # Windows trae un alias "python.exe" en WindowsApps que solo abre la Microsoft
+    # Store (codigo 9009). Existe en disco, asi que Test-Path no basta: hay que
+    # ejecutar cada candidato y comprobar que es un Python 3.10+ real con venv.
+    foreach ($candidate in $candidates) {
+        if (-not $candidate -or -not (Test-Path -LiteralPath $candidate)) { continue }
+        if ($candidate -like "*\WindowsApps\*") { continue }
+        try {
+            $ok = & $candidate -c "import sys, venv; print(sys.version_info >= (3, 10))" 2>$null
+            if ($LASTEXITCODE -eq 0 -and "$ok".Trim() -eq "True") { return $candidate }
+        } catch {}
+    }
+    return $null
 }
 
 function Ensure-Python {
