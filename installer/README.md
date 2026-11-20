@@ -6,12 +6,20 @@ credenciales embebidas.
 
 Funciones:
 
-- detecta puertos serie y prioriza VID/PID habituales de Espressif, CH340 y CP210x;
-- permite confirmar manualmente el puerto si el dispositivo no se identifica;
+- asistente paso a paso: bienvenida, conexión de la placa, Wi-Fi, contenido e instalación;
+- comprueba el espacio libre en disco antes de empezar;
+- detecta la Pokédex automáticamente al conectarla (prioriza VID/PID de Espressif, CH340 y
+  CP210x) y da consejos si no aparece (cable de datos, puerto, programas que usan la placa);
+- propone la red Wi-Fi actual del PC, avisa de que la placa solo admite 2,4 GHz y detecta la IP
+  del PC (editable en «Opciones avanzadas»); reutiliza `wifi_config.h` en reinstalaciones;
 - configura Wi-Fi y backend sin exponer la contraseña en argumentos de procesos;
-- selecciona Kanto o catálogo completo, narraciones y limpieza final;
-- muestra salida y errores en tiempo real;
-- ofrece el instalador ESP32-CAM al completar la instalación principal.
+- muestra el progreso por fases con una barra general; el registro técnico es opcional;
+- si algo falla, explica el problema en lenguaje sencillo y qué hacer, y permite reintentar,
+  copiar los detalles o abrir el registro (`.installer/instalador-gui.log`);
+- al terminar ofrece iniciar la Pokédex y el instalador ESP32-CAM.
+
+Opciones para pruebas: `--self-test`, `--capture <carpeta>` (capturas de cada pantalla) y
+`--auto COMx` (instalación Kanto desatendida con la configuración Wi-Fi existente).
 
 ## Reconstruir
 
