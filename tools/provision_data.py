@@ -52,6 +52,7 @@ def send(port, command, data):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--port', default='COM4')
+    parser.add_argument('--index', action='store_true', help='pokemon_index.bin (catalogo)')
     parser.add_argument('--details', action='store_true')
     parser.add_argument('--mechanics', action='store_true')
     parser.add_argument('--stones', action='store_true')
@@ -61,13 +62,15 @@ def main():
     parser.add_argument('--narration-last', type=int)
     args = parser.parse_args()
     narration_range = args.narration_first is not None or args.narration_last is not None
-    if not (args.details or args.mechanics or args.stones or narration_range) and args.narration is None:
-        parser.error('select --details, --mechanics, --stones, --narration ID, or a narration range')
+    if not (args.index or args.details or args.mechanics or args.stones or narration_range) and args.narration is None:
+        parser.error('select --index, --details, --mechanics, --stones, --narration ID, or a narration range')
     if narration_range and (args.narration_first is None or args.narration_last is None):
         parser.error('--narration-first and --narration-last must be used together')
     if narration_range and not (1 <= args.narration_first <= args.narration_last <= 1025):
         parser.error('narration range must be between 1 and 1025')
     files = []
+    if args.index:
+        files.append(('@INDEX 0', ROOT / 'sd_dataset/pokemon_index.bin'))
     if args.details:
         files += [(f'@DATA {int(p.stem)}', p) for p in sorted((ROOT / 'sd_dataset/data').glob('*.bin')) if int(p.stem) >= args.start]
     if args.mechanics:

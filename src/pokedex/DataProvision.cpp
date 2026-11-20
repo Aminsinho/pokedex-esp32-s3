@@ -20,13 +20,17 @@ static bool validNarration(const uint8_t* p, size_t n) {
 }
 void provisionDataFile(const char* command) {
     unsigned id = 0, length = 0; char kind[8] = {};
-    if (sscanf(command, "@%7s %u %u", kind, &id, &length) != 3 || id < 1 || id > 1025) {
+    if (sscanf(command, "@%7s %u %u", kind, &id, &length) != 3) {
         Serial.println("DATA ERROR command"); return;
     }
     const bool detail = !strcmp(kind, "DATA"), narration = !strcmp(kind, "NARR"), mech = !strcmp(kind, "MECH");
     const bool stone = !strcmp(kind, "STONE");
-    if ((!detail && !narration && !mech && !stone) || (detail && (length < 64 || length > 768)) ||
-        (narration && (length < 44 || length > 2 * 1024 * 1024)) || (mech && (length < 20 || length > 32768))) {
+    // @INDEX 0 <len>: catalogo pokemon_index.bin (12 + count * 26 bytes). El id no aplica.
+    const bool index = !strcmp(kind, "INDEX");
+    if (!index && (id < 1 || id > 1025)) { Serial.println("DATA ERROR command"); return; }
+    if ((!detail && !narration && !mech && !stone && !index) || (detail && (length < 64 || length > 768)) ||
+        (narration && (length < 44 || length > 2 * 1024 * 1024)) || (mech && (length < 20 || length > 32768)) ||
+        (index && (length < 12 + 26 || length > 12 + 1025 * 26))) {
         Serial.println("DATA ERROR size"); return;
     }
     auto* data = static_cast<uint8_t*>(heap_caps_malloc(length, MALLOC_CAP_SPIRAM | MALLOC_CAP_8BIT));
@@ -45,10 +49,13 @@ void provisionDataFile(const char* command) {
         (detail    ? (!memcmp(data, "PKDP", 4) && (data[6] | unsigned(data[7]) << 8) == id)
          : mech    ? (!memcmp(data, "PKME", 4) && (data[6] | unsigned(data[7]) << 8) == id)
          : stone   ? (length == 1360 && le32(data) == 26 && le32(data + 4) == 26)
+         : index   ? (!memcmp(data, "PKDX", 4) && (data[4] | unsigned(data[5]) << 8) == 1 &&
+                      length == 12 + size_t(data[6] | unsigned(data[7]) << 8) * 26)
          :          validNarration(data, length));
     if (!payloadOk) { Serial.println("DATA ERROR payload"); heap_caps_free(data); return; }
     char path[64];
-    snprintf(path, sizeof(path), detail ? "/pokedex/pokemon/data/%04u.bin"
+    snprintf(path, sizeof(path), index  ? "/pokedex/pokemon/pokemon_index.bin"
+                                 : detail ? "/pokedex/pokemon/data/%04u.bin"
                                  : mech   ? "/pokedex/pokemon/mechanics/data/%04u.bin"
                                  : stone  ? "/pokedex/ui/stones/%02u.r565"
                                           : "/pokedex/audio/narration/%04u.wav", id);

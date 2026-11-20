@@ -256,7 +256,9 @@ function Prepare-And-SendData([string]$Python, [string]$SerialPort, [int]$LastId
 
     Section "Copiando datos a la microSD de la Pokedex"
     Wait-ForPort $SerialPort
-    Run $Python @((Join-Path $projectRoot "tools\send_to_sd.py"), "--port", $SerialPort) "Copiar fichas"
+    # send_to_sd.py habla el protocolo de tools/sd_writer (BEGIN/READY), no el del
+    # firmware de la Pokedex; el firmware principal solo acepta comandos @INDEX/@DATA.
+    Run $Python @((Join-Path $projectRoot "tools\provision_data.py"), "--port", $SerialPort, "--index", "--details") "Copiar catalogo y fichas"
     Run $Python @((Join-Path $projectRoot "tools\provision_sprites.py"), "--port", $SerialPort, "--first", "1", "--last", "$LastId") "Copiar sprites"
     Run $Python @((Join-Path $projectRoot "tools\provision_data.py"), "--port", $SerialPort, "--mechanics", "--stones") "Copiar mecanicas e iconos"
 }
@@ -404,7 +406,10 @@ try {
     Section "Instalacion completada"
     if ($SkipUpload) { Write-Host "Firmware compilado; carga omitida." -ForegroundColor Yellow }
     else { Write-Host "Firmware instalado en $serialPort." -ForegroundColor Green }
-    if (-not $SkipData) { Write-Host "Datos instalados: Pokemon #001-$LastId." -ForegroundColor Green }
+    if (-not $SkipData) {
+        Write-Host "Datos instalados: Pokemon #001-$LastId." -ForegroundColor Green
+        Write-Host "Desconecta y vuelve a conectar la Pokedex para que cargue el catalogo nuevo." -ForegroundColor Yellow
+    }
     Write-Host "Usa el acceso directo 'Iniciar Pokedex' del escritorio para activar camara e IA."
     Write-Host "Registro completo: $logPath"
     Stop-Transcript | Out-Null

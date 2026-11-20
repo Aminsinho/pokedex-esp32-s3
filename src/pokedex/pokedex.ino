@@ -292,7 +292,8 @@ void loop() {
             else if (!strncmp(uiCommand, "@CRY ", 5)) AudioManager::playCry(atoi(uiCommand + 5));
             else if (!strncmp(uiCommand, "@NARRATE ", 9)) AudioManager::playNarration(atoi(uiCommand + 9));
             else if (!strncmp(uiCommand, "@DATA ", 6) || !strncmp(uiCommand, "@NARR ", 6) ||
-                     !strncmp(uiCommand, "@MECH ", 6) || !strncmp(uiCommand, "@STONE ", 7)) provisionDataFile(uiCommand);
+                     !strncmp(uiCommand, "@MECH ", 6) || !strncmp(uiCommand, "@STONE ", 7) ||
+                     !strncmp(uiCommand, "@INDEX ", 7)) provisionDataFile(uiCommand);
             else if (!strcmp(uiCommand, "@HOME")) {
                 HomeScreen::setFavorite(HomeScreen::getFavorite());
                 ScreenManager::getInstance().show(ScreenId::HOME);
