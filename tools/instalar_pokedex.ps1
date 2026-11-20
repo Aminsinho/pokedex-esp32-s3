@@ -39,7 +39,10 @@ function Run([string]$File, [string[]]$Arguments, [string]$Description) {
         Write-Host " OMITIDO (simulacion)" -ForegroundColor Yellow
         return
     }
-    & $File @Arguments
+    # Out-Host: la salida del programa se muestra, pero no se cuela en el valor de
+    # retorno de la funcion que llama a Run (p. ej. Prepare-Python devolvia todo
+    # el texto de pip junto a la ruta del python del venv).
+    & $File @Arguments | Out-Host
     if ($LASTEXITCODE -ne 0) {
         throw "$Description fallo con codigo $LASTEXITCODE."
     }
@@ -320,6 +323,21 @@ function Find-Ollama {
     return $null
 }
 
+function Get-OllamaList([string]$Ollama) {
+    # Si el servicio no esta arrancado, "ollama list" escribe en stderr y con
+    # ErrorActionPreference=Stop eso abortaba el instalador antes de iniciarlo.
+    $previous = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
+    try {
+        $output = & $Ollama list 2>$null
+        return [pscustomobject]@{ Ok = ($LASTEXITCODE -eq 0); Text = ($output | Out-String) }
+    } catch {
+        return [pscustomobject]@{ Ok = $false; Text = "" }
+    } finally {
+        $ErrorActionPreference = $previous
+    }
+}
+
 function Install-Ollama {
     if ($SkipOllama) { return }
     Section "Preparando la inteligencia artificial"
@@ -335,8 +353,8 @@ function Install-Ollama {
         }
     }
     if (-not $DryRun) {
-        $list = & $ollama list 2>$null
-        if ($LASTEXITCODE -ne 0) {
+        $list = Get-OllamaList $ollama
+        if (-not $list.Ok) {
             $ollamaLog = Join-Path $installerRoot "ollama.log"
             $ollamaError = Join-Path $installerRoot "ollama-error.log"
             Start-Process -FilePath $ollama -ArgumentList "serve" -WindowStyle Hidden -RedirectStandardOutput $ollamaLog -RedirectStandardError $ollamaError
@@ -349,9 +367,9 @@ function Install-Ollama {
                     if ($attempt -eq 29) { throw "Ollama se instalo, pero su servicio no pudo iniciarse." }
                 }
             }
-            $list = & $ollama list 2>$null
+            $list = Get-OllamaList $ollama
         }
-        if ($list -notmatch 'qwen3-vl:8b-instruct') {
+        if ($list.Text -notmatch 'qwen3-vl:8b-instruct') {
             Run $ollama @("pull", "qwen3-vl:8b-instruct") "Descargar modelo visual (varios GB)"
         } else {
             Write-Host "  Modelo visual ya instalado." -ForegroundColor Green
